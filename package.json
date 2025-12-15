@@ -1,0 +1,13 @@
+{
+  "name": "resume-pdf-generator",
+  "version": "1.0.0",
+  "description": "Generate PDF resume from HTML",
+  "main": "scripts/generate-pdf.js",
+  "scripts": {
+    "generate-pdf": "node scripts/generate-pdf.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.33.0"
+  },
+  "private": true
+}

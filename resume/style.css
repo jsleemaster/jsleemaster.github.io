@@ -1,0 +1,252 @@
+/* Reset & Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+    color: #333;
+    line-height: 1.5;
+    background-color: #f0f2f5;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Page Layout */
+.page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 12mm 15mm; /* Reduce padding slightly to fit everything perfectly on A4 */
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 18px;
+    color: #666;
+    font-weight: 600;
+}
+
+.header-right {
+    max-width: 500px;
+    text-align: right;
+}
+
+.summary {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Content Container */
+.content-container {
+    display: flex;
+    gap: 30px;
+    flex: 1;
+}
+
+/* Columns */
+.left-column {
+    width: 28%; /* Roughly 30% with gap consideration */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right-column {
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Section Common */
+.section-title {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    color: #222;
+    letter-spacing: 0.5px;
+}
+
+/* Left Column Specifics */
+.contact-list li {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.contact-list li i {
+    width: 20px;
+    text-align: center;
+    margin-right: 8px;
+    color: #555;
+}
+
+.skill-group {
+    margin-bottom: 15px;
+}
+
+.skill-category {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.skill-items {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.4;
+}
+
+.edu-item, .cert-list li {
+    font-size: 13px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.edu-school {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.edu-date, .edu-gpa, .edu-detail {
+    color: #666;
+    font-size: 12px;
+}
+
+.cert-list li {
+    margin-bottom: 6px;
+}
+
+/* Right Column Specifics */
+.exp-item, .project-item {
+    margin-bottom: 25px;
+}
+
+.exp-item:last-child, .project-item:last-child {
+    margin-bottom: 0;
+}
+
+.exp-header, .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 6px;
+}
+
+.exp-company, .project-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin-right: 8px;
+}
+
+.exp-role, .project-tech {
+    font-size: 13px;
+    color: #666;
+    font-weight: 500;
+}
+
+.exp-date {
+    font-size: 13px;
+    color: #888;
+    white-space: nowrap;
+}
+
+.exp-desc, .project-desc {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+.exp-bullets, .project-bullets {
+    padding-left: 15px;
+}
+
+.exp-bullets li, .project-bullets li {
+    font-size: 14px; /* Main content slightly larger */
+    color: #333;
+    margin-bottom: 6px;
+    list-style-type: disc;
+    line-height: 1.5;
+}
+
+.project-tech {
+    background: #eee;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 11px;
+    color: #444;
+    font-weight: 600;
+}
+
+/* Print Overrides */
+@media print {
+    body {
+        margin: 0;
+        background: white;
+    }
+    
+    .page {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    a {
+        text-decoration: none !important;
+        color: #000 !important;
+    }
+
+    /* Keep header colors but ensure background graphics are on */
+    .header {
+        border-bottom: 2px solid #333 !important;
+    }
+
+    .section {
+        break-inside: avoid;
+    }
+}

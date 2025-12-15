@@ -231,6 +231,7 @@ ul {
     .page {
         width: 100%;
         height: auto;
+        min-height: auto !important;
         margin: 0;
         padding: 0;
         box-shadow: none;
@@ -249,6 +250,63 @@ ul {
 
     .section {
         break-inside: avoid;
+    }
+
+    /* Reduce spacing for print to fit on one page */
+    .header {
+        margin-bottom: 5px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .name {
+        font-size: 24px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .title {
+        font-size: 14px !important;
+    }
+
+    .content-container {
+        gap: 10px !important;
+    }
+
+    .left-column, .right-column {
+        gap: 10px !important;
+    }
+
+    .section-title {
+        margin-bottom: 5px !important;
+        padding-bottom: 2px !important;
+        font-size: 14px !important;
+    }
+
+    .exp-item, .project-item {
+        margin-bottom: 10px !important;
+    }
+
+    .exp-header, .project-header {
+        margin-bottom: 2px !important;
+    }
+
+    .contact-list li {
+        margin-bottom: 2px !important;
+        font-size: 11px !important;
+    }
+
+    .exp-bullets li, .project-bullets li {
+        margin-bottom: 1px !important;
+        line-height: 1.3 !important;
+        font-size: 12px !important;
+    }
+
+    .skill-items, .edu-item, .cert-list li {
+        font-size: 11px !important;
+    }
+    
+    .summary {
+         font-size: 12px !important;
+         line-height: 1.4 !important;
     }
 }
 

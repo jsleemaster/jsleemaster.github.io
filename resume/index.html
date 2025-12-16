@@ -7,17 +7,54 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <style>
+        .lang-switcher {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 8px;
+            z-index: 1000;
+        }
+        .lang-switcher button {
+            padding: 8px 16px;
+            border: 1px solid #ddd;
+            background: #fff;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+        .lang-switcher button:hover {
+            background: #f5f5f5;
+        }
+        .lang-switcher button.active {
+            background: #333;
+            color: #fff;
+            border-color: #333;
+        }
+        @media print {
+            .lang-switcher {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
+    <div class="lang-switcher">
+        <button id="btn-ko" class="active" onclick="setLanguage('ko')">한국어</button>
+        <button id="btn-en" onclick="setLanguage('en')">English</button>
+    </div>
+
     <div class="page">
         <!-- Header -->
         <header class="header">
             <div class="header-left">
-                <h1 class="name">이순명</h1>
+                <h1 class="name" data-i18n="name">이순명</h1>
                 <h2 class="title">Frontend Developer</h2>
             </div>
             <div class="header-right">
-                <p class="summary">
+                <p class="summary" data-i18n="summary">
                     비즈니스 가치를 최우선으로 하는 개발자입니다.<br>
                     Vue → React, GetX → Riverpod 등 과감한 기술 전환을 주도하며 성장을 이끌었습니다.<br>
                     불확실한 문제 앞에서 해결책을 빠르게 찾아내고 실행합니다.
@@ -29,7 +66,7 @@
             <!-- Left Column (30%) -->
             <aside class="left-column">
                 <section class="section contact-section">
-                    <h3 class="section-title">Contact</h3>
+                    <h3 class="section-title" data-i18n="contact">Contact</h3>
                     <ul class="contact-list">
                         <li>
                             <i class="fa-solid fa-envelope"></i>
@@ -45,13 +82,13 @@
                         </li>
                         <li>
                             <i class="fa-solid fa-blog"></i>
-                            <a href="https://jsleemaster.velog.io" target="_blank">jsleemaster.velog.io</a>
+                            <a href="https://velog.io/@jsleemaster" target="_blank">velog.io/@jsleemaster</a>
                         </li>
                     </ul>
                 </section>
 
                 <section class="section skills-section">
-                    <h3 class="section-title">Skills</h3>
+                    <h3 class="section-title" data-i18n="skills">Skills</h3>
                     <div class="skill-group">
                         <span class="skill-category">Frontend</span>
                         <div class="skill-items">
@@ -73,22 +110,22 @@
                 </section>
 
                 <section class="section education-section">
-                    <h3 class="section-title">Education</h3>
+                    <h3 class="section-title" data-i18n="education">Education</h3>
                     <div class="edu-item">
-                        <div class="edu-school">중부대학교</div>
-                        <div class="edu-detail">애완동물자원학과</div>
+                        <div class="edu-school" data-i18n="edu_school">중부대학교</div>
+                        <div class="edu-detail" data-i18n="edu_major">애완동물자원학과</div>
                         <div class="edu-date">2014.02 ~ 2020.02</div>
-                        <div class="edu-gpa">학점: 4.02 / 4.5</div>
+                        <div class="edu-gpa" data-i18n="edu_gpa">학점: 4.02 / 4.5</div>
                     </div>
                 </section>
 
                 <section class="section cert-section">
-                    <h3 class="section-title">Certifications</h3>
+                    <h3 class="section-title" data-i18n="certifications">Certifications</h3>
                     <ul class="cert-list">
-                        <li>정보처리기능사</li>
-                        <li>컴퓨터활용능력 2급</li>
-                        <li>워드프로세서 1급</li>
-                        <li>ITQ 한글엑셀 A등급</li>
+                        <li data-i18n="cert_1">정보처리기능사</li>
+                        <li data-i18n="cert_2">컴퓨터활용능력 2급</li>
+                        <li data-i18n="cert_3">워드프로세서 1급</li>
+                        <li data-i18n="cert_4">ITQ 한글엑셀 A등급</li>
                     </ul>
                 </section>
             </aside>
@@ -96,83 +133,193 @@
             <!-- Right Column (70%) -->
             <main class="right-column">
                 <section class="section experience-section">
-                    <h3 class="section-title">Experience</h3>
-                    
+                    <h3 class="section-title" data-i18n="experience">Experience</h3>
+
                     <div class="exp-item">
                         <div class="exp-header">
                             <div class="exp-role-company">
-                                <span class="exp-company">에바 (EVAR)</span>
+                                <span class="exp-company" data-i18n="exp1_company">에바 (EVAR)</span>
                                 <span class="exp-role">Flutter Developer</span>
                             </div>
-                            <span class="exp-date">2024.07 ~ 현재</span>
+                            <span class="exp-date" data-i18n="exp1_date">2024.07 ~ 현재</span>
                         </div>
-                        <p class="exp-desc">삼성전자 C-Lab 스핀오프, 전기차 충전 솔루션 기업</p>
+                        <p class="exp-desc" data-i18n="exp1_desc">삼성전자 C-Lab 스핀오프, 전기차 충전 솔루션 기업</p>
                         <ul class="exp-bullets">
-                            <li><strong>아키텍처 대전환 주도:</strong> 유지보수가 어려운 MVVM/GetX 구조를 Clean Architecture + Riverpod로 전면 개편하여 테스트 용이성 확보 및 상태 관리 안정화.</li>
-                            <li><strong>CI/CD 파이프라인 구축:</strong> Fastlane, GitHub Actions, Xcode Cloud를 연동하여 AOS/iOS 자동 배포 환경을 구축, 수동 배포 대비 비효율 제거.</li>
-                            <li><strong>사용자 경험 개선:</strong> iOS Dynamic Island 기능을 도입하여 충전 상태를 직관적으로 제공, 앱 사용 편의성 극대화.</li>
-                            <li><strong>지도 성능 최적화:</strong> Naver Map SDK 활용 시 뷰포트 기반 로딩과 마커 캐싱을 적용하여 렌더링 성능 및 메모리 효율 개선.</li>
+                            <li data-i18n="exp1_bullet1"><strong>아키텍처 대전환 주도:</strong> 유지보수가 어려운 MVVM/GetX 구조를 Clean Architecture + Riverpod로 전면 개편하여 테스트 용이성 확보 및 상태 관리 안정화.</li>
+                            <li data-i18n="exp1_bullet2"><strong>CI/CD 파이프라인 구축:</strong> Fastlane, GitHub Actions, Xcode Cloud를 연동하여 AOS/iOS 자동 배포 환경을 구축, 수동 배포 대비 비효율 제거.</li>
+                            <li data-i18n="exp1_bullet3"><strong>사용자 경험 개선:</strong> iOS Dynamic Island 기능을 도입하여 충전 상태를 직관적으로 제공, 앱 사용 편의성 극대화.</li>
+                            <li data-i18n="exp1_bullet4"><strong>지도 성능 최적화:</strong> Naver Map SDK 활용 시 뷰포트 기반 로딩과 마커 캐싱을 적용하여 렌더링 성능 및 메모리 효율 개선.</li>
                         </ul>
                     </div>
 
                     <div class="exp-item">
                         <div class="exp-header">
                             <div class="exp-role-company">
-                                <span class="exp-company">디벨로퍼그룹</span>
+                                <span class="exp-company" data-i18n="exp2_company">디벨로퍼그룹</span>
                                 <span class="exp-role">Frontend Developer</span>
                             </div>
                             <span class="exp-date">2021.08 ~ 2023.10</span>
                         </div>
-                        <p class="exp-desc">스터디카페 키오스크 점유율 1위 (1,000+ 매장)</p>
+                        <p class="exp-desc" data-i18n="exp2_desc">스터디카페 키오스크 점유율 1위 (1,000+ 매장)</p>
                         <ul class="exp-bullets">
-                            <li><strong>빌드 성능 50% 개선:</strong> Webpack4 기반 프로젝트를 Vite로 마이그레이션하여 빌드 속도를 획기적으로 단축, 개발 생산성 향상.</li>
-                            <li><strong>자동 배포 시스템 구축:</strong> GitLab Runner와 AWS EC2를 연동하여 코드 푸시부터 배포까지 자동화된 파이프라인 구축.</li>
-                            <li><strong>하이브리드 앱 개발:</strong> React Native CLI를 활용하여 기존 웹 서비스를 iOS/Android 앱으로 패키징 및 단독 배포 성공.</li>
+                            <li data-i18n="exp2_bullet1"><strong>빌드 성능 50% 개선:</strong> Webpack4 기반 프로젝트를 Vite로 마이그레이션하여 빌드 속도를 획기적으로 단축, 개발 생산성 향상.</li>
+                            <li data-i18n="exp2_bullet2"><strong>자동 배포 시스템 구축:</strong> GitLab Runner와 AWS EC2를 연동하여 코드 푸시부터 배포까지 자동화된 파이프라인 구축.</li>
+                            <li data-i18n="exp2_bullet3"><strong>하이브리드 앱 개발:</strong> React Native CLI를 활용하여 기존 웹 서비스를 iOS/Android 앱으로 패키징 및 단독 배포 성공.</li>
                         </ul>
                     </div>
                 </section>
 
                 <section class="section project-section">
-                    <h3 class="section-title">Projects</h3>
+                    <h3 class="section-title" data-i18n="projects">Projects</h3>
 
                     <div class="project-item">
                         <div class="project-header">
                             <span class="project-name">EV PAY</span>
                             <span class="project-tech">Flutter, Riverpod</span>
                         </div>
-                        <p class="project-desc">전기차 충전기 연동 및 결제 플랫폼</p>
+                        <p class="project-desc" data-i18n="proj1_desc">전기차 충전기 연동 및 결제 플랫폼</p>
                         <ul class="project-bullets">
-                            <li>Clean Architecture 도입으로 비즈니스 로직과 UI 관심사 분리. API 캐싱 전략으로 네트워크 부하 감소.</li>
-                            <li>배포 자동화로 개발팀 전체의 운영 리소스 절감 기여.</li>
+                            <li data-i18n="proj1_bullet1">Clean Architecture 도입으로 비즈니스 로직과 UI 관심사 분리. API 캐싱 전략으로 네트워크 부하 감소.</li>
+                            <li data-i18n="proj1_bullet2">배포 자동화로 개발팀 전체의 운영 리소스 절감 기여.</li>
                         </ul>
                     </div>
 
                     <div class="project-item">
                         <div class="project-header">
-                            <span class="project-name">IFA 2023 삼성 독일 경품 이벤트</span>
+                            <span class="project-name" data-i18n="proj2_name">IFA 2023 삼성 독일 경품 이벤트</span>
                             <span class="project-tech">Next.js, TypeScript</span>
                         </div>
-                        <p class="project-desc">글로벌 박람회 이벤트 페이지 개발</p>
+                        <p class="project-desc" data-i18n="proj2_desc">글로벌 박람회 이벤트 페이지 개발</p>
                         <ul class="project-bullets">
-                            <li><strong>16만 명 대규모 트래픽 처리:</strong> 안정적인 이벤트 운영을 위한 프론트엔드 성능 최적화 및 예외 처리.</li>
-                            <li>Next.js 기반 SEO 및 초기 로딩 속도 최적화로 글로벌 사용자 접근성 보장.</li>
+                            <li data-i18n="proj2_bullet1"><strong>16만 명 대규모 트래픽 처리:</strong> 안정적인 이벤트 운영을 위한 프론트엔드 성능 최적화 및 예외 처리.</li>
+                            <li data-i18n="proj2_bullet2">Next.js 기반 SEO 및 초기 로딩 속도 최적화로 글로벌 사용자 접근성 보장.</li>
                         </ul>
                     </div>
 
                     <div class="project-item">
                         <div class="project-header">
-                            <span class="project-name">전담GATE 무인24</span>
+                            <span class="project-name" data-i18n="proj3_name">전담GATE 무인24</span>
                             <span class="project-tech">Next.js, TypeScript</span>
                         </div>
-                        <p class="project-desc">전자담배 무인 키오스크 및 자판기 시스템</p>
+                        <p class="project-desc" data-i18n="proj3_desc">전자담배 무인 키오스크 및 자판기 시스템</p>
                         <ul class="project-bullets">
-                            <li><strong>성인 인증 시스템 연동:</strong> 3종(PASS 등) 인증 모듈을 연동하여 무인 매장 법적 규제 준수.</li>
-                            <li>키오스크 하드웨어와 웹 인터페이스 간의 통신 최적화.</li>
+                            <li data-i18n="proj3_bullet1"><strong>성인 인증 시스템 연동:</strong> 3종(PASS 등) 인증 모듈을 연동하여 무인 매장 법적 규제 준수.</li>
+                            <li data-i18n="proj3_bullet2">키오스크 하드웨어와 웹 인터페이스 간의 통신 최적화.</li>
                         </ul>
                     </div>
                 </section>
             </main>
         </div>
     </div>
+
+    <script>
+        const translations = {
+            ko: {
+                name: "이순명",
+                summary: "비즈니스 가치를 최우선으로 하는 개발자입니다.<br>Vue → React, GetX → Riverpod 등 과감한 기술 전환을 주도하며 성장을 이끌었습니다.<br>불확실한 문제 앞에서 해결책을 빠르게 찾아내고 실행합니다.",
+                contact: "Contact",
+                skills: "Skills",
+                education: "Education",
+                edu_school: "중부대학교",
+                edu_major: "애완동물자원학과",
+                edu_gpa: "학점: 4.02 / 4.5",
+                certifications: "Certifications",
+                cert_1: "정보처리기능사",
+                cert_2: "컴퓨터활용능력 2급",
+                cert_3: "워드프로세서 1급",
+                cert_4: "ITQ 한글엑셀 A등급",
+                experience: "Experience",
+                exp1_company: "에바 (EVAR)",
+                exp1_date: "2024.07 ~ 현재",
+                exp1_desc: "삼성전자 C-Lab 스핀오프, 전기차 충전 솔루션 기업",
+                exp1_bullet1: "<strong>아키텍처 대전환 주도:</strong> 유지보수가 어려운 MVVM/GetX 구조를 Clean Architecture + Riverpod로 전면 개편하여 테스트 용이성 확보 및 상태 관리 안정화.",
+                exp1_bullet2: "<strong>CI/CD 파이프라인 구축:</strong> Fastlane, GitHub Actions, Xcode Cloud를 연동하여 AOS/iOS 자동 배포 환경을 구축, 수동 배포 대비 비효율 제거.",
+                exp1_bullet3: "<strong>사용자 경험 개선:</strong> iOS Dynamic Island 기능을 도입하여 충전 상태를 직관적으로 제공, 앱 사용 편의성 극대화.",
+                exp1_bullet4: "<strong>지도 성능 최적화:</strong> Naver Map SDK 활용 시 뷰포트 기반 로딩과 마커 캐싱을 적용하여 렌더링 성능 및 메모리 효율 개선.",
+                exp2_company: "디벨로퍼그룹",
+                exp2_desc: "스터디카페 키오스크 점유율 1위 (1,000+ 매장)",
+                exp2_bullet1: "<strong>빌드 성능 50% 개선:</strong> Webpack4 기반 프로젝트를 Vite로 마이그레이션하여 빌드 속도를 획기적으로 단축, 개발 생산성 향상.",
+                exp2_bullet2: "<strong>자동 배포 시스템 구축:</strong> GitLab Runner와 AWS EC2를 연동하여 코드 푸시부터 배포까지 자동화된 파이프라인 구축.",
+                exp2_bullet3: "<strong>하이브리드 앱 개발:</strong> React Native CLI를 활용하여 기존 웹 서비스를 iOS/Android 앱으로 패키징 및 단독 배포 성공.",
+                projects: "Projects",
+                proj1_desc: "전기차 충전기 연동 및 결제 플랫폼",
+                proj1_bullet1: "Clean Architecture 도입으로 비즈니스 로직과 UI 관심사 분리. API 캐싱 전략으로 네트워크 부하 감소.",
+                proj1_bullet2: "배포 자동화로 개발팀 전체의 운영 리소스 절감 기여.",
+                proj2_name: "IFA 2023 삼성 독일 경품 이벤트",
+                proj2_desc: "글로벌 박람회 이벤트 페이지 개발",
+                proj2_bullet1: "<strong>16만 명 대규모 트래픽 처리:</strong> 안정적인 이벤트 운영을 위한 프론트엔드 성능 최적화 및 예외 처리.",
+                proj2_bullet2: "Next.js 기반 SEO 및 초기 로딩 속도 최적화로 글로벌 사용자 접근성 보장.",
+                proj3_name: "전담GATE 무인24",
+                proj3_desc: "전자담배 무인 키오스크 및 자판기 시스템",
+                proj3_bullet1: "<strong>성인 인증 시스템 연동:</strong> 3종(PASS 등) 인증 모듈을 연동하여 무인 매장 법적 규제 준수.",
+                proj3_bullet2: "키오스크 하드웨어와 웹 인터페이스 간의 통신 최적화."
+            },
+            en: {
+                name: "Lee Soonmyung",
+                summary: "A developer who prioritizes business value above all.<br>Led bold technology transitions such as Vue → React and GetX → Riverpod, driving company growth.<br>I quickly find and execute solutions when facing uncertain challenges.",
+                contact: "Contact",
+                skills: "Skills",
+                education: "Education",
+                edu_school: "Joongbu University",
+                edu_major: "Companion Animal Science",
+                edu_gpa: "GPA: 4.02 / 4.5",
+                certifications: "Certifications",
+                cert_1: "Craftsman Information Processing",
+                cert_2: "Computer Literacy Level 2",
+                cert_3: "Word Processor Level 1",
+                cert_4: "ITQ Excel Grade A",
+                experience: "Experience",
+                exp1_company: "EVAR",
+                exp1_date: "2024.07 ~ Present",
+                exp1_desc: "Samsung C-Lab Spinoff, EV Charging Solution Company",
+                exp1_bullet1: "<strong>Led Architecture Overhaul:</strong> Completely restructured the hard-to-maintain MVVM/GetX architecture to Clean Architecture + Riverpod, improving testability and stabilizing state management.",
+                exp1_bullet2: "<strong>Built CI/CD Pipeline:</strong> Integrated Fastlane, GitHub Actions, and Xcode Cloud to establish automated deployment for both AOS/iOS, eliminating manual deployment inefficiencies.",
+                exp1_bullet3: "<strong>Enhanced User Experience:</strong> Implemented iOS Dynamic Island feature to intuitively display charging status, maximizing app usability.",
+                exp1_bullet4: "<strong>Optimized Map Performance:</strong> Applied viewport-based loading and marker caching with Naver Map SDK to improve rendering performance and memory efficiency.",
+                exp2_company: "Developer Group",
+                exp2_desc: "#1 Market Share in Study Cafe Kiosk (1,000+ stores)",
+                exp2_bullet1: "<strong>50% Build Performance Improvement:</strong> Migrated Webpack4-based project to Vite, dramatically reducing build time and improving development productivity.",
+                exp2_bullet2: "<strong>Automated Deployment System:</strong> Built an automated pipeline from code push to deployment by integrating GitLab Runner with AWS EC2.",
+                exp2_bullet3: "<strong>Hybrid App Development:</strong> Successfully packaged and deployed existing web services as iOS/Android apps using React Native CLI.",
+                projects: "Projects",
+                proj1_desc: "EV Charger Integration and Payment Platform",
+                proj1_bullet1: "Separated business logic and UI concerns by introducing Clean Architecture. Reduced network load with API caching strategy.",
+                proj1_bullet2: "Contributed to reducing operational resources across the development team through deployment automation.",
+                proj2_name: "IFA 2023 Samsung Germany Prize Event",
+                proj2_desc: "Global Exhibition Event Page Development",
+                proj2_bullet1: "<strong>Handled 160K High Traffic:</strong> Frontend performance optimization and exception handling for stable event operation.",
+                proj2_bullet2: "Ensured global user accessibility through Next.js-based SEO and initial loading speed optimization.",
+                proj3_name: "JeondamGATE Unmanned 24",
+                proj3_desc: "E-cigarette Unmanned Kiosk and Vending Machine System",
+                proj3_bullet1: "<strong>Adult Verification System Integration:</strong> Integrated 3 types of verification modules (PASS, etc.) to comply with unmanned store regulations.",
+                proj3_bullet2: "Optimized communication between kiosk hardware and web interface."
+            }
+        };
+
+        function setLanguage(lang) {
+            document.documentElement.lang = lang;
+
+            // Update button states
+            document.getElementById('btn-ko').classList.toggle('active', lang === 'ko');
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+
+            // Update all translatable elements
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                if (translations[lang][key]) {
+                    element.innerHTML = translations[lang][key];
+                }
+            });
+
+            // Save preference
+            localStorage.setItem('resume-lang', lang);
+        }
+
+        // Initialize with saved preference or default to Korean
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('resume-lang') || 'ko';
+            setLanguage(savedLang);
+        });
+    </script>
 </body>
 </html>

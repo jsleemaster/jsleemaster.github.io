@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - 'resume/resume.pdf'
-      - 'README.md'
+    paths:
+      - 'resume/**'
+      - '!resume/resume.pdf'
 
 jobs:
   generate-pdf:

@@ -12,7 +12,7 @@
 |---|---|
 | **Email** | jsleemaster@gmail.com |
 | **Phone** | 010-2934-4579 |
-| **Blog** | [velog.io/@jsleemaster](https://jsleemaster.velog) |
+| **Blog** | [velog.io/@jsleemaster](https://velog.io/@jsleemaster) |
 | **GitHub** | [github.com/jsleemaster](https://github.com/jsleemaster) |
 
 <br/>

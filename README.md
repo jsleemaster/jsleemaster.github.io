@@ -86,6 +86,7 @@
 | Drink Up | 음료/매장 운영 보조 모바일 앱 | Flutter | [repo](https://github.com/jsleemaster/drink_up) |
 | Thread API App | API 연동 및 인증 플로우 실험 앱 | Node.js, API Integration | [repo](https://github.com/jsleemaster/thread_api_app) |
 | Granite | 서비스 구조 개선 중심 개인 실험 레포 | TypeScript | [repo](https://github.com/jsleemaster/granite) |
+| 오늘도 리뷰 | 리뷰 작성부터 관리까지 사용자 참여 흐름을 고도화한 Flutter 모바일 앱 | Flutter | [repo](https://github.com/mylittlereviewduck/mobile) |
 
 <br/>
 

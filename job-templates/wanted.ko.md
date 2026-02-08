@@ -1,0 +1,36 @@
+# 이순명 | Frontend Developer
+
+## 핵심 요약
+도전에 두려움이 없는 성향으로 Vue → React, GetX → Riverpod으로의 두 차례 성공적인 기술 스택 전환을 주도하며 회사의 성장을 이끌었습니다. 불확실한 문제 앞에서 여러 해결책을 찾아내고, 빠르게 실행하여 비즈니스 임팩트를 만들어내는 개발자입니다.
+
+
+## 경력
+- 에바(EVAR) (2024.07 ~ 현재) / Flutter Developer
+  - 레거시 아키텍처(MVVM, GetX)를 Clean Architecture + Riverpod로 성공적 전환
+  - Fastlane + GitHub Actions + Xcode Cloud 연동 자동 배포 파이프라인 구축
+  - iOS Dynamic Island 도입으로 사용자 편의성 극대화
+- 디벨로퍼그룹 (2021.08 ~ 2023.10) / Frontend Developer
+  - webpack4 → Vite 전환으로 빌드 속도 50% 개선
+  - GitLab Runner(CI) + AWS EC2(CD) 자동배포 파이프라인 구축
+  - React Native CLI로 단독 앱 배포(iOS, Android)
+
+## 주요 프로젝트
+- EV PAY: 전기차 충전기 연동 앱 | Flutter, Riverpod | 자동배포 구축, 아키텍처 전환
+- 전담GATE 무인24: 전자담배 키오스크 & 자판기 | Next.js, TypeScript | 성인인증 3종 연동
+- IFA 2023: 삼성 독일 경품 이벤트 | Next.js, TypeScript | 16만명 방문자
+- 영광리조트: 수영장 이용권 예약 키오스크 | Next.js, Koa | 모노레포 구조 설계
+- 테라피: 강사-고객 예약 매칭 | Vue3, Express | 웹소켓 실시간 알림
+
+## 개인 프로젝트 (선별)
+- snackD: 채용/탐색 중심 웹 서비스 프로토타입 (https://github.com/jsleemaster/snackD)
+- Quote Notifier: 명언 알림 및 다국어 콘텐츠 앱 (https://github.com/jsleemaster/quote_notifier)
+- Aigo: 퇴사 및 채용 자동화 서비스 설계/개발 (https://github.com/jsleemaster/aigo)
+- Drink Up: 음료/매장 운영 보조 모바일 앱 (https://github.com/jsleemaster/drink_up)
+- Thread API App: API 연동 및 인증 플로우 실험 앱 (https://github.com/jsleemaster/thread_api_app)
+
+## 연락처
+- Email: jsleemaster@gmail.com
+- Phone: 010-2934-4579
+- GitHub: https://github.com/jsleemaster
+
+원티드 입력용 버전

@@ -84,6 +84,7 @@
 | Quote Notifier | 명언 알림 및 다국어 콘텐츠 앱 | Flutter, Notion API, Supabase | [repo](https://github.com/jsleemaster/quote_notifier) |
 | Aigo | 퇴사 및 채용 자동화 서비스 설계/개발 | React Native, Supabase | [repo](https://github.com/jsleemaster/aigo) |
 | Drink Up | 음료/매장 운영 보조 모바일 앱 | Flutter | [repo](https://github.com/jsleemaster/drink_up) |
+| Cooker | 재료 기반 레시피 탐색과 조리 진행을 지원하는 요리 동반자 서비스 | React Native, Expo, React, Vite, Express, Prisma, Supabase, TypeScript | [repo](https://github.com/jsleemaster/cooker) |
 | Thread API App | API 연동 및 인증 플로우 실험 앱 | Node.js, API Integration | [repo](https://github.com/jsleemaster/thread_api_app) |
 | Granite | 서비스 구조 개선 중심 개인 실험 레포 | TypeScript | [repo](https://github.com/jsleemaster/granite) |
 | 오늘도 리뷰 | 리뷰 작성부터 관리까지 사용자 참여 흐름을 고도화한 Flutter 모바일 앱 | Flutter | [repo](https://github.com/mylittlereviewduck/mobile) |

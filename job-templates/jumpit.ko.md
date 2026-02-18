@@ -26,7 +26,7 @@
 - Quote Notifier: 명언 알림 및 다국어 콘텐츠 앱 (https://github.com/jsleemaster/quote_notifier)
 - Aigo: 퇴사 및 채용 자동화 서비스 설계/개발 (https://github.com/jsleemaster/aigo)
 - Drink Up: 음료/매장 운영 보조 모바일 앱 (https://github.com/jsleemaster/drink_up)
-- Thread API App: API 연동 및 인증 플로우 실험 앱 (https://github.com/jsleemaster/thread_api_app)
+- Cooker: 재료 기반 레시피 탐색과 조리 진행을 지원하는 요리 동반자 서비스 (https://github.com/jsleemaster/cooker)
 
 ## 연락처
 - Email: jsleemaster@gmail.com

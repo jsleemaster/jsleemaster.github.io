@@ -80,8 +80,8 @@
 
 | 프로젝트 | 설명 | 기술 스택 | 배포 링크 |
 |---|---|---|---|
-| snackD | 채용/탐색 중심 웹 서비스 프로토타입 | Next.js, TypeScript | [demo](https://nextjs-jsleemaster.vercel.app/) |
-| Quote Notifier | 명언 알림 및 다국어 콘텐츠 앱 | Flutter, Notion API, Supabase | - |
+| snackD | 채용/탐색 중심 웹 서비스 프로토타입 | Next.js, TypeScript | - |
+| Quote Notifier | 명언 알림 및 다국어 콘텐츠 앱 | Flutter, Notion API, Supabase | [demo](https://user-web-jade.vercel.app) |
 | Aigo | 퇴사 및 채용 자동화 서비스 설계/개발 | React Native, Supabase | - |
 | Drink Up | 음료/매장 운영 보조 모바일 앱 | Flutter | - |
 | Cooker | 재료 기반 레시피 탐색과 조리 진행을 지원하는 요리 동반자 서비스 | React Native, Expo, React, Vite, Express, Prisma, Supabase, TypeScript | - |

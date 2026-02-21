@@ -24,9 +24,9 @@
 ## 개인 프로젝트 (선별)
 - snackD: 채용/탐색 중심 웹 서비스 프로토타입
 - Quote Notifier: 명언 알림 및 다국어 콘텐츠 앱 | Demo: https://user-web-jade.vercel.app
+- cltree: Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스
 - Aigo: 퇴사 및 채용 자동화 서비스 설계/개발
 - Drink Up: 음료/매장 운영 보조 모바일 앱
-- Cooker: 재료 기반 레시피 탐색과 조리 진행을 지원하는 요리 동반자 서비스
 
 ## 연락처
 - Email: jsleemaster@gmail.com

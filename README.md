@@ -80,15 +80,10 @@
 
 | 프로젝트 | 설명 | 기술 스택 | 배포 링크 |
 |---|---|---|---|
-| snackD | 채용/탐색 중심 웹 서비스 프로토타입 | Next.js, TypeScript | [demo](https://snack-d.vercel.app) |
-| Quote Notifier | 명언 알림 및 다국어 콘텐츠 앱 | Flutter, Notion API, Supabase | [demo](https://user-web-jade.vercel.app) |
-| cltree | Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 | Rust, ratatui, tokio, crossterm | - |
-| Aigo | 퇴사 및 채용 자동화 서비스 설계/개발 | React Native, Supabase | - |
-| Drink Up | 음료/매장 운영 보조 모바일 앱 | Flutter | - |
-| Cooker | 재료 기반 레시피 탐색과 조리 진행을 지원하는 요리 동반자 서비스 | React Native, Expo, React, Vite, Express, Prisma, Supabase, TypeScript | - |
-| Thread API App | API 연동 및 인증 플로우 실험 앱 | Node.js, API Integration | - |
-| Granite | 서비스 구조 개선 중심 개인 실험 레포 | TypeScript | - |
-| 오늘도 리뷰 | 리뷰 작성부터 관리까지 사용자 참여 흐름을 고도화한 Flutter 모바일 앱 | Flutter | - |
+| SnackD | 채용/탐색 중심 웹 서비스 프로토타입 | Next.js, TypeScript, Prisma, NextAuth, Tailwind CSS | [demo](https://snack-d.vercel.app) |
+| 오늘의 한 줄 (One Line Today) | 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱 | Flutter, Dart, Supabase, Firebase Cloud Messaging | [demo](https://user-web-jade.vercel.app) |
+| CLTree | Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 | Rust, ratatui, tokio, crossterm | - |
+| 요리의 신 (Cooker) | 재료 기반 레시피 탐색과 조리 진행을 지원하는 요리 동반자 서비스 | React Native, Expo, React, Vite, Express, Prisma, Supabase, TypeScript | - |
 
 <br/>
 

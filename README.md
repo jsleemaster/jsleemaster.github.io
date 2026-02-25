@@ -80,9 +80,11 @@
 
 | 프로젝트 | 설명 | 기술 스택 | 배포 링크 |
 |---|---|---|---|
-| SnackD | 채용/탐색 중심 웹 서비스 프로토타입 | Next.js, TypeScript, Prisma, NextAuth, Tailwind CSS | - |
+| SnackD | 디자이너 중심 채용공고 사이트 | Next.js, TypeScript, Prisma, NextAuth, Tailwind CSS | [demo](https://snack-d.vercel.app) |
 | 오늘의 한 줄 (One Line Today) | 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱 | Flutter, Dart, Supabase, Firebase Cloud Messaging | [demo](https://user-web-jade.vercel.app) |
-| CLTree | Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 | Rust, ratatui, tokio, crossterm | - |
+| CLTree | Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 | Rust, ratatui, tokio, crossterm | [demo](https://github.com/jsleemaster/cltree) |
+| 아이고 (Aigo) | 알바 퇴사/채용 자동화를 위한 모바일+웹 통합 플랫폼 | Expo, React Native, Next.js, TypeScript, Supabase | [demo](https://aigo-web-jsleemasters-projects.vercel.app) |
+| 꿀꺽 (Gulp) | 수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 | React, TypeScript, Vite, Cloudflare Workers, Cloudflare KV | [demo](https://drink-1a7h7lurm-jsleemasters-projects.vercel.app) |
 | 요리의 신 (Cooker) | 재료 기반 레시피 탐색과 조리 진행을 지원하는 요리 동반자 서비스 | React Native, Expo, React, Vite, Express, Prisma, Supabase, TypeScript | [demo](https://cooker-lyart.vercel.app) |
 
 <br/>

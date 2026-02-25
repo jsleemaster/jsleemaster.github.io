@@ -22,10 +22,10 @@
 - 테라피: 강사-고객 예약 매칭 | Vue3, Express | 웹소켓 실시간 알림
 
 ## 개인 프로젝트 (선별)
-- SnackD: 채용/탐색 중심 웹 서비스 프로토타입 | Demo: https://snack-d.vercel.app
+- SnackD: 채용/탐색 중심 웹 서비스 프로토타입
 - 오늘의 한 줄 (One Line Today): 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱 | Demo: https://user-web-jade.vercel.app
 - CLTree: Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스
-- 요리의 신 (Cooker): 재료 기반 레시피 탐색과 조리 진행을 지원하는 요리 동반자 서비스
+- 요리의 신 (Cooker): 재료 기반 레시피 탐색과 조리 진행을 지원하는 요리 동반자 서비스 | Demo: https://cooker-lyart.vercel.app
 
 ## 연락처
 - Email: jsleemaster@gmail.com

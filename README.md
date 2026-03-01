@@ -84,8 +84,9 @@
 | 오늘의 한 줄 (One Line Today) | 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱 | Flutter, Dart, Supabase, Firebase Cloud Messaging | <a href="https://user-web-jade.vercel.app" target="_blank" rel="noopener noreferrer">demo</a> |
 | CLTree | Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 | Rust, ratatui, tokio, crossterm | <a href="https://github.com/jsleemaster/cltree" target="_blank" rel="noopener noreferrer">demo</a> |
 | 아이고 (Aigo) | 알바 퇴사/채용 자동화를 위한 모바일+웹 통합 플랫폼 | Expo, React Native, Next.js, TypeScript, Supabase | <a href="https://aigo-web-jsleemasters-projects.vercel.app" target="_blank" rel="noopener noreferrer">demo</a> |
-| 꿀꺽 (Gulp) | 수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 | React, TypeScript, Vite, Cloudflare Workers, Cloudflare KV | <a href="https://drink-1a7h7lurm-jsleemasters-projects.vercel.app" target="_blank" rel="noopener noreferrer">demo</a> |
+| 꿀꺽 (Gulp) | 수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 | React, TypeScript, Vite, Cloudflare Workers, Cloudflare KV | <a href="https://drinkup-five.vercel.app/" target="_blank" rel="noopener noreferrer">demo</a> |
 | 요리의 신 (Cooker) | 재료 기반 레시피 탐색과 조리 진행을 지원하는 요리 동반자 서비스 | React Native, Expo, React, Vite, Express, Prisma, Supabase, TypeScript | <a href="https://cooker-lyart.vercel.app" target="_blank" rel="noopener noreferrer">demo</a> |
+| 오늘도 리뷰 | 세상의 모든 것을 리뷰하는 플랫폼 | Flutter | - |
 
 <br/>
 

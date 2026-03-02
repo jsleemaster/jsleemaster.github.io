@@ -87,6 +87,7 @@
 | 꿀꺽 (Gulp) | 수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 | React, TypeScript, Vite, Cloudflare Workers, Cloudflare KV | <a href="https://drinkup-five.vercel.app/" target="_blank" rel="noopener noreferrer">demo</a> |
 | 요리의 신 (Cooker) | 재료 기반 레시피 탐색과 조리 진행을 지원하는 요리 동반자 서비스 | React Native, Expo, React, Vite, Express, Prisma, Supabase, TypeScript | <a href="https://cooker-lyart.vercel.app" target="_blank" rel="noopener noreferrer">demo</a> |
 | 오늘도 리뷰 | 세상의 모든 것을 리뷰하는 플랫폼 | Flutter | - |
+| Ranch-Agent | 멀티 에이전트 런타임 활동을 VS Code 대시보드로 시각화하는 이모지 중심 확장 프로젝트 | TypeScript, React, VS Code Extension, Node.js | - |
 
 <br/>
 

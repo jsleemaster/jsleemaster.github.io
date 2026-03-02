@@ -22,11 +22,11 @@
 - 테라피: 강사-고객 예약 매칭 | Vue3, Express | 웹소켓 실시간 알림
 
 ## 개인 프로젝트 (선별)
-- SnackD: 디자이너 중심 채용공고 사이트 | Demo: https://snack-d.vercel.app
-- 오늘의 한 줄: 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱 | Demo: https://user-web-jade.vercel.app
-- Cltree: Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 프로젝트 | Demo: https://github.com/jsleemaster/cltree
-- 아이고: 알바 퇴사/채용 자동화를 위한 모바일+웹 통합 플랫폼 | Demo: https://aigo-web-jsleemasters-projects.vercel.app
-- 꿀꺽: 수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 (앱인토스 프로젝트) | Demo: https://drinkup-five.vercel.app/
+- SnackD: 디자이너 중심 채용공고 사이트 | Web: https://snack-d.vercel.app
+- 오늘의 한 줄: 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱 | Web: https://user-web-jade.vercel.app
+- Cltree: Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 프로젝트 | Web: https://github.com/jsleemaster/cltree
+- 아이고: 알바 퇴사/채용 자동화를 위한 모바일+웹 통합 플랫폼 | Web: https://aigo-web-jsleemasters-projects.vercel.app
+- 꿀꺽: 수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 (앱인토스 프로젝트) | Web: https://drinkup-five.vercel.app/
 
 ## 연락처
 - Email: jsleemaster@gmail.com

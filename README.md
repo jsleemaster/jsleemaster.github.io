@@ -78,15 +78,15 @@
 
 ## 🧪 Personal Projects
 
-| 프로젝트 | 설명 | 기술 스택 | 배포 링크 |
+| 프로젝트 | 설명 | 기술 스택 | 링크 |
 |---|---|---|---|
-| SnackD | 디자이너 중심 채용공고 사이트 | Next.js, TypeScript, Prisma, NextAuth, Tailwind CSS | <a href="https://snack-d.vercel.app" target="_blank" rel="noopener noreferrer">demo</a> |
-| 오늘의 한 줄 | 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱 | Flutter, Dart, Supabase, Firebase Cloud Messaging | <a href="https://user-web-jade.vercel.app" target="_blank" rel="noopener noreferrer">demo</a> |
-| Cltree | Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 프로젝트 | Rust, ratatui, tokio, crossterm | <a href="https://github.com/jsleemaster/cltree" target="_blank" rel="noopener noreferrer">demo</a> |
-| 아이고 | 알바 퇴사/채용 자동화를 위한 모바일+웹 통합 플랫폼 | Expo, React Native, Next.js, TypeScript, Supabase | <a href="https://aigo-web-jsleemasters-projects.vercel.app" target="_blank" rel="noopener noreferrer">demo</a> |
-| 꿀꺽 | 수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 (앱인토스 프로젝트) | React, TypeScript, Vite, Cloudflare Workers, Cloudflare KV | <a href="https://drinkup-five.vercel.app/" target="_blank" rel="noopener noreferrer">demo</a> |
-| 요리의 신 | 재료 기반 레시피 탐색과 조리 진행을 지원하는 요리 동반자 서비스 | React Native, Expo, React, Vite, Express, Prisma, Supabase, TypeScript | <a href="https://cooker-lyart.vercel.app" target="_blank" rel="noopener noreferrer">demo</a> |
-| 오늘도 리뷰 | 세상의 모든 것을 리뷰하는 플랫폼 | Flutter | - |
+| SnackD | 디자이너 중심 채용공고 사이트 | Next.js, TypeScript, Prisma, NextAuth, Tailwind CSS | <a href="https://snack-d.vercel.app" target="_blank" rel="noopener noreferrer">🌐 Web</a> |
+| 오늘의 한 줄 | 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱 | Flutter, Dart, Supabase, Firebase Cloud Messaging | <a href="https://user-web-jade.vercel.app" target="_blank" rel="noopener noreferrer">🌐 Web</a> |
+| Cltree | Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 프로젝트 | Rust, ratatui, tokio, crossterm | <a href="https://github.com/jsleemaster/cltree" target="_blank" rel="noopener noreferrer">🌐 Web</a> |
+| 아이고 | 알바 퇴사/채용 자동화를 위한 모바일+웹 통합 플랫폼 | Expo, React Native, Next.js, TypeScript, Supabase | <a href="https://aigo-web-jsleemasters-projects.vercel.app" target="_blank" rel="noopener noreferrer">🌐 Web</a> |
+| 꿀꺽 | 수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 (앱인토스 프로젝트) | React, TypeScript, Vite, Cloudflare Workers, Cloudflare KV | <a href="https://drinkup-five.vercel.app/" target="_blank" rel="noopener noreferrer">🌐 Web</a> |
+| 요리의 신 | 재료 기반 레시피 탐색과 조리 진행을 지원하는 요리 동반자 서비스 | React Native, Expo, React, Vite, Express, Prisma, Supabase, TypeScript | <a href="https://cooker-lyart.vercel.app" target="_blank" rel="noopener noreferrer">🌐 Web</a> |
+| 오늘도 리뷰 | 세상의 모든 것을 리뷰하는 플랫폼 | Flutter | <a href="https://apps.apple.com/kr/app/%EC%98%A4%EB%8A%98%EB%8F%84-%EB%A6%AC%EB%B7%B0/id6744454725" target="_blank" rel="noopener noreferrer">🍎 iOS</a> / <a href="https://play.google.com/store/apps/details?id=site.mylittlereviewduck&hl=ko" target="_blank" rel="noopener noreferrer">🤖 Android</a> |
 | Ranch-Agent | 클로드 에이전트 팀 런타임 활동을 VS Code 대시보드로 시각화하는 프로젝트 | TypeScript, React, VS Code Extension, Node.js | - |
 
 <br/>

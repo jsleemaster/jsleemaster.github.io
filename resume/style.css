@@ -342,11 +342,6 @@ ul {
         width: 100%;
     }
 
-    /* Right column stays left-aligned on mobile */
-    .right-column {
-        text-align: left;
-    }
-
     /* Adjust spacing for mobile */
     .section {
         margin-bottom: 30px;
@@ -360,20 +355,20 @@ ul {
     }
 
     .skill-group {
-        text-align: left;
+        text-align: center;
     }
-
+    
     .cert-list {
-        text-align: left;
+        text-align: center;
         list-style-position: inside;
     }
 
     /* Experience & Projects on mobile */
     .exp-header, .project-header {
         flex-direction: column;
-        gap: 8px;
+        gap: 4px;
     }
-
+    
     .exp-date {
         font-size: 12px;
     }

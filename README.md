@@ -15,6 +15,7 @@
 | **Phone** | 010-2934-4579 |
 | **Blog** | [jsleemaster.velog.io/](https://jsleemaster.velog.io) |
 | **GitHub** | [github.com/jsleemaster](https://github.com/jsleemaster) |
+| **Public Wiki** | [jsleemaster.github.io/wiki](https://jsleemaster.github.io/wiki/) |
 
 <br/>
 

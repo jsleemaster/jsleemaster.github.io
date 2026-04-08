@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-04-08T06:47:52.558Z",
+  "vaults": [
+    {
+      "name": "repo-seed",
+      "source": "path",
+      "vault_path": "/home/runner/work/resume-source/resume-source/obsidian-vault/public",
+      "public_path": "/home/runner/work/resume-source/resume-source/obsidian-vault/public",
+      "vault_exists": true,
+      "exists": true,
+      "candidate_paths": [],
+      "reason": "ready"
+    },
+    {
+      "name": "external",
+      "source": "auto_discovered",
+      "vault_path": "",
+      "public_path": "",
+      "vault_exists": false,
+      "exists": false,
+      "candidate_paths": [],
+      "reason": "no_auto_discovered_vault"
+    }
+  ]
+}

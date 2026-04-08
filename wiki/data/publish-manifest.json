@@ -1,0 +1,42 @@
+{
+  "published_at": "2026-04-08T06:47:52.558Z",
+  "wiki_documents": [
+    "wiki/career/company/developer-group.md",
+    "wiki/career/company/evar.md",
+    "wiki/decisions/source-of-truth.md",
+    "wiki/faq/hiring-overview.md",
+    "wiki/index.md",
+    "wiki/log.md",
+    "wiki/principles/business-first.md",
+    "wiki/profile/obsidian-writing-space.md",
+    "wiki/profile/overview.md",
+    "wiki/projects/personal/drink-up.md",
+    "wiki/projects/personal/snackd.md",
+    "wiki/projects/personal/today-review.md"
+  ],
+  "raw_documents": [
+    "raw/public-sources/career/developer-group-source.md",
+    "raw/public-sources/career/evar-source.md",
+    "raw/public-sources/profile/resume-summary.md",
+    "raw/public-sources/projects/drink-up-source.md",
+    "raw/public-sources/projects/snackd-source.md",
+    "raw/public-sources/projects/today-review-source.md"
+  ],
+  "obsidian_documents": [
+    "raw/obsidian/repo-seed/profile/obsidian-writing-space.md"
+  ],
+  "effective_source_documents": [
+    "raw/obsidian/repo-seed/profile/obsidian-writing-space.md",
+    "raw/public-sources/career/developer-group-source.md",
+    "raw/public-sources/career/evar-source.md",
+    "raw/public-sources/profile/resume-summary.md",
+    "raw/public-sources/projects/drink-up-source.md",
+    "raw/public-sources/projects/snackd-source.md",
+    "raw/public-sources/projects/today-review-source.md"
+  ],
+  "replaced_source_documents": [],
+  "document_count": 12,
+  "raw_source_count": 6,
+  "obsidian_source_count": 1,
+  "effective_source_count": 7
+}

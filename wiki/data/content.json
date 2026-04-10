@@ -1,17 +1,28 @@
 {
-  "publishedAt": "2026-04-08T16:01:59.847Z",
+  "publishedAt": "2026-04-10T13:45:02.063Z",
   "hero": {
-    "name": "이순명",
-    "nameEn": "Lee Soonmyung",
+    "name": "",
+    "namePrivate": {
+      "encoding": "base64:utf8",
+      "value": "7J207Iic66qF"
+    },
+    "nameEn": "",
+    "nameEnPrivate": {
+      "encoding": "base64:utf8",
+      "value": "TGVlIFNvb25teXVuZw=="
+    },
     "title": "Frontend Developer",
     "mindset": "비즈니스 가치를 최우선으로 하는 개발자",
     "summary": "도전에 두려움이 없는 성향으로 Vue → React, GetX → Riverpod으로의 두 차례 성공적인 기술 스택 전환을 주도하며 회사의 성장을 이끌었습니다. 불확실한 문제 앞에서 여러 해결책을 찾아내고, 빠르게 실행하여 비즈니스 임팩트를 만들어내는 개발자입니다."
   },
   "contacts": {
     "email": "jsleemaster@gmail.com",
-    "phone": "010-2934-4579",
     "blog": "https://jsleemaster.velog.io",
-    "github": "https://github.com/jsleemaster"
+    "github": "https://github.com/jsleemaster",
+    "phonePrivate": {
+      "encoding": "base64:utf8",
+      "value": "MDEwLTI5MzQtNDU3OQ=="
+    }
   },
   "skills": [
     {
@@ -38,6 +49,41 @@
         "AWS",
         "GitHub Actions"
       ]
+    }
+  ],
+  "education": [
+    {
+      "school": "중부대학교",
+      "major": "애완동물자원학과",
+      "period": "2014.02 ~ 2020.02",
+      "gpa": "4.02 / 4.5"
+    }
+  ],
+  "credentials": [
+    {
+      "name": "축산기사",
+      "issued_at": "2019.02",
+      "source": "nextjs/jslee page migration"
+    },
+    {
+      "name": "컴퓨터활용능력 2급",
+      "issued_at": "2010.10",
+      "source": "jsleemaster.github.io"
+    },
+    {
+      "name": "워드프로세서 1급",
+      "issued_at": "2011.05",
+      "source": "jsleemaster.github.io"
+    },
+    {
+      "name": "정보기술자격 한글엑셀 A등급",
+      "issued_at": "2011.10",
+      "source": "jsleemaster.github.io"
+    },
+    {
+      "name": "정보처리기능사",
+      "issued_at": "2011.10",
+      "source": "jsleemaster.github.io"
     }
   ],
   "careerTimeline": [
@@ -157,7 +203,411 @@
       "sort_order": 8
     }
   ],
+  "profileBlocks": [
+    {
+      "id": "summary",
+      "folderId": "profile",
+      "kind": "profile",
+      "title": "한 줄 소개",
+      "subtitle": "도전에 두려움이 없는 성향으로 Vue → React, GetX → Riverpod으로의 두 차례 성공적인 기술 스택 전환을 주도하며 회사의 성장을 이끌었습니다. 불확실한 문제 앞에서 여러 해결책을 찾아내고, 빠르게 실행하여 비즈니스 임팩트를 만들어내는 개발자입니다.",
+      "body": "도전에 두려움이 없는 성향으로 Vue → React, GetX → Riverpod으로의 두 차례 성공적인 기술 스택 전환을 주도하며 회사의 성장을 이끌었습니다. 불확실한 문제 앞에서 여러 해결책을 찾아내고, 빠르게 실행하여 비즈니스 임팩트를 만들어내는 개발자입니다.",
+      "tags": [
+        "Frontend Developer",
+        "비즈니스 가치를 최우선으로 하는 개발자"
+      ],
+      "prompt": "이 개발자의 핵심 강점을 알려주세요"
+    },
+    {
+      "id": "quick-points",
+      "folderId": "profile",
+      "kind": "profile",
+      "title": "빠르게 볼 포인트",
+      "subtitle": "# 빠르게 볼 포인트 ## 어떤 강점이 있는가 - 기술 전환을 제품 운영 개선으로 연결한다. - 웹과 모바일을 함께 보고 릴리스 흐름까지 설계한다. - 자동화와 운영 개선에 강하다. ## 어떤 프로젝트를 먼저 보면 좋은가 - 경력은 에바, 디벨로퍼그룹 순서로 보면 전체 그림이 빠르다. - 개인 프로젝트는 SnackD,…",
+      "body": "# 빠르게 볼 포인트\n\n## 어떤 강점이 있는가\n\n- 기술 전환을 제품 운영 개선으로 연결한다.\n- 웹과 모바일을 함께 보고 릴리스 흐름까지 설계한다.\n- 자동화와 운영 개선에 강하다.\n\n## 어떤 프로젝트를 먼저 보면 좋은가\n\n- 경력은 에바, 디벨로퍼그룹 순서로 보면 전체 그림이 빠르다.\n- 개인 프로젝트는 SnackD, 꿀꺽, 오늘도 리뷰 순서로 보면 제품 감각과 실행 범위를 확인하기 좋다.",
+      "tags": [
+        "faq",
+        "hiring",
+        "summary"
+      ],
+      "prompt": "채용 담당자가 빠르게 봐야 할 포인트를 정리해 주세요"
+    },
+    {
+      "id": "principle",
+      "folderId": "profile",
+      "kind": "profile",
+      "title": "일하는 방식",
+      "subtitle": "# 비즈니스 우선 판단 원칙 기술 선택은 멋있어 보이는가보다 운영 속도와 사업 임팩트에 어떤 영향을 주는가를 먼저 본다. 그래서 스택 전환을 할 때도 “새 기술이 좋아 보여서”가 아니라 빌드 속도, 릴리스 속도, 유지보수성, 협업 비용이 실제로 줄어드는지를 기준으로 판단한다. Vue에서 React, GetX에서 Rive…",
+      "body": "# 비즈니스 우선 판단 원칙\n\n기술 선택은 멋있어 보이는가보다 운영 속도와 사업 임팩트에 어떤 영향을 주는가를 먼저 본다.\n\n그래서 스택 전환을 할 때도 “새 기술이 좋아 보여서”가 아니라 빌드 속도, 릴리스 속도, 유지보수성, 협업 비용이 실제로 줄어드는지를 기준으로 판단한다. Vue에서 React, GetX에서 Riverpod 전환이 대표 사례다.",
+      "tags": [
+        "principle",
+        "product",
+        "decision"
+      ],
+      "prompt": "기술 선택과 의사결정 기준을 알려주세요"
+    },
+    {
+      "id": "skills",
+      "folderId": "profile",
+      "kind": "profile",
+      "title": "기술스택",
+      "subtitle": "Frontend: JavaScript, TypeScript, React, Next.js, Vue.js Mobile: Flutter, React Native Backend & Infra: Node.…",
+      "body": "Frontend: JavaScript, TypeScript, React, Next.js, Vue.js\nMobile: Flutter, React Native\nBackend & Infra: Node.js, AWS, GitHub Actions",
+      "tags": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Vue.js",
+        "Flutter"
+      ],
+      "prompt": "주요 기술스택과 강점을 알려주세요"
+    },
+    {
+      "id": "background",
+      "folderId": "profile",
+      "kind": "profile",
+      "title": "학력·자격",
+      "subtitle": "중부대학교 · 애완동물자원학과 · 2014.02 ~ 2020.02 · 학점 4.02 / 4.5 자격: 축산기사, 컴퓨터활용능력 2급, 워드프로세서 1급, 정보기술자격 한글엑셀 A등급",
+      "body": "중부대학교 · 애완동물자원학과 · 2014.02 ~ 2020.02 · 학점 4.02 / 4.5\n자격: 축산기사, 컴퓨터활용능력 2급, 워드프로세서 1급, 정보기술자격 한글엑셀 A등급",
+      "tags": [
+        "축산기사",
+        "컴퓨터활용능력 2급",
+        "워드프로세서 1급"
+      ],
+      "prompt": "학력과 자격 정보를 간단히 정리해 주세요"
+    },
+    {
+      "id": "contacts",
+      "folderId": "profile",
+      "kind": "profile",
+      "title": "기본 정보",
+      "subtitle": "이메일: jsleemaster@gmail.com 블로그: https://jsleemaster.velog.io GitHub: https://github.com/jsleemaster",
+      "body": "이메일: jsleemaster@gmail.com\n블로그: https://jsleemaster.velog.io\nGitHub: https://github.com/jsleemaster",
+      "tags": [
+        "Email",
+        "Phone",
+        "GitHub"
+      ],
+      "prompt": "연락처와 기본 정보를 정리해 주세요"
+    }
+  ],
+  "experienceItems": [
+    {
+      "id": "evar",
+      "folderId": "experiences",
+      "kind": "experience",
+      "title": "에바",
+      "subtitle": "삼성전자 사내벤처 C-Lab 스핀오프 | 국내 전기차 충전기 시장 마켓쉐어 1위",
+      "body": "# 에바\n\n에바에서는 EV PAY 앱의 Flutter 개발과 운영 고도화를 맡았다.\n\n중심 역할은 레거시 구조를 더 오래 버틸 수 있는 형태로 바꾸는 일이었다. MVVM, GetX 기반 구조를 Clean Architecture와 Riverpod 중심으로 재정리해 유지보수성과 기능 확장성을 높였다.\n\n또한 Fastlane, GitHub Actions, Xcode Cloud를 연결해 배포 자동화를 구축했다. 이 변화는 단순한 코드 정리가 아니라 릴리스 사이클과 운영 피로도를 줄이는 실무적 임팩트로 이어졌다.\n\n## 핵심 포인트\n- 레거시 아키텍처(MVVM, GetX)를 Clean Architecture + Riverpod로 성공적 전환\n- Fastlane + GitHub Actions + Xcode Cloud 연동 자동 배포 파이프라인 구축\n- iOS Dynamic Island 도입으로 사용자 편의성 극대화\n\n---\n## 주요 사례\n- **EV PAY**: 전기차 충전기 연동 앱 · 자동배포 구축, 아키텍처 전환",
+      "prompt": "에바에서 어떤 역할과 임팩트를 만들었는지 알려주세요",
+      "tags": [
+        "Flutter Developer"
+      ],
+      "period": "2024.07 ~ 현재",
+      "role": "Flutter Developer",
+      "highlights": [
+        "레거시 아키텍처(MVVM, GetX)를 Clean Architecture + Riverpod로 성공적 전환",
+        "Fastlane + GitHub Actions + Xcode Cloud 연동 자동 배포 파이프라인 구축",
+        "iOS Dynamic Island 도입으로 사용자 편의성 극대화"
+      ],
+      "path": "wiki/career/company/evar.md",
+      "slug": "career/company/evar",
+      "caseStudies": [
+        {
+          "id": "evpay",
+          "title": "EV PAY",
+          "summary": "전기차 충전기 연동 앱",
+          "stack": [
+            "Flutter",
+            "Riverpod"
+          ],
+          "impact": "자동배포 구축, 아키텍처 전환"
+        }
+      ]
+    },
+    {
+      "id": "developer-group",
+      "folderId": "experiences",
+      "kind": "experience",
+      "title": "디벨로퍼그룹",
+      "subtitle": "국내 스터디카페 키오스크 점유율 30% 1위 | 1,000개+ 매장, 264만 유저",
+      "body": "# 디벨로퍼그룹\n\n디벨로퍼그룹에서는 키오스크와 운영 웹, 앱을 함께 다뤘다.\n\nwebpack4에서 Vite로 전환해 빌드 체감 속도를 개선했고, GitLab Runner와 AWS EC2 기반 자동배포를 구성했다. 제품이 커지는 시점에 개발 경험과 운영 속도를 동시에 다루는 일이 핵심이었다.\n\nReact Native CLI를 활용해 iOS, Android 앱 배포를 직접 운영한 것도 특징이다. 웹과 앱을 분리해서 보지 않고 서비스 전체 전달 경로를 다루는 역할에 가까웠다.\n\n## 핵심 포인트\n- webpack4 → Vite 전환으로 빌드 속도 50% 개선\n- GitLab Runner(CI) + AWS EC2(CD) 자동배포 파이프라인 구축\n- React Native CLI로 단독 앱 배포(iOS, Android)\n\n---\n## 주요 사례\n- **전담GATE 무인24**: 전자담배 키오스크 & 자판기 · 성인인증 3종 연동\n- **IFA 2023**: 삼성 독일 경품 이벤트 · 16만명 방문자\n- **영광리조트**: 수영장 이용권 예약 키오스크 · 모노레포 구조 설계\n- **테라피**: 강사-고객 예약 매칭 · 웹소켓 실시간 알림\n- **모무 골프**: 실내골프 예약 앱 · iOS/Android 배포\n- **스타일자판기**: 자판기 키오스크 · 빌드속도 50% 개선",
+      "prompt": "디벨로퍼그룹에서 어떤 역할과 임팩트를 만들었는지 알려주세요",
+      "tags": [
+        "Frontend Developer"
+      ],
+      "period": "2021.08 ~ 2023.10",
+      "role": "Frontend Developer",
+      "highlights": [
+        "webpack4 → Vite 전환으로 빌드 속도 50% 개선",
+        "GitLab Runner(CI) + AWS EC2(CD) 자동배포 파이프라인 구축",
+        "React Native CLI로 단독 앱 배포(iOS, Android)"
+      ],
+      "path": "wiki/career/company/developer-group.md",
+      "slug": "career/company/developer-group",
+      "caseStudies": [
+        {
+          "id": "jeondam-gate",
+          "title": "전담GATE 무인24",
+          "summary": "전자담배 키오스크 & 자판기",
+          "stack": [
+            "Next.js",
+            "TypeScript"
+          ],
+          "impact": "성인인증 3종 연동"
+        },
+        {
+          "id": "ifa-2023",
+          "title": "IFA 2023",
+          "summary": "삼성 독일 경품 이벤트",
+          "stack": [
+            "Next.js",
+            "TypeScript"
+          ],
+          "impact": "16만명 방문자"
+        },
+        {
+          "id": "yeonggwang-resort",
+          "title": "영광리조트",
+          "summary": "수영장 이용권 예약 키오스크",
+          "stack": [
+            "Next.js",
+            "Koa"
+          ],
+          "impact": "모노레포 구조 설계"
+        },
+        {
+          "id": "therapy",
+          "title": "테라피",
+          "summary": "강사-고객 예약 매칭",
+          "stack": [
+            "Vue3",
+            "Express"
+          ],
+          "impact": "웹소켓 실시간 알림"
+        },
+        {
+          "id": "momu-golf",
+          "title": "모무 골프",
+          "summary": "실내골프 예약 앱",
+          "stack": [
+            "Vue3",
+            "React Native"
+          ],
+          "impact": "iOS/Android 배포"
+        },
+        {
+          "id": "style-vending",
+          "title": "스타일자판기",
+          "summary": "자판기 키오스크",
+          "stack": [
+            "Vue2/3",
+            "Express"
+          ],
+          "impact": "빌드속도 50% 개선"
+        }
+      ]
+    }
+  ],
+  "projectItems": [
+    {
+      "id": "snackd",
+      "folderId": "projects",
+      "kind": "project",
+      "title": "SnackD",
+      "subtitle": "디자이너 중심 채용공고 사이트",
+      "body": "디자이너 중심 채용공고 사이트\n실시간 채용 필터링 및 UX 실험",
+      "prompt": "SnackD 프로젝트를 중심으로 역할과 임팩트를 설명해 주세요",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Prisma"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "NextAuth",
+        "Tailwind CSS"
+      ],
+      "impact": "실시간 채용 필터링 및 UX 실험",
+      "sort_order": 1
+    },
+    {
+      "id": "quote-notifier",
+      "folderId": "projects",
+      "kind": "project",
+      "title": "오늘의 한 줄",
+      "subtitle": "명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱",
+      "body": "명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱\n콘텐츠 자동 수집/알림 파이프라인 구성",
+      "prompt": "오늘의 한 줄 프로젝트를 중심으로 역할과 임팩트를 설명해 주세요",
+      "tags": [
+        "Flutter",
+        "Dart",
+        "Supabase"
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "Supabase",
+        "Firebase Cloud Messaging"
+      ],
+      "impact": "콘텐츠 자동 수집/알림 파이프라인 구성",
+      "sort_order": 2
+    },
+    {
+      "id": "cltree",
+      "folderId": "projects",
+      "kind": "project",
+      "title": "Cltree",
+      "subtitle": "Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 프로젝트",
+      "body": "Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 프로젝트\nnpm 배포와 다국어 문서 운영으로 CLI 개발자 도구 공개 배포",
+      "prompt": "Cltree 프로젝트를 중심으로 역할과 임팩트를 설명해 주세요",
+      "tags": [
+        "Rust",
+        "ratatui",
+        "tokio"
+      ],
+      "stack": [
+        "Rust",
+        "ratatui",
+        "tokio",
+        "crossterm"
+      ],
+      "impact": "npm 배포와 다국어 문서 운영으로 CLI 개발자 도구 공개 배포",
+      "sort_order": 3
+    },
+    {
+      "id": "drink-up",
+      "folderId": "projects",
+      "kind": "project",
+      "title": "꿀꺽",
+      "subtitle": "수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 (토스 앱인토스 프로젝트)",
+      "body": "수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 (토스 앱인토스 프로젝트)\n친구 초대/챌린지/알림 기반 사용성 개선과 서버리스 API 분리",
+      "prompt": "꿀꺽 프로젝트를 중심으로 역할과 임팩트를 설명해 주세요",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Vite"
+      ],
+      "stack": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Cloudflare Workers",
+        "Cloudflare KV"
+      ],
+      "impact": "친구 초대/챌린지/알림 기반 사용성 개선과 서버리스 API 분리",
+      "sort_order": 5
+    },
+    {
+      "id": "notion-project-51a204f6",
+      "folderId": "projects",
+      "kind": "project",
+      "title": "오늘도 리뷰",
+      "subtitle": "세상의 모든 것을 리뷰하는 플랫폼",
+      "body": "세상의 모든 것을 리뷰하는 플랫폼\nFirebase 기반 데이터/알림 연동 고도화와 구조 개선으로 운영 안정성 향상",
+      "prompt": "오늘도 리뷰 프로젝트를 중심으로 역할과 임팩트를 설명해 주세요",
+      "tags": [
+        "Flutter"
+      ],
+      "stack": [
+        "Flutter"
+      ],
+      "impact": "Firebase 기반 데이터/알림 연동 고도화와 구조 개선으로 운영 안정성 향상",
+      "sort_order": 8
+    }
+  ],
+  "hiddenOperationalDocs": [
+    {
+      "title": "공개 프로필의 단일 원본을 Git으로 유지한 이유",
+      "path": "wiki/decisions/source-of-truth.md",
+      "kind": "decision",
+      "layer": "wiki"
+    },
+    {
+      "title": "공개 프로필 위키 인덱스",
+      "path": "wiki/index.md",
+      "kind": "wiki",
+      "layer": "wiki"
+    },
+    {
+      "title": "공개 위키 운영 로그",
+      "path": "wiki/log.md",
+      "kind": "timeline",
+      "layer": "wiki"
+    },
+    {
+      "title": "Obsidian을 공개 프로필 작성 공간으로 두는 이유",
+      "path": "wiki/profile/obsidian-writing-space.md",
+      "kind": "profile",
+      "layer": "wiki"
+    },
+    {
+      "title": "프로필 프로필 개요",
+      "path": "wiki/profile/overview.md",
+      "kind": "profile",
+      "layer": "wiki"
+    },
+    {
+      "title": "Obsidian을 공개 프로필 작성 공간으로 두는 이유",
+      "path": "raw/obsidian/repo-seed/profile/obsidian-writing-space.md",
+      "kind": "decision",
+      "layer": "obsidian"
+    },
+    {
+      "title": "디벨로퍼그룹 경력 원문",
+      "path": "raw/public-sources/career/developer-group-source.md",
+      "kind": "source",
+      "layer": "source"
+    },
+    {
+      "title": "에바 경력 원문",
+      "path": "raw/public-sources/career/evar-source.md",
+      "kind": "source",
+      "layer": "source"
+    },
+    {
+      "title": "공개 이력서 요약 원문",
+      "path": "raw/public-sources/profile/resume-summary.md",
+      "kind": "source",
+      "layer": "source"
+    },
+    {
+      "title": "꿀꺽 공개 원문",
+      "path": "raw/public-sources/projects/drink-up-source.md",
+      "kind": "source",
+      "layer": "source"
+    },
+    {
+      "title": "SnackD 공개 원문",
+      "path": "raw/public-sources/projects/snackd-source.md",
+      "kind": "source",
+      "layer": "source"
+    },
+    {
+      "title": "오늘도 리뷰 공개 원문",
+      "path": "raw/public-sources/projects/today-review-source.md",
+      "kind": "source",
+      "layer": "source"
+    }
+  ],
   "documents": [
+    {
+      "title": "프로필 요약",
+      "slug": "",
+      "path": "virtual/profile-summary",
+      "kind": "profile",
+      "layer": "derived",
+      "tags": [
+        "profile",
+        "summary"
+      ],
+      "updated_at": "2026-04-10",
+      "excerpt": "도전에 두려움이 없는 성향으로 Vue → React, GetX → Riverpod으로의 두 차례 성공적인 기술 스택 전환을 주도하며 회사의 성장을 이끌었습니다. 불확실한 문제 앞에서 여러 해결책을 찾아내고, 빠르게 실행하여 비즈니스 임팩트를 만들어내는 개발자입니다.",
+      "body": "도전에 두려움이 없는 성향으로 Vue → React, GetX → Riverpod으로의 두 차례 성공적인 기술 스택 전환을 주도하며 회사의 성장을 이끌었습니다. 불확실한 문제 앞에서 여러 해결책을 찾아내고, 빠르게 실행하여 비즈니스 임팩트를 만들어내는 개발자입니다.",
+      "source_refs": []
+    },
     {
       "title": "디벨로퍼그룹에서의 역할과 임팩트",
       "slug": "career/company/developer-group",
@@ -197,26 +647,6 @@
       ]
     },
     {
-      "title": "공개 프로필의 단일 원본을 Git으로 유지한 이유",
-      "slug": "decisions/source-of-truth",
-      "path": "wiki/decisions/source-of-truth.md",
-      "kind": "decision",
-      "layer": "wiki",
-      "tags": [
-        "decision",
-        "git",
-        "source-of-truth"
-      ],
-      "updated_at": "2026-04-07",
-      "excerpt": "# 공개 프로필을 Git 단일 원본으로 유지하는 이유 Notion 같은 도구는 작성 경험이 좋지만, 자동화와 검토 흐름까지 고려하면 Git이 더 강한 원본이 된다. 이 저장소에서는 정형 데이터와 문서를 같이 관리하면서, 변경 제안과 공개 반영을 모두 검토 가능한 형태로 남긴다. LLM Wiki도 같은 원칙을 따라 `ra…",
-      "body": "# 공개 프로필을 Git 단일 원본으로 유지하는 이유\n\nNotion 같은 도구는 작성 경험이 좋지만, 자동화와 검토 흐름까지 고려하면 Git이 더 강한 원본이 된다.\n\n이 저장소에서는 정형 데이터와 문서를 같이 관리하면서, 변경 제안과 공개 반영을 모두 검토 가능한 형태로 남긴다. LLM Wiki도 같은 원칙을 따라 `raw`, `wiki`, `public-app`을 Git 기반으로 연결한다.",
-      "source_refs": [
-        "schema/LLM_WIKI.md",
-        "data/master/resume.master.yaml",
-        "data/master/personal_projects.yaml"
-      ]
-    },
-    {
       "title": "채용 담당자가 빠르게 볼 포인트",
       "slug": "faq/hiring-overview",
       "path": "wiki/faq/hiring-overview.md",
@@ -237,42 +667,6 @@
       ]
     },
     {
-      "title": "공개 프로필 위키 인덱스",
-      "slug": "index",
-      "path": "wiki/index.md",
-      "kind": "wiki",
-      "layer": "wiki",
-      "tags": [
-        "index",
-        "navigation"
-      ],
-      "updated_at": "2026-04-07",
-      "excerpt": "# 공개 프로필 위키 이 위키는 이순명의 공개 프로필을 빠르게 탐색하기 위한 인덱스다. ## 바로 보기 - [프로필 개요](./profile/overview.md) - [에바 경력](./career/company/evar.md) - [디벨로퍼그룹 경력](./career/company/developer-group.md)…",
-      "body": "# 공개 프로필 위키\n\n이 위키는 이순명의 공개 프로필을 빠르게 탐색하기 위한 인덱스다.\n\n## 바로 보기\n\n- [프로필 개요](./profile/overview.md)\n- [에바 경력](./career/company/evar.md)\n- [디벨로퍼그룹 경력](./career/company/developer-group.md)\n- [SnackD 프로젝트](./projects/personal/snackd.md)\n- [꿀꺽 프로젝트](./projects/personal/drink-up.md)\n- [오늘도 리뷰 프로젝트](./projects/personal/today-review.md)\n- [일하는 방식](./principles/business-first.md)\n- [자주 받을 질문](./faq/hiring-overview.md)",
-      "source_refs": [
-        "wiki/profile/overview.md",
-        "wiki/career/company/evar.md",
-        "wiki/projects/personal/snackd.md"
-      ]
-    },
-    {
-      "title": "공개 위키 운영 로그",
-      "slug": "log",
-      "path": "wiki/log.md",
-      "kind": "timeline",
-      "layer": "wiki",
-      "tags": [
-        "log",
-        "ingestion"
-      ],
-      "updated_at": "2026-04-07",
-      "excerpt": "# 운영 로그 - 2026-04-07: 공개 위키 기본 구조와 seed 문서를 추가했다. - 2026-04-07: `raw -> wiki -> public-app` 빌드 파이프라인 초안을 연결했다.",
-      "body": "# 운영 로그\n\n- 2026-04-07: 공개 위키 기본 구조와 seed 문서를 추가했다.\n- 2026-04-07: `raw -> wiki -> public-app` 빌드 파이프라인 초안을 연결했다.",
-      "source_refs": [
-        "schema/LLM_WIKI.md"
-      ]
-    },
-    {
       "title": "비즈니스 우선 판단 원칙",
       "slug": "principles/business-first",
       "path": "wiki/principles/business-first.md",
@@ -288,46 +682,6 @@
       "body": "# 비즈니스 우선 판단 원칙\n\n기술 선택은 멋있어 보이는가보다 운영 속도와 사업 임팩트에 어떤 영향을 주는가를 먼저 본다.\n\n그래서 스택 전환을 할 때도 “새 기술이 좋아 보여서”가 아니라 빌드 속도, 릴리스 속도, 유지보수성, 협업 비용이 실제로 줄어드는지를 기준으로 판단한다. Vue에서 React, GetX에서 Riverpod 전환이 대표 사례다.",
       "source_refs": [
         "wiki/profile/overview.md",
-        "data/master/resume.master.yaml"
-      ]
-    },
-    {
-      "title": "Obsidian을 공개 프로필 작성 공간으로 두는 이유",
-      "slug": "profile/obsidian-writing-space",
-      "path": "wiki/profile/obsidian-writing-space.md",
-      "kind": "profile",
-      "layer": "wiki",
-      "tags": [
-        "profile",
-        "obsidian",
-        "workflow",
-        "drafting"
-      ],
-      "updated_at": "2026-04-07",
-      "excerpt": "# Obsidian을 공개 프로필 작성 공간으로 두는 이유 Obsidian은 공개 프로필의 최종 배포 도구가 아니라 초안 작성과 연결 구조 실험에 더 잘 맞는다. 문서를 빠르게 쌓고 링크를 연결한 뒤, `public: true`가 붙은 노트만 이 저장소의 공개 ingest 대상으로 흘려보내면 작성 경험과 공개 통제를 함…",
-      "body": "# Obsidian을 공개 프로필 작성 공간으로 두는 이유\n\nObsidian은 공개 프로필의 최종 배포 도구가 아니라 초안 작성과 연결 구조 실험에 더 잘 맞는다.\n\n문서를 빠르게 쌓고 링크를 연결한 뒤, `public: true`가 붙은 노트만 이 저장소의 공개 ingest 대상으로 흘려보내면 작성 경험과 공개 통제를 함께 가져갈 수 있다. 이 구조는 Obsidian의 그래프 탐색 장점은 살리면서도, 최종 공개는 Git 기반 검토 흐름으로 유지하게 해준다.\n\n이 문서는 공개 원문을 기반으로 생성된 위키 초안입니다.",
-      "source_refs": [
-        "raw/obsidian/repo-seed/profile/obsidian-writing-space.md",
-        "schema/LLM_WIKI.md",
-        "schema/QUERY_POLICY.md"
-      ]
-    },
-    {
-      "title": "이순명 프로필 개요",
-      "slug": "profile/overview",
-      "path": "wiki/profile/overview.md",
-      "kind": "profile",
-      "layer": "wiki",
-      "tags": [
-        "profile",
-        "overview",
-        "frontend"
-      ],
-      "updated_at": "2026-04-07",
-      "excerpt": "# 이순명 비즈니스 가치와 제품 운영 속도를 동시에 챙기는 프런트엔드 개발자다. 핵심 포인트는 세 가지다. 1. 기술 전환을 실제 비즈니스 임팩트로 연결한다. 2. 웹과 모바일을 함께 다루며 제품 전체 흐름을 본다. 3. 자동화와 운영 체계를 만들어 반복 비용을 줄인다. 대표 사례는 [에바 경력](../career/co…",
-      "body": "# 이순명\n\n비즈니스 가치와 제품 운영 속도를 동시에 챙기는 프런트엔드 개발자다.\n\n핵심 포인트는 세 가지다.\n\n1. 기술 전환을 실제 비즈니스 임팩트로 연결한다.\n2. 웹과 모바일을 함께 다루며 제품 전체 흐름을 본다.\n3. 자동화와 운영 체계를 만들어 반복 비용을 줄인다.\n\n대표 사례는 [에바 경력](../career/company/evar.md)과 [디벨로퍼그룹 경력](../career/company/developer-group.md), 그리고 [SnackD](../projects/personal/snackd.md), [꿀꺽](../projects/personal/drink-up.md) 같은 개인 프로젝트에서 확인할 수 있다.",
-      "source_refs": [
-        "raw/public-sources/profile/resume-summary.md",
         "data/master/resume.master.yaml"
       ]
     },
@@ -388,142 +742,21 @@
         "raw/public-sources/projects/today-review-source.md",
         "https://github.com/mylittlereviewduck/mobile"
       ]
-    },
-    {
-      "title": "Obsidian을 공개 프로필 작성 공간으로 두는 이유",
-      "slug": "profile/obsidian-writing-space",
-      "path": "raw/obsidian/repo-seed/profile/obsidian-writing-space.md",
-      "kind": "decision",
-      "layer": "obsidian",
-      "tags": [
-        "obsidian",
-        "workflow",
-        "drafting"
-      ],
-      "updated_at": "2026-04-07",
-      "excerpt": "# Obsidian을 공개 프로필 작성 공간으로 두는 이유 Obsidian은 공개 프로필의 최종 배포 도구가 아니라 초안 작성과 연결 구조 실험에 더 잘 맞는다. 문서를 빠르게 쌓고 링크를 연결한 뒤, `public: true`가 붙은 노트만 이 저장소의 공개 ingest 대상으로 흘려보내면 작성 경험과 공개 통제를 함…",
-      "body": "# Obsidian을 공개 프로필 작성 공간으로 두는 이유\n\nObsidian은 공개 프로필의 최종 배포 도구가 아니라 초안 작성과 연결 구조 실험에 더 잘 맞는다.\n\n문서를 빠르게 쌓고 링크를 연결한 뒤, `public: true`가 붙은 노트만 이 저장소의 공개 ingest 대상으로 흘려보내면 작성 경험과 공개 통제를 함께 가져갈 수 있다. 이 구조는 Obsidian의 그래프 탐색 장점은 살리면서도, 최종 공개는 Git 기반 검토 흐름으로 유지하게 해준다.",
-      "source_refs": [
-        "schema/LLM_WIKI.md",
-        "schema/QUERY_POLICY.md"
-      ]
-    },
-    {
-      "title": "디벨로퍼그룹 경력 원문",
-      "slug": "career/developer-group-source",
-      "path": "raw/public-sources/career/developer-group-source.md",
-      "kind": "source",
-      "layer": "source",
-      "tags": [
-        "career",
-        "kiosk",
-        "frontend"
-      ],
-      "updated_at": "2026-04-07",
-      "excerpt": "디벨로퍼그룹에서는 스터디카페 키오스크와 운영 웹을 담당했다. webpack4에서 Vite로의 전환으로 빌드 속도를 개선했고, GitLab Runner와 AWS EC2 기반 자동배포 체계를 만들었다. React Native CLI로 단독 앱을 배포하면서 웹과 앱의 운영 사이클을 함께 다뤘다.",
-      "body": "디벨로퍼그룹에서는 스터디카페 키오스크와 운영 웹을 담당했다.\n\nwebpack4에서 Vite로의 전환으로 빌드 속도를 개선했고, GitLab Runner와 AWS EC2 기반 자동배포 체계를 만들었다. React Native CLI로 단독 앱을 배포하면서 웹과 앱의 운영 사이클을 함께 다뤘다.",
-      "source_refs": [
-        "data/master/resume.master.yaml",
-        "data/master/career/developer-group.md"
-      ]
-    },
-    {
-      "title": "에바 경력 원문",
-      "slug": "career/evar-source",
-      "path": "raw/public-sources/career/evar-source.md",
-      "kind": "source",
-      "layer": "source",
-      "tags": [
-        "career",
-        "flutter",
-        "mobility"
-      ],
-      "updated_at": "2026-04-07",
-      "excerpt": "에바에서는 Flutter Developer로 EV PAY 앱을 담당했다. 레거시 MVVM, GetX 구조를 Clean Architecture와 Riverpod 중심으로 재정리했고, Fastlane, GitHub Actions, Xcode Cloud를 연계한 자동 배포 체계를 구축했다. 제품 품질과 운영 속도를 동시에 끌…",
-      "body": "에바에서는 Flutter Developer로 EV PAY 앱을 담당했다.\n\n레거시 MVVM, GetX 구조를 Clean Architecture와 Riverpod 중심으로 재정리했고, Fastlane, GitHub Actions, Xcode Cloud를 연계한 자동 배포 체계를 구축했다. 제품 품질과 운영 속도를 동시에 끌어올리는 역할이 중심이었다.",
-      "source_refs": [
-        "data/master/resume.master.yaml",
-        "data/master/career/evar.md"
-      ]
-    },
-    {
-      "title": "공개 이력서 요약 원문",
-      "slug": "profile/resume-summary",
-      "path": "raw/public-sources/profile/resume-summary.md",
-      "kind": "source",
-      "layer": "source",
-      "tags": [
-        "resume",
-        "summary",
-        "profile"
-      ],
-      "updated_at": "2026-04-07",
-      "excerpt": "이순명은 비즈니스 가치를 최우선으로 두는 프런트엔드 개발자다. Vue에서 React, GetX에서 Riverpod으로의 전환처럼 기술 선택이 비즈니스 성장과 운영 안정성에 실제로 연결되는 상황을 반복적으로 만들었다. 불확실한 문제 앞에서 빠르게 대안을 만들고 실행해 임팩트를 만드는 스타일이 핵심 강점이다.",
-      "body": "이순명은 비즈니스 가치를 최우선으로 두는 프런트엔드 개발자다.\n\nVue에서 React, GetX에서 Riverpod으로의 전환처럼 기술 선택이 비즈니스 성장과 운영 안정성에 실제로 연결되는 상황을 반복적으로 만들었다. 불확실한 문제 앞에서 빠르게 대안을 만들고 실행해 임팩트를 만드는 스타일이 핵심 강점이다.",
-      "source_refs": [
-        "data/master/resume.master.yaml"
-      ]
-    },
-    {
-      "title": "꿀꺽 공개 원문",
-      "slug": "projects/drink-up-source",
-      "path": "raw/public-sources/projects/drink-up-source.md",
-      "kind": "source",
-      "layer": "source",
-      "tags": [
-        "project",
-        "hydration",
-        "cloudflare"
-      ],
-      "updated_at": "2026-04-07",
-      "excerpt": "꿀꺽은 수분 섭취 트래킹과 소셜 챌린지를 결합한 서비스다. React, TypeScript, Vite, Cloudflare Workers, Cloudflare KV를 중심으로 구성되어 있고, 친구 초대, 챌린지, 알림 중심의 사용성 실험이 핵심이다.",
-      "body": "꿀꺽은 수분 섭취 트래킹과 소셜 챌린지를 결합한 서비스다.\n\nReact, TypeScript, Vite, Cloudflare Workers, Cloudflare KV를 중심으로 구성되어 있고, 친구 초대, 챌린지, 알림 중심의 사용성 실험이 핵심이다.",
-      "source_refs": [
-        "data/master/personal_projects.yaml",
-        "https://github.com/jsleemaster/drink_up"
-      ]
-    },
-    {
-      "title": "SnackD 공개 원문",
-      "slug": "projects/snackd-source",
-      "path": "raw/public-sources/projects/snackd-source.md",
-      "kind": "source",
-      "layer": "source",
-      "tags": [
-        "project",
-        "nextjs",
-        "hiring"
-      ],
-      "updated_at": "2026-04-07",
-      "excerpt": "SnackD는 디자이너 중심 채용공고 사이트를 빠르게 실험하는 개인 프로젝트다. Next.js, TypeScript, Prisma, NextAuth를 기반으로 만들었고, 채용 탐색 UX와 필터링 인터랙션을 제품 실험의 중심에 두고 있다.",
-      "body": "SnackD는 디자이너 중심 채용공고 사이트를 빠르게 실험하는 개인 프로젝트다.\n\nNext.js, TypeScript, Prisma, NextAuth를 기반으로 만들었고, 채용 탐색 UX와 필터링 인터랙션을 제품 실험의 중심에 두고 있다.",
-      "source_refs": [
-        "data/master/personal_projects.yaml",
-        "https://github.com/jsleemaster/snackD",
-        "https://snack-d.vercel.app"
-      ]
-    },
-    {
-      "title": "오늘도 리뷰 공개 원문",
-      "slug": "projects/today-review-source",
-      "path": "raw/public-sources/projects/today-review-source.md",
-      "kind": "source",
-      "layer": "source",
-      "tags": [
-        "project",
-        "flutter",
-        "mobile"
-      ],
-      "updated_at": "2026-04-07",
-      "excerpt": "오늘도 리뷰는 세상의 다양한 대상을 리뷰하는 모바일 플랫폼이다. Flutter를 기반으로 운영하며, Firebase 연동과 구조 개선을 통해 운영 안정성과 기능 확장성을 다듬었다.",
-      "body": "오늘도 리뷰는 세상의 다양한 대상을 리뷰하는 모바일 플랫폼이다.\n\nFlutter를 기반으로 운영하며, Firebase 연동과 구조 개선을 통해 운영 안정성과 기능 확장성을 다듬었다.",
-      "source_refs": [
-        "data/master/personal_projects.yaml",
-        "https://github.com/mylittlereviewduck/mobile"
-      ]
     }
   ],
   "searchIndex": [
+    {
+      "path": "virtual/profile-summary",
+      "slug": "",
+      "title": "프로필 요약",
+      "kind": "profile",
+      "tags": [
+        "profile",
+        "summary"
+      ],
+      "text": "도전에 두려움이 없는 성향으로 Vue → React, GetX → Riverpod으로의 두 차례 성공적인 기술 스택 전환을 주도하며 회사의 성장을 이끌었습니다. 불확실한 문제 앞에서 여러 해결책을 찾아내고, 빠르게 실행하여 비즈니스 임팩트를 만들어내는 개발자입니다.",
+      "layer": "derived"
+    },
     {
       "path": "wiki/career/company/developer-group.md",
       "slug": "career/company/developer-group",
@@ -534,7 +767,8 @@
         "kiosk",
         "vite"
       ],
-      "text": "디벨로퍼그룹 디벨로퍼그룹에서는 키오스크와 운영 웹, 앱을 함께 다뤘다. webpack4에서 Vite로 전환해 빌드 체감 속도를 개선했고, GitLab Runner와 AWS EC2 기반 자동배포를 구성했다. 제품이 커지는 시점에 개발 경험과 운영 속도를 동시에 다루는 일이 핵심이었다. React Native CLI를 활용해 iOS, Android 앱 배포를 직접 운영한 것도 특징이다. 웹과 앱을 분리해서 보지 않고 서비스 전체 전달 경로를 다루는 역할에 가까웠다."
+      "text": "디벨로퍼그룹 디벨로퍼그룹에서는 키오스크와 운영 웹, 앱을 함께 다뤘다. webpack4에서 Vite로 전환해 빌드 체감 속도를 개선했고, GitLab Runner와 AWS EC2 기반 자동배포를 구성했다. 제품이 커지는 시점에 개발 경험과 운영 속도를 동시에 다루는 일이 핵심이었다. React Native CLI를 활용해 iOS, Android 앱 배포를 직접 운영한 것도 특징이다. 웹과 앱을 분리해서 보지 않고 서비스 전체 전달 경로를 다루는 역할에 가까웠다.",
+      "layer": "wiki"
     },
     {
       "path": "wiki/career/company/evar.md",
@@ -546,19 +780,8 @@
         "flutter",
         "architecture"
       ],
-      "text": "에바 에바에서는 EV PAY 앱의 Flutter 개발과 운영 고도화를 맡았다. 중심 역할은 레거시 구조를 더 오래 버틸 수 있는 형태로 바꾸는 일이었다. MVVM, GetX 기반 구조를 Clean Architecture와 Riverpod 중심으로 재정리해 유지보수성과 기능 확장성을 높였다. 또한 Fastlane, GitHub Actions, Xcode Cloud를 연결해 배포 자동화를 구축했다. 이 변화는 단순한 코드 정리가 아니라 릴리스 사이클과 운영 피로도를 줄이는 실무적 임팩트로 이어졌다."
-    },
-    {
-      "path": "wiki/decisions/source-of-truth.md",
-      "slug": "decisions/source-of-truth",
-      "title": "공개 프로필의 단일 원본을 Git으로 유지한 이유",
-      "kind": "decision",
-      "tags": [
-        "decision",
-        "git",
-        "source-of-truth"
-      ],
-      "text": "공개 프로필을 Git 단일 원본으로 유지하는 이유 Notion 같은 도구는 작성 경험이 좋지만, 자동화와 검토 흐름까지 고려하면 Git이 더 강한 원본이 된다. 이 저장소에서는 정형 데이터와 문서를 같이 관리하면서, 변경 제안과 공개 반영을 모두 검토 가능한 형태로 남긴다. LLM Wiki도 같은 원칙을 따라 , , 을 Git 기반으로 연결한다."
+      "text": "에바 에바에서는 EV PAY 앱의 Flutter 개발과 운영 고도화를 맡았다. 중심 역할은 레거시 구조를 더 오래 버틸 수 있는 형태로 바꾸는 일이었다. MVVM, GetX 기반 구조를 Clean Architecture와 Riverpod 중심으로 재정리해 유지보수성과 기능 확장성을 높였다. 또한 Fastlane, GitHub Actions, Xcode Cloud를 연결해 배포 자동화를 구축했다. 이 변화는 단순한 코드 정리가 아니라 릴리스 사이클과 운영 피로도를 줄이는 실무적 임팩트로 이어졌다.",
+      "layer": "wiki"
     },
     {
       "path": "wiki/faq/hiring-overview.md",
@@ -570,29 +793,8 @@
         "hiring",
         "summary"
       ],
-      "text": "빠르게 볼 포인트 어떤 강점이 있는가 기술 전환을 제품 운영 개선으로 연결한다. 웹과 모바일을 함께 보고 릴리스 흐름까지 설계한다. 자동화와 운영 개선에 강하다. 어떤 프로젝트를 먼저 보면 좋은가 경력은 에바, 디벨로퍼그룹 순서로 보면 전체 그림이 빠르다. 개인 프로젝트는 SnackD, 꿀꺽, 오늘도 리뷰 순서로 보면 제품 감각과 실행 범위를 확인하기 좋다."
-    },
-    {
-      "path": "wiki/index.md",
-      "slug": "index",
-      "title": "공개 프로필 위키 인덱스",
-      "kind": "wiki",
-      "tags": [
-        "index",
-        "navigation"
-      ],
-      "text": "공개 프로필 위키 이 위키는 이순명의 공개 프로필을 빠르게 탐색하기 위한 인덱스다. 바로 보기 프로필 개요 에바 경력 디벨로퍼그룹 경력 SnackD 프로젝트 꿀꺽 프로젝트 오늘도 리뷰 프로젝트 일하는 방식 자주 받을 질문"
-    },
-    {
-      "path": "wiki/log.md",
-      "slug": "log",
-      "title": "공개 위키 운영 로그",
-      "kind": "timeline",
-      "tags": [
-        "log",
-        "ingestion"
-      ],
-      "text": "운영 로그 2026-04-07: 공개 위키 기본 구조와 seed 문서를 추가했다. 2026-04-07: 빌드 파이프라인 초안을 연결했다."
+      "text": "빠르게 볼 포인트 어떤 강점이 있는가 기술 전환을 제품 운영 개선으로 연결한다. 웹과 모바일을 함께 보고 릴리스 흐름까지 설계한다. 자동화와 운영 개선에 강하다. 어떤 프로젝트를 먼저 보면 좋은가 경력은 에바, 디벨로퍼그룹 순서로 보면 전체 그림이 빠르다. 개인 프로젝트는 SnackD, 꿀꺽, 오늘도 리뷰 순서로 보면 제품 감각과 실행 범위를 확인하기 좋다.",
+      "layer": "wiki"
     },
     {
       "path": "wiki/principles/business-first.md",
@@ -604,32 +806,8 @@
         "product",
         "decision"
       ],
-      "text": "비즈니스 우선 판단 원칙 기술 선택은 멋있어 보이는가보다 운영 속도와 사업 임팩트에 어떤 영향을 주는가를 먼저 본다. 그래서 스택 전환을 할 때도 “새 기술이 좋아 보여서”가 아니라 빌드 속도, 릴리스 속도, 유지보수성, 협업 비용이 실제로 줄어드는지를 기준으로 판단한다. Vue에서 React, GetX에서 Riverpod 전환이 대표 사례다."
-    },
-    {
-      "path": "wiki/profile/obsidian-writing-space.md",
-      "slug": "profile/obsidian-writing-space",
-      "title": "Obsidian을 공개 프로필 작성 공간으로 두는 이유",
-      "kind": "profile",
-      "tags": [
-        "profile",
-        "obsidian",
-        "workflow",
-        "drafting"
-      ],
-      "text": "Obsidian을 공개 프로필 작성 공간으로 두는 이유 Obsidian은 공개 프로필의 최종 배포 도구가 아니라 초안 작성과 연결 구조 실험에 더 잘 맞는다. 문서를 빠르게 쌓고 링크를 연결한 뒤, 가 붙은 노트만 이 저장소의 공개 ingest 대상으로 흘려보내면 작성 경험과 공개 통제를 함께 가져갈 수 있다. 이 구조는 Obsidian의 그래프 탐색 장점은 살리면서도, 최종 공개는 Git 기반 검토 흐름으로 유지하게 해준다. 이 문서는 공개 원문을 기반으로 생성된 위키 초안입니다."
-    },
-    {
-      "path": "wiki/profile/overview.md",
-      "slug": "profile/overview",
-      "title": "이순명 프로필 개요",
-      "kind": "profile",
-      "tags": [
-        "profile",
-        "overview",
-        "frontend"
-      ],
-      "text": "이순명 비즈니스 가치와 제품 운영 속도를 동시에 챙기는 프런트엔드 개발자다. 핵심 포인트는 세 가지다. 1. 기술 전환을 실제 비즈니스 임팩트로 연결한다. 2. 웹과 모바일을 함께 다루며 제품 전체 흐름을 본다. 3. 자동화와 운영 체계를 만들어 반복 비용을 줄인다. 대표 사례는 에바 경력과 디벨로퍼그룹 경력, 그리고 SnackD, 꿀꺽 같은 개인 프로젝트에서 확인할 수 있다."
+      "text": "비즈니스 우선 판단 원칙 기술 선택은 멋있어 보이는가보다 운영 속도와 사업 임팩트에 어떤 영향을 주는가를 먼저 본다. 그래서 스택 전환을 할 때도 “새 기술이 좋아 보여서”가 아니라 빌드 속도, 릴리스 속도, 유지보수성, 협업 비용이 실제로 줄어드는지를 기준으로 판단한다. Vue에서 React, GetX에서 Riverpod 전환이 대표 사례다.",
+      "layer": "wiki"
     },
     {
       "path": "wiki/projects/personal/drink-up.md",
@@ -641,7 +819,8 @@
         "social",
         "cloudflare"
       ],
-      "text": "꿀꺽 꿀꺽은 수분 섭취 트래킹을 챌린지와 연결한 서비스다. React, TypeScript, Vite, Cloudflare Workers, Cloudflare KV로 구성되어 있고, 단순 기록 앱보다는 친구 초대와 챌린지 중심의 참여 흐름을 실험하는 제품으로 설계됐다. 서버리스 API 분리와 빠른 실험 주기가 핵심 포인트다."
+      "text": "꿀꺽 꿀꺽은 수분 섭취 트래킹을 챌린지와 연결한 서비스다. React, TypeScript, Vite, Cloudflare Workers, Cloudflare KV로 구성되어 있고, 단순 기록 앱보다는 친구 초대와 챌린지 중심의 참여 흐름을 실험하는 제품으로 설계됐다. 서버리스 API 분리와 빠른 실험 주기가 핵심 포인트다.",
+      "layer": "wiki"
     },
     {
       "path": "wiki/projects/personal/snackd.md",
@@ -653,7 +832,8 @@
         "hiring",
         "nextjs"
       ],
-      "text": "SnackD SnackD는 디자이너 중심 채용공고 탐색 경험을 빠르게 실험하는 프로젝트다. Next.js, TypeScript, Prisma, NextAuth를 사용하며, 실제 서비스보다도 탐색 흐름과 필터링 경험을 어떻게 설계할지에 초점이 있다. “누가 이 정보를 가장 빠르게 이해할까”라는 제품 감각을 실험하는 프로젝트에 가깝다."
+      "text": "SnackD SnackD는 디자이너 중심 채용공고 탐색 경험을 빠르게 실험하는 프로젝트다. Next.js, TypeScript, Prisma, NextAuth를 사용하며, 실제 서비스보다도 탐색 흐름과 필터링 경험을 어떻게 설계할지에 초점이 있다. “누가 이 정보를 가장 빠르게 이해할까”라는 제품 감각을 실험하는 프로젝트에 가깝다.",
+      "layer": "wiki"
     },
     {
       "path": "wiki/projects/personal/today-review.md",
@@ -665,98 +845,14 @@
         "flutter",
         "mobile"
       ],
-      "text": "오늘도 리뷰 오늘도 리뷰는 다양한 대상을 기록하고 공유하는 모바일 리뷰 플랫폼이다. Flutter 기반으로 운영했고, Firebase 연동과 구조 개선을 통해 서비스 운영 안정성을 높였다. 단순 기능 추가보다 운영 가능한 제품 형태로 정리하는 과정이 중요했던 프로젝트다."
-    },
-    {
-      "path": "raw/obsidian/repo-seed/profile/obsidian-writing-space.md",
-      "slug": "profile/obsidian-writing-space",
-      "title": "Obsidian을 공개 프로필 작성 공간으로 두는 이유",
-      "kind": "decision",
-      "tags": [
-        "obsidian",
-        "workflow",
-        "drafting"
-      ],
-      "text": "Obsidian을 공개 프로필 작성 공간으로 두는 이유 Obsidian은 공개 프로필의 최종 배포 도구가 아니라 초안 작성과 연결 구조 실험에 더 잘 맞는다. 문서를 빠르게 쌓고 링크를 연결한 뒤, 가 붙은 노트만 이 저장소의 공개 ingest 대상으로 흘려보내면 작성 경험과 공개 통제를 함께 가져갈 수 있다. 이 구조는 Obsidian의 그래프 탐색 장점은 살리면서도, 최종 공개는 Git 기반 검토 흐름으로 유지하게 해준다."
-    },
-    {
-      "path": "raw/public-sources/career/developer-group-source.md",
-      "slug": "career/developer-group-source",
-      "title": "디벨로퍼그룹 경력 원문",
-      "kind": "source",
-      "tags": [
-        "career",
-        "kiosk",
-        "frontend"
-      ],
-      "text": "디벨로퍼그룹에서는 스터디카페 키오스크와 운영 웹을 담당했다. webpack4에서 Vite로의 전환으로 빌드 속도를 개선했고, GitLab Runner와 AWS EC2 기반 자동배포 체계를 만들었다. React Native CLI로 단독 앱을 배포하면서 웹과 앱의 운영 사이클을 함께 다뤘다."
-    },
-    {
-      "path": "raw/public-sources/career/evar-source.md",
-      "slug": "career/evar-source",
-      "title": "에바 경력 원문",
-      "kind": "source",
-      "tags": [
-        "career",
-        "flutter",
-        "mobility"
-      ],
-      "text": "에바에서는 Flutter Developer로 EV PAY 앱을 담당했다. 레거시 MVVM, GetX 구조를 Clean Architecture와 Riverpod 중심으로 재정리했고, Fastlane, GitHub Actions, Xcode Cloud를 연계한 자동 배포 체계를 구축했다. 제품 품질과 운영 속도를 동시에 끌어올리는 역할이 중심이었다."
-    },
-    {
-      "path": "raw/public-sources/profile/resume-summary.md",
-      "slug": "profile/resume-summary",
-      "title": "공개 이력서 요약 원문",
-      "kind": "source",
-      "tags": [
-        "resume",
-        "summary",
-        "profile"
-      ],
-      "text": "이순명은 비즈니스 가치를 최우선으로 두는 프런트엔드 개발자다. Vue에서 React, GetX에서 Riverpod으로의 전환처럼 기술 선택이 비즈니스 성장과 운영 안정성에 실제로 연결되는 상황을 반복적으로 만들었다. 불확실한 문제 앞에서 빠르게 대안을 만들고 실행해 임팩트를 만드는 스타일이 핵심 강점이다."
-    },
-    {
-      "path": "raw/public-sources/projects/drink-up-source.md",
-      "slug": "projects/drink-up-source",
-      "title": "꿀꺽 공개 원문",
-      "kind": "source",
-      "tags": [
-        "project",
-        "hydration",
-        "cloudflare"
-      ],
-      "text": "꿀꺽은 수분 섭취 트래킹과 소셜 챌린지를 결합한 서비스다. React, TypeScript, Vite, Cloudflare Workers, Cloudflare KV를 중심으로 구성되어 있고, 친구 초대, 챌린지, 알림 중심의 사용성 실험이 핵심이다."
-    },
-    {
-      "path": "raw/public-sources/projects/snackd-source.md",
-      "slug": "projects/snackd-source",
-      "title": "SnackD 공개 원문",
-      "kind": "source",
-      "tags": [
-        "project",
-        "nextjs",
-        "hiring"
-      ],
-      "text": "SnackD는 디자이너 중심 채용공고 사이트를 빠르게 실험하는 개인 프로젝트다. Next.js, TypeScript, Prisma, NextAuth를 기반으로 만들었고, 채용 탐색 UX와 필터링 인터랙션을 제품 실험의 중심에 두고 있다."
-    },
-    {
-      "path": "raw/public-sources/projects/today-review-source.md",
-      "slug": "projects/today-review-source",
-      "title": "오늘도 리뷰 공개 원문",
-      "kind": "source",
-      "tags": [
-        "project",
-        "flutter",
-        "mobile"
-      ],
-      "text": "오늘도 리뷰는 세상의 다양한 대상을 리뷰하는 모바일 플랫폼이다. Flutter를 기반으로 운영하며, Firebase 연동과 구조 개선을 통해 운영 안정성과 기능 확장성을 다듬었다."
+      "text": "오늘도 리뷰 오늘도 리뷰는 다양한 대상을 기록하고 공유하는 모바일 리뷰 플랫폼이다. Flutter 기반으로 운영했고, Firebase 연동과 구조 개선을 통해 서비스 운영 안정성을 높였다. 단순 기능 추가보다 운영 가능한 제품 형태로 정리하는 과정이 중요했던 프로젝트다.",
+      "layer": "wiki"
     }
   ],
   "recommendedQuestions": [
-    "이 개발자를 3문장으로 요약해 주세요",
-    "최근 경력에서 어떤 임팩트를 냈는지 알려주세요",
-    "대표 개인 프로젝트 3개를 비교해 주세요",
-    "일하는 방식과 의사결정 기준을 알려주세요",
-    "중요한 기술적 선택 사례를 알려주세요"
+    "이 개발자의 핵심 강점을 알려주세요",
+    "최근 경력에서 어떤 임팩트를 만들었는지 알려주세요",
+    "대표 프로젝트 3개를 비교해 주세요",
+    "기술 선택과 의사결정 기준을 알려주세요"
   ]
 }

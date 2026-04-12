@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-12T04:50:02.381Z",
+  "generated_at": "2026-04-12T06:14:05.870Z",
   "vaults": [
     {
       "name": "repo-seed",
       "source": "path",
-      "vault_path": "/home/runner/work/resume-source/resume-source/obsidian-vault/public",
-      "public_path": "/home/runner/work/resume-source/resume-source/obsidian-vault/public",
+      "vault_path": "/Users/smlee/resume-source/.worktrees/codex-llm-wiki-public-profile/obsidian-vault/public",
+      "public_path": "/Users/smlee/resume-source/.worktrees/codex-llm-wiki-public-profile/obsidian-vault/public",
       "vault_exists": true,
       "exists": true,
       "candidate_paths": [],
@@ -14,12 +14,14 @@
     {
       "name": "external",
       "source": "auto_discovered",
-      "vault_path": "",
-      "public_path": "",
-      "vault_exists": false,
-      "exists": false,
-      "candidate_paths": [],
-      "reason": "no_auto_discovered_vault"
+      "vault_path": "/Users/smlee/Library/Mobile Documents/iCloud~md~obsidian/Documents/English",
+      "public_path": "/Users/smlee/Library/Mobile Documents/iCloud~md~obsidian/Documents/English/public",
+      "vault_exists": true,
+      "exists": true,
+      "candidate_paths": [
+        "/Users/smlee/Library/Mobile Documents/iCloud~md~obsidian/Documents/English"
+      ],
+      "reason": "ready"
     }
   ]
 }

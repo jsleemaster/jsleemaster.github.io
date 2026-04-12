@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-12T07:10:58.425Z",
+  "generated_at": "2026-04-12T10:43:55.337Z",
   "vaults": [
     {
       "name": "repo-seed",
       "source": "path",
-      "vault_path": "/private/tmp/resume-source-main-wiki-recovery-20260412/obsidian-vault/public",
-      "public_path": "/private/tmp/resume-source-main-wiki-recovery-20260412/obsidian-vault/public",
+      "vault_path": "/home/runner/work/resume-source/resume-source/obsidian-vault/public",
+      "public_path": "/home/runner/work/resume-source/resume-source/obsidian-vault/public",
       "vault_exists": true,
       "exists": true,
       "candidate_paths": [],
@@ -14,14 +14,12 @@
     {
       "name": "external",
       "source": "auto_discovered",
-      "vault_path": "/Users/smlee/Library/Mobile Documents/iCloud~md~obsidian/Documents/English",
-      "public_path": "/Users/smlee/Library/Mobile Documents/iCloud~md~obsidian/Documents/English/public",
-      "vault_exists": true,
-      "exists": true,
-      "candidate_paths": [
-        "/Users/smlee/Library/Mobile Documents/iCloud~md~obsidian/Documents/English"
-      ],
-      "reason": "ready"
+      "vault_path": "",
+      "public_path": "",
+      "vault_exists": false,
+      "exists": false,
+      "candidate_paths": [],
+      "reason": "no_auto_discovered_vault"
     }
   ]
 }

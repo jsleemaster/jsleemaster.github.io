@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-04-12T07:10:58.425Z",
+  "published_at": "2026-04-12T10:43:55.337Z",
   "wiki_documents": [
     "wiki/career/company/developer-group.md",
     "wiki/career/company/evar.md",
@@ -23,24 +23,10 @@
     "raw/public-sources/projects/today-review-source.md"
   ],
   "obsidian_documents": [
-    "raw/obsidian/repo-seed/profile/obsidian-writing-space.md",
-    "raw/obsidian/external/career/developer-group-source.md",
-    "raw/obsidian/external/career/evar-source.md",
-    "raw/obsidian/external/profile/resume-summary.md",
-    "raw/obsidian/external/projects/drink-up-source.md",
-    "raw/obsidian/external/projects/snackd-source.md",
-    "raw/obsidian/external/projects/today-review-source.md"
-  ],
-  "effective_source_documents": [
-    "raw/obsidian/external/career/developer-group-source.md",
-    "raw/obsidian/external/career/evar-source.md",
-    "raw/obsidian/external/profile/resume-summary.md",
-    "raw/obsidian/external/projects/drink-up-source.md",
-    "raw/obsidian/external/projects/snackd-source.md",
-    "raw/obsidian/external/projects/today-review-source.md",
     "raw/obsidian/repo-seed/profile/obsidian-writing-space.md"
   ],
-  "replaced_source_documents": [
+  "effective_source_documents": [
+    "raw/obsidian/repo-seed/profile/obsidian-writing-space.md",
     "raw/public-sources/career/developer-group-source.md",
     "raw/public-sources/career/evar-source.md",
     "raw/public-sources/profile/resume-summary.md",
@@ -48,8 +34,9 @@
     "raw/public-sources/projects/snackd-source.md",
     "raw/public-sources/projects/today-review-source.md"
   ],
+  "replaced_source_documents": [],
   "document_count": 12,
   "raw_source_count": 6,
-  "obsidian_source_count": 7,
+  "obsidian_source_count": 1,
   "effective_source_count": 7
 }

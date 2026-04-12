@@ -1,5 +1,5 @@
 {
-  "publishedAt": "2026-04-12T07:10:58.425Z",
+  "publishedAt": "2026-04-12T10:43:55.337Z",
   "hero": {
     "name": "",
     "namePrivate": {
@@ -550,46 +550,46 @@
       "layer": "wiki"
     },
     {
-      "title": "디벨로퍼그룹 경력 원문",
-      "path": "raw/obsidian/external/career/developer-group-source.md",
-      "kind": "source",
-      "layer": "obsidian"
-    },
-    {
-      "title": "에바 경력 원문",
-      "path": "raw/obsidian/external/career/evar-source.md",
-      "kind": "source",
-      "layer": "obsidian"
-    },
-    {
-      "title": "공개 이력서 요약 원문",
-      "path": "raw/obsidian/external/profile/resume-summary.md",
-      "kind": "source",
-      "layer": "obsidian"
-    },
-    {
-      "title": "꿀꺽 공개 원문",
-      "path": "raw/obsidian/external/projects/drink-up-source.md",
-      "kind": "source",
-      "layer": "obsidian"
-    },
-    {
-      "title": "SnackD 공개 원문",
-      "path": "raw/obsidian/external/projects/snackd-source.md",
-      "kind": "source",
-      "layer": "obsidian"
-    },
-    {
-      "title": "오늘도 리뷰 공개 원문",
-      "path": "raw/obsidian/external/projects/today-review-source.md",
-      "kind": "source",
-      "layer": "obsidian"
-    },
-    {
       "title": "Obsidian을 공개 프로필 작성 공간으로 두는 이유",
       "path": "raw/obsidian/repo-seed/profile/obsidian-writing-space.md",
       "kind": "decision",
       "layer": "obsidian"
+    },
+    {
+      "title": "디벨로퍼그룹 경력 원문",
+      "path": "raw/public-sources/career/developer-group-source.md",
+      "kind": "source",
+      "layer": "source"
+    },
+    {
+      "title": "에바 경력 원문",
+      "path": "raw/public-sources/career/evar-source.md",
+      "kind": "source",
+      "layer": "source"
+    },
+    {
+      "title": "공개 이력서 요약 원문",
+      "path": "raw/public-sources/profile/resume-summary.md",
+      "kind": "source",
+      "layer": "source"
+    },
+    {
+      "title": "꿀꺽 공개 원문",
+      "path": "raw/public-sources/projects/drink-up-source.md",
+      "kind": "source",
+      "layer": "source"
+    },
+    {
+      "title": "SnackD 공개 원문",
+      "path": "raw/public-sources/projects/snackd-source.md",
+      "kind": "source",
+      "layer": "source"
+    },
+    {
+      "title": "오늘도 리뷰 공개 원문",
+      "path": "raw/public-sources/projects/today-review-source.md",
+      "kind": "source",
+      "layer": "source"
     }
   ],
   "documents": [

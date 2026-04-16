@@ -1,0 +1,1072 @@
+{
+  "nodes": [
+    {
+      "id": "career_company:evar",
+      "kind": "career_company",
+      "title": "에바",
+      "path": "",
+      "company_id": "evar",
+      "project_origin": ""
+    },
+    {
+      "id": "career_company:developer-group",
+      "kind": "career_company",
+      "title": "디벨로퍼그룹",
+      "path": "",
+      "company_id": "developer-group",
+      "project_origin": ""
+    },
+    {
+      "id": "document:virtual/profile-summary",
+      "kind": "profile",
+      "title": "프로필 요약",
+      "path": "virtual/profile-summary",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/career/company/developer-group.md",
+      "kind": "career",
+      "title": "디벨로퍼그룹에서의 역할과 임팩트",
+      "path": "wiki/career/company/developer-group.md",
+      "company_id": "developer-group",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:raw/public-sources/career/developer-group-source.md",
+      "kind": "source_ref",
+      "title": "raw/public-sources/career/developer-group-source.md",
+      "path": "raw/public-sources/career/developer-group-source.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:data/master/career/developer-group.md",
+      "kind": "source_ref",
+      "title": "data/master/career/developer-group.md",
+      "path": "data/master/career/developer-group.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/career/company/evar.md",
+      "kind": "career",
+      "title": "에바에서의 역할과 임팩트",
+      "path": "wiki/career/company/evar.md",
+      "company_id": "evar",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:raw/public-sources/career/evar-source.md",
+      "kind": "source_ref",
+      "title": "raw/public-sources/career/evar-source.md",
+      "path": "raw/public-sources/career/evar-source.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:data/master/career/evar.md",
+      "kind": "source_ref",
+      "title": "data/master/career/evar.md",
+      "path": "data/master/career/evar.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/faq/hiring-overview.md",
+      "kind": "faq",
+      "title": "채용 담당자가 빠르게 볼 포인트",
+      "path": "wiki/faq/hiring-overview.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:wiki/profile/overview.md",
+      "kind": "source_ref",
+      "title": "wiki/profile/overview.md",
+      "path": "wiki/profile/overview.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:wiki/career/company/evar.md",
+      "kind": "source_ref",
+      "title": "wiki/career/company/evar.md",
+      "path": "wiki/career/company/evar.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:wiki/career/company/developer-group.md",
+      "kind": "source_ref",
+      "title": "wiki/career/company/developer-group.md",
+      "path": "wiki/career/company/developer-group.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:wiki/projects/personal/snackd.md",
+      "kind": "source_ref",
+      "title": "wiki/projects/personal/snackd.md",
+      "path": "wiki/projects/personal/snackd.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:wiki/projects/personal/drink-up.md",
+      "kind": "source_ref",
+      "title": "wiki/projects/personal/drink-up.md",
+      "path": "wiki/projects/personal/drink-up.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:wiki/projects/personal/today-review.md",
+      "kind": "source_ref",
+      "title": "wiki/projects/personal/today-review.md",
+      "path": "wiki/projects/personal/today-review.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/principles/business-first.md",
+      "kind": "principle",
+      "title": "비즈니스 우선 판단 원칙",
+      "path": "wiki/principles/business-first.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:data/master/resume.master.yaml",
+      "kind": "source_ref",
+      "title": "data/master/resume.master.yaml",
+      "path": "data/master/resume.master.yaml",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/projects/personal/drink-up.md",
+      "kind": "project",
+      "title": "꿀꺽 프로젝트",
+      "path": "wiki/projects/personal/drink-up.md",
+      "company_id": "",
+      "project_origin": "personal",
+      "representative_rank": 5
+    },
+    {
+      "id": "source_ref:raw/public-sources/projects/drink-up-source.md",
+      "kind": "source_ref",
+      "title": "raw/public-sources/projects/drink-up-source.md",
+      "path": "raw/public-sources/projects/drink-up-source.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:https://github.com/jsleemaster/drink_up",
+      "kind": "source_ref",
+      "title": "https://github.com/jsleemaster/drink_up",
+      "path": "https://github.com/jsleemaster/drink_up",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/projects/personal/snackd.md",
+      "kind": "project",
+      "title": "SnackD 프로젝트",
+      "path": "wiki/projects/personal/snackd.md",
+      "company_id": "",
+      "project_origin": "personal",
+      "representative_rank": 1
+    },
+    {
+      "id": "source_ref:raw/public-sources/projects/snackd-source.md",
+      "kind": "source_ref",
+      "title": "raw/public-sources/projects/snackd-source.md",
+      "path": "raw/public-sources/projects/snackd-source.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:https://github.com/jsleemaster/snackD",
+      "kind": "source_ref",
+      "title": "https://github.com/jsleemaster/snackD",
+      "path": "https://github.com/jsleemaster/snackD",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:https://snack-d.vercel.app",
+      "kind": "source_ref",
+      "title": "https://snack-d.vercel.app",
+      "path": "https://snack-d.vercel.app",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/projects/personal/today-review.md",
+      "kind": "project",
+      "title": "오늘도 리뷰 프로젝트",
+      "path": "wiki/projects/personal/today-review.md",
+      "company_id": "",
+      "project_origin": "personal",
+      "representative_rank": 8
+    },
+    {
+      "id": "source_ref:raw/public-sources/projects/today-review-source.md",
+      "kind": "source_ref",
+      "title": "raw/public-sources/projects/today-review-source.md",
+      "path": "raw/public-sources/projects/today-review-source.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:https://github.com/mylittlereviewduck/mobile",
+      "kind": "source_ref",
+      "title": "https://github.com/mylittlereviewduck/mobile",
+      "path": "https://github.com/mylittlereviewduck/mobile",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/projects/company/evpay.md",
+      "kind": "project",
+      "title": "EV PAY",
+      "path": "wiki/projects/company/evpay.md",
+      "company_id": "evar",
+      "project_origin": "company",
+      "representative_rank": 1
+    },
+    {
+      "id": "source_ref:data/master/projects/evpay.md",
+      "kind": "source_ref",
+      "title": "data/master/projects/evpay.md",
+      "path": "data/master/projects/evpay.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/projects/company/jeondam-gate.md",
+      "kind": "project",
+      "title": "전담GATE 무인24",
+      "path": "wiki/projects/company/jeondam-gate.md",
+      "company_id": "developer-group",
+      "project_origin": "company",
+      "representative_rank": 2
+    },
+    {
+      "id": "source_ref:data/master/projects/jeondam-gate.md",
+      "kind": "source_ref",
+      "title": "data/master/projects/jeondam-gate.md",
+      "path": "data/master/projects/jeondam-gate.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/projects/company/ifa-2023.md",
+      "kind": "project",
+      "title": "IFA 2023",
+      "path": "wiki/projects/company/ifa-2023.md",
+      "company_id": "developer-group",
+      "project_origin": "company",
+      "representative_rank": 3
+    },
+    {
+      "id": "source_ref:data/master/projects/ifa-2023.md",
+      "kind": "source_ref",
+      "title": "data/master/projects/ifa-2023.md",
+      "path": "data/master/projects/ifa-2023.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/projects/company/yeonggwang-resort.md",
+      "kind": "project",
+      "title": "영광리조트",
+      "path": "wiki/projects/company/yeonggwang-resort.md",
+      "company_id": "developer-group",
+      "project_origin": "company",
+      "representative_rank": 4
+    },
+    {
+      "id": "source_ref:data/master/projects/yeonggwang-resort.md",
+      "kind": "source_ref",
+      "title": "data/master/projects/yeonggwang-resort.md",
+      "path": "data/master/projects/yeonggwang-resort.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/projects/company/therapy.md",
+      "kind": "project",
+      "title": "테라피",
+      "path": "wiki/projects/company/therapy.md",
+      "company_id": "developer-group",
+      "project_origin": "company",
+      "representative_rank": 5
+    },
+    {
+      "id": "source_ref:data/master/projects/therapy.md",
+      "kind": "source_ref",
+      "title": "data/master/projects/therapy.md",
+      "path": "data/master/projects/therapy.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/projects/company/momu-golf.md",
+      "kind": "project",
+      "title": "모무 골프",
+      "path": "wiki/projects/company/momu-golf.md",
+      "company_id": "developer-group",
+      "project_origin": "company",
+      "representative_rank": 6
+    },
+    {
+      "id": "source_ref:data/master/projects/momu-golf.md",
+      "kind": "source_ref",
+      "title": "data/master/projects/momu-golf.md",
+      "path": "data/master/projects/momu-golf.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/projects/company/style-vending.md",
+      "kind": "project",
+      "title": "스타일자판기",
+      "path": "wiki/projects/company/style-vending.md",
+      "company_id": "developer-group",
+      "project_origin": "company",
+      "representative_rank": 7
+    },
+    {
+      "id": "source_ref:data/master/projects/style-vending.md",
+      "kind": "source_ref",
+      "title": "data/master/projects/style-vending.md",
+      "path": "data/master/projects/style-vending.md",
+      "company_id": "",
+      "project_origin": ""
+    }
+  ],
+  "edges": [
+    {
+      "from": "career_company:developer-group",
+      "to": "document:wiki/career/company/developer-group.md",
+      "type": "belongs_to_company",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/developer-group.md",
+      "to": "source_ref:raw/public-sources/career/developer-group-source.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/developer-group.md",
+      "to": "source_ref:data/master/career/developer-group.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/developer-group.md",
+      "to": "document:wiki/projects/company/jeondam-gate.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/developer-group.md",
+      "to": "document:wiki/projects/company/ifa-2023.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/developer-group.md",
+      "to": "document:wiki/projects/company/yeonggwang-resort.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/developer-group.md",
+      "to": "document:wiki/projects/company/therapy.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/developer-group.md",
+      "to": "document:wiki/projects/company/momu-golf.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/developer-group.md",
+      "to": "document:wiki/projects/company/style-vending.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "career_company:evar",
+      "to": "document:wiki/career/company/evar.md",
+      "type": "belongs_to_company",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/evar.md",
+      "to": "source_ref:raw/public-sources/career/evar-source.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/evar.md",
+      "to": "source_ref:data/master/career/evar.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/evar.md",
+      "to": "document:wiki/projects/company/evpay.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/hiring-overview.md",
+      "to": "source_ref:wiki/profile/overview.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/hiring-overview.md",
+      "to": "source_ref:wiki/career/company/evar.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/hiring-overview.md",
+      "to": "source_ref:wiki/career/company/developer-group.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/hiring-overview.md",
+      "to": "source_ref:wiki/projects/personal/snackd.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/hiring-overview.md",
+      "to": "source_ref:wiki/projects/personal/drink-up.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/hiring-overview.md",
+      "to": "source_ref:wiki/projects/personal/today-review.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/hiring-overview.md",
+      "to": "document:wiki/principles/business-first.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/principles/business-first.md",
+      "to": "source_ref:wiki/profile/overview.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/principles/business-first.md",
+      "to": "source_ref:data/master/resume.master.yaml",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/principles/business-first.md",
+      "to": "source_ref:wiki/career/company/evar.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/principles/business-first.md",
+      "to": "source_ref:wiki/career/company/developer-group.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/principles/business-first.md",
+      "to": "document:wiki/faq/hiring-overview.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/personal/drink-up.md",
+      "to": "source_ref:raw/public-sources/projects/drink-up-source.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/personal/drink-up.md",
+      "to": "source_ref:https://github.com/jsleemaster/drink_up",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/personal/snackd.md",
+      "to": "source_ref:raw/public-sources/projects/snackd-source.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/personal/snackd.md",
+      "to": "source_ref:https://github.com/jsleemaster/snackD",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/personal/snackd.md",
+      "to": "source_ref:https://snack-d.vercel.app",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/personal/today-review.md",
+      "to": "source_ref:raw/public-sources/projects/today-review-source.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/personal/today-review.md",
+      "to": "source_ref:https://github.com/mylittlereviewduck/mobile",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "career_company:evar",
+      "to": "document:wiki/projects/company/evpay.md",
+      "type": "belongs_to_company",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/evpay.md",
+      "to": "source_ref:data/master/projects/evpay.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/evpay.md",
+      "to": "source_ref:data/master/career/evar.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/evpay.md",
+      "to": "document:wiki/career/company/evar.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "career_company:developer-group",
+      "to": "document:wiki/projects/company/jeondam-gate.md",
+      "type": "belongs_to_company",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/jeondam-gate.md",
+      "to": "source_ref:data/master/projects/jeondam-gate.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/jeondam-gate.md",
+      "to": "source_ref:data/master/career/developer-group.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/jeondam-gate.md",
+      "to": "document:wiki/career/company/developer-group.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/jeondam-gate.md",
+      "to": "document:wiki/projects/company/ifa-2023.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/jeondam-gate.md",
+      "to": "document:wiki/projects/company/yeonggwang-resort.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/jeondam-gate.md",
+      "to": "document:wiki/projects/company/therapy.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/jeondam-gate.md",
+      "to": "document:wiki/projects/company/momu-golf.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/jeondam-gate.md",
+      "to": "document:wiki/projects/company/style-vending.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "career_company:developer-group",
+      "to": "document:wiki/projects/company/ifa-2023.md",
+      "type": "belongs_to_company",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/ifa-2023.md",
+      "to": "source_ref:data/master/projects/ifa-2023.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/ifa-2023.md",
+      "to": "source_ref:data/master/career/developer-group.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/ifa-2023.md",
+      "to": "document:wiki/career/company/developer-group.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/ifa-2023.md",
+      "to": "document:wiki/projects/company/jeondam-gate.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/ifa-2023.md",
+      "to": "document:wiki/projects/company/yeonggwang-resort.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/ifa-2023.md",
+      "to": "document:wiki/projects/company/therapy.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/ifa-2023.md",
+      "to": "document:wiki/projects/company/momu-golf.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/ifa-2023.md",
+      "to": "document:wiki/projects/company/style-vending.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "career_company:developer-group",
+      "to": "document:wiki/projects/company/yeonggwang-resort.md",
+      "type": "belongs_to_company",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/yeonggwang-resort.md",
+      "to": "source_ref:data/master/projects/yeonggwang-resort.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/yeonggwang-resort.md",
+      "to": "source_ref:data/master/career/developer-group.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/yeonggwang-resort.md",
+      "to": "document:wiki/career/company/developer-group.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/yeonggwang-resort.md",
+      "to": "document:wiki/projects/company/jeondam-gate.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/yeonggwang-resort.md",
+      "to": "document:wiki/projects/company/ifa-2023.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/yeonggwang-resort.md",
+      "to": "document:wiki/projects/company/therapy.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/yeonggwang-resort.md",
+      "to": "document:wiki/projects/company/momu-golf.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/yeonggwang-resort.md",
+      "to": "document:wiki/projects/company/style-vending.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "career_company:developer-group",
+      "to": "document:wiki/projects/company/therapy.md",
+      "type": "belongs_to_company",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/therapy.md",
+      "to": "source_ref:data/master/projects/therapy.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/therapy.md",
+      "to": "source_ref:data/master/career/developer-group.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/therapy.md",
+      "to": "document:wiki/career/company/developer-group.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/therapy.md",
+      "to": "document:wiki/projects/company/jeondam-gate.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/therapy.md",
+      "to": "document:wiki/projects/company/ifa-2023.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/therapy.md",
+      "to": "document:wiki/projects/company/yeonggwang-resort.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/therapy.md",
+      "to": "document:wiki/projects/company/momu-golf.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/therapy.md",
+      "to": "document:wiki/projects/company/style-vending.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "career_company:developer-group",
+      "to": "document:wiki/projects/company/momu-golf.md",
+      "type": "belongs_to_company",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/momu-golf.md",
+      "to": "source_ref:data/master/projects/momu-golf.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/momu-golf.md",
+      "to": "source_ref:data/master/career/developer-group.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/momu-golf.md",
+      "to": "document:wiki/career/company/developer-group.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/momu-golf.md",
+      "to": "document:wiki/projects/company/jeondam-gate.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/momu-golf.md",
+      "to": "document:wiki/projects/company/ifa-2023.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/momu-golf.md",
+      "to": "document:wiki/projects/company/yeonggwang-resort.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/momu-golf.md",
+      "to": "document:wiki/projects/company/therapy.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/momu-golf.md",
+      "to": "document:wiki/projects/company/style-vending.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "career_company:developer-group",
+      "to": "document:wiki/projects/company/style-vending.md",
+      "type": "belongs_to_company",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/style-vending.md",
+      "to": "source_ref:data/master/projects/style-vending.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/style-vending.md",
+      "to": "source_ref:data/master/career/developer-group.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/style-vending.md",
+      "to": "document:wiki/career/company/developer-group.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/style-vending.md",
+      "to": "document:wiki/projects/company/jeondam-gate.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/style-vending.md",
+      "to": "document:wiki/projects/company/ifa-2023.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/style-vending.md",
+      "to": "document:wiki/projects/company/yeonggwang-resort.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/style-vending.md",
+      "to": "document:wiki/projects/company/therapy.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/style-vending.md",
+      "to": "document:wiki/projects/company/momu-golf.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    }
+  ]
+}

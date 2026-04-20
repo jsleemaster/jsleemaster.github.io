@@ -345,6 +345,56 @@
       "path": "data/master/projects/style-vending.md",
       "company_id": "",
       "project_origin": ""
+    },
+    {
+      "id": "document:virtual/personal-projects/quote-notifier",
+      "kind": "project",
+      "title": "오늘의 한 줄",
+      "path": "virtual/personal-projects/quote-notifier",
+      "company_id": "",
+      "project_origin": "personal",
+      "representative_rank": 2
+    },
+    {
+      "id": "source_ref:data/master/personal_projects.yaml",
+      "kind": "source_ref",
+      "title": "data/master/personal_projects.yaml",
+      "path": "data/master/personal_projects.yaml",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:https://github.com/jsleemaster/quote_notifier",
+      "kind": "source_ref",
+      "title": "https://github.com/jsleemaster/quote_notifier",
+      "path": "https://github.com/jsleemaster/quote_notifier",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:https://user-web-jade.vercel.app",
+      "kind": "source_ref",
+      "title": "https://user-web-jade.vercel.app",
+      "path": "https://user-web-jade.vercel.app",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:virtual/personal-projects/cltree",
+      "kind": "project",
+      "title": "Cltree",
+      "path": "virtual/personal-projects/cltree",
+      "company_id": "",
+      "project_origin": "personal",
+      "representative_rank": 3
+    },
+    {
+      "id": "source_ref:https://github.com/jsleemaster/cltree",
+      "kind": "source_ref",
+      "title": "https://github.com/jsleemaster/cltree",
+      "path": "https://github.com/jsleemaster/cltree",
+      "company_id": "",
+      "project_origin": ""
     }
   ],
   "edges": [
@@ -1064,6 +1114,46 @@
       "from": "document:wiki/projects/company/style-vending.md",
       "to": "document:wiki/projects/company/momu-golf.md",
       "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:virtual/personal-projects/quote-notifier",
+      "to": "source_ref:data/master/personal_projects.yaml",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:virtual/personal-projects/quote-notifier",
+      "to": "source_ref:https://github.com/jsleemaster/quote_notifier",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:virtual/personal-projects/quote-notifier",
+      "to": "source_ref:https://user-web-jade.vercel.app",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:virtual/personal-projects/cltree",
+      "to": "source_ref:data/master/personal_projects.yaml",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:virtual/personal-projects/cltree",
+      "to": "source_ref:https://github.com/jsleemaster/cltree",
+      "type": "references_source",
       "strength": "hard",
       "confidence": "EXTRACTED",
       "source": "canonical"

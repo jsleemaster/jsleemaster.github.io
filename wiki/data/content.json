@@ -1,5 +1,5 @@
 {
-  "publishedAt": "2026-04-23T14:21:10.082Z",
+  "publishedAt": "2026-04-29T06:28:55.250Z",
   "hero": {
     "name": "",
     "namePrivate": {
@@ -167,6 +167,24 @@
       "ios_url": "",
       "android_url": "",
       "sort_order": 3
+    },
+    {
+      "id": "peep",
+      "title": "peep",
+      "summary": "AI 코딩 에이전트 작업을 터미널에서 실시간으로 관찰하는 대시보드",
+      "stack": [
+        "Rust",
+        "ratatui",
+        "crossterm",
+        "tokio"
+      ],
+      "impact": "Claude Code, Codex CLI, Gemini CLI 로컬 세션 로그 자동 탐지와 하위 에이전트 포커스 모드 제공",
+      "demo_url": "https://github.com/jsleemaster/peep/releases/latest",
+      "repo_url": "https://github.com/jsleemaster/peep",
+      "icon_url": "https://opengraph.githubassets.com/1/jsleemaster/peep",
+      "ios_url": "",
+      "android_url": "",
+      "sort_order": 4
     },
     {
       "id": "drink-up",
@@ -484,6 +502,31 @@
       "sort_order": 3,
       "path": "virtual/personal-projects/cltree",
       "slug": "projects/personal/cltree",
+      "project_origin": "personal"
+    },
+    {
+      "id": "peep",
+      "folderId": "projects",
+      "kind": "project",
+      "title": "peep",
+      "subtitle": "AI 코딩 에이전트 작업을 터미널에서 실시간으로 관찰하는 대시보드",
+      "body": "AI 코딩 에이전트 작업을 터미널에서 실시간으로 관찰하는 대시보드\nClaude Code, Codex CLI, Gemini CLI 로컬 세션 로그 자동 탐지와 하위 에이전트 포커스 모드 제공",
+      "prompt": "peep 프로젝트를 중심으로 역할과 임팩트를 설명해 주세요",
+      "tags": [
+        "Rust",
+        "ratatui",
+        "crossterm"
+      ],
+      "stack": [
+        "Rust",
+        "ratatui",
+        "crossterm",
+        "tokio"
+      ],
+      "impact": "Claude Code, Codex CLI, Gemini CLI 로컬 세션 로그 자동 탐지와 하위 에이전트 포커스 모드 제공",
+      "sort_order": 4,
+      "path": "virtual/personal-projects/peep",
+      "slug": "projects/personal/peep",
       "project_origin": "personal"
     },
     {
@@ -1579,6 +1622,34 @@
       "representative_rank": 3,
       "related_paths": [],
       "relations": []
+    },
+    {
+      "title": "peep",
+      "slug": "projects/personal/peep",
+      "path": "virtual/personal-projects/peep",
+      "kind": "project",
+      "layer": "derived",
+      "tags": [
+        "project",
+        "Rust",
+        "ratatui",
+        "crossterm",
+        "tokio"
+      ],
+      "updated_at": "2026-04-29",
+      "excerpt": "peep은 AI 코딩 에이전트가 작업하는 과정을 터미널에서 실시간으로 확인하는 대시보드입니다. Claude Code, Codex CLI, Gemini CLI의 로컬 세션 로그를 자동으로 읽고, 프로젝트 탭과 하위 에이전트 포커스 모드로 여러 에이전트의 흐름을 한눈에 볼 수 있게 만든 공개 CLI 프로젝트입니다.",
+      "body": "peep은 AI 코딩 에이전트가 작업하는 과정을 터미널에서 실시간으로 확인하는 대시보드입니다.\n\nClaude Code, Codex CLI, Gemini CLI가 남기는 로컬 세션 로그를 자동 탐지해 별도 API 키나 호스팅 대시보드 없이 사용할 수 있습니다. 프로젝트 탭, 픽셀 아트 캐릭터, 하위 에이전트 포커스 모드, 컨텍스트 사용량 표시를 제공하며, `peep --mock`으로 실제 로그 없이도 UI를 미리 볼 수 있습니다.\n\nRust, ratatui, crossterm, tokio 기반으로 만든 설치형 개발자 도구이며, Homebrew와 GitHub Releases를 통해 공개 배포합니다.\n\n공개 링크\n- GitHub: https://github.com/jsleemaster/peep\n- Release: https://github.com/jsleemaster/peep/releases/latest",
+      "source_refs": [
+        "data/master/personal_projects.yaml",
+        "https://github.com/jsleemaster/peep",
+        "https://github.com/jsleemaster/peep/releases/latest"
+      ],
+      "entity_id": "peep",
+      "company_id": "",
+      "project_origin": "personal",
+      "representative_rank": 4,
+      "related_paths": [],
+      "relations": []
     }
   ],
   "publicGraph": {
@@ -1976,6 +2047,31 @@
         "kind": "source_ref",
         "title": "https://github.com/jsleemaster/cltree",
         "path": "https://github.com/jsleemaster/cltree",
+        "company_id": "",
+        "project_origin": ""
+      },
+      {
+        "id": "document:virtual/personal-projects/peep",
+        "kind": "project",
+        "title": "peep",
+        "path": "virtual/personal-projects/peep",
+        "company_id": "",
+        "project_origin": "personal",
+        "representative_rank": 4
+      },
+      {
+        "id": "source_ref:https://github.com/jsleemaster/peep",
+        "kind": "source_ref",
+        "title": "https://github.com/jsleemaster/peep",
+        "path": "https://github.com/jsleemaster/peep",
+        "company_id": "",
+        "project_origin": ""
+      },
+      {
+        "id": "source_ref:https://github.com/jsleemaster/peep/releases/latest",
+        "kind": "source_ref",
+        "title": "https://github.com/jsleemaster/peep/releases/latest",
+        "path": "https://github.com/jsleemaster/peep/releases/latest",
         "company_id": "",
         "project_origin": ""
       }
@@ -2740,6 +2836,30 @@
         "strength": "hard",
         "confidence": "EXTRACTED",
         "source": "canonical"
+      },
+      {
+        "from": "document:virtual/personal-projects/peep",
+        "to": "source_ref:data/master/personal_projects.yaml",
+        "type": "references_source",
+        "strength": "hard",
+        "confidence": "EXTRACTED",
+        "source": "canonical"
+      },
+      {
+        "from": "document:virtual/personal-projects/peep",
+        "to": "source_ref:https://github.com/jsleemaster/peep",
+        "type": "references_source",
+        "strength": "hard",
+        "confidence": "EXTRACTED",
+        "source": "canonical"
+      },
+      {
+        "from": "document:virtual/personal-projects/peep",
+        "to": "source_ref:https://github.com/jsleemaster/peep/releases/latest",
+        "type": "references_source",
+        "strength": "hard",
+        "confidence": "EXTRACTED",
+        "source": "canonical"
       }
     ]
   },
@@ -2980,6 +3100,21 @@
         "crossterm"
       ],
       "text": "Cltree는 Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 프로젝트입니다. 2026 ~ 현재 동안 운영한 개인 프로젝트입니다. 핵심 임팩트는 npm 배포와 다국어 문서 운영으로 CLI 개발자 도구 공개 배포입니다. 주요 스택은 Rust, ratatui, tokio, crossterm입니다. 공개 링크 GitHub: https://github.com/jsleemaster/cltree Web: https://github.com/jsleemaster/cltree",
+      "layer": "derived"
+    },
+    {
+      "path": "virtual/personal-projects/peep",
+      "slug": "projects/personal/peep",
+      "title": "peep",
+      "kind": "project",
+      "tags": [
+        "project",
+        "Rust",
+        "ratatui",
+        "crossterm",
+        "tokio"
+      ],
+      "text": "peep은 AI 코딩 에이전트가 작업하는 과정을 터미널에서 실시간으로 확인하는 대시보드입니다. Claude Code, Codex CLI, Gemini CLI가 남기는 로컬 세션 로그를 자동 탐지해 별도 API 키나 호스팅 대시보드 없이 사용할 수 있습니다. 프로젝트 탭, 픽셀 아트 캐릭터, 하위 에이전트 포커스 모드, 컨텍스트 사용량 표시를 제공하며, `peep --mock`으로 실제 로그 없이도 UI를 미리 볼 수 있습니다. Rust, ratatui, crossterm, tokio 기반으로 만든 설치형 개발자 도구이며, Homebrew와 GitHub Releases를 통해 공개 배포합니다. 공개 링크 - GitHub: https://github.com/jsleemaster/peep - Release: https://github.com/jsleemaster/peep/releases/latest",
       "layer": "derived"
     }
   ],

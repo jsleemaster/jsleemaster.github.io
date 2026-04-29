@@ -420,6 +420,31 @@
       "path": "https://github.com/jsleemaster/peep/releases/latest",
       "company_id": "",
       "project_origin": ""
+    },
+    {
+      "id": "document:virtual/personal-projects/picklee",
+      "kind": "project",
+      "title": "Picklee",
+      "path": "virtual/personal-projects/picklee",
+      "company_id": "",
+      "project_origin": "personal",
+      "representative_rank": 6
+    },
+    {
+      "id": "source_ref:https://github.com/jsleemaster/picklee",
+      "kind": "source_ref",
+      "title": "https://github.com/jsleemaster/picklee",
+      "path": "https://github.com/jsleemaster/picklee",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:https://picklee.vercel.app",
+      "kind": "source_ref",
+      "title": "https://picklee.vercel.app",
+      "path": "https://picklee.vercel.app",
+      "company_id": "",
+      "project_origin": ""
     }
   ],
   "edges": [
@@ -1202,6 +1227,30 @@
     {
       "from": "document:virtual/personal-projects/peep",
       "to": "source_ref:https://github.com/jsleemaster/peep/releases/latest",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:virtual/personal-projects/picklee",
+      "to": "source_ref:data/master/personal_projects.yaml",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:virtual/personal-projects/picklee",
+      "to": "source_ref:https://github.com/jsleemaster/picklee",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:virtual/personal-projects/picklee",
+      "to": "source_ref:https://picklee.vercel.app",
       "type": "references_source",
       "strength": "hard",
       "confidence": "EXTRACTED",

@@ -251,5 +251,20 @@
     ],
     "text": "peep은 AI 코딩 에이전트가 작업하는 과정을 터미널에서 실시간으로 확인하는 대시보드입니다. Claude Code, Codex CLI, Gemini CLI가 남기는 로컬 세션 로그를 자동 탐지해 별도 API 키나 호스팅 대시보드 없이 사용할 수 있습니다. 프로젝트 탭, 픽셀 아트 캐릭터, 하위 에이전트 포커스 모드, 컨텍스트 사용량 표시를 제공하며, `peep --mock`으로 실제 로그 없이도 UI를 미리 볼 수 있습니다. Rust, ratatui, crossterm, tokio 기반으로 만든 설치형 개발자 도구이며, Homebrew와 GitHub Releases를 통해 공개 배포합니다. 공개 링크 - GitHub: https://github.com/jsleemaster/peep - Release: https://github.com/jsleemaster/peep/releases/latest",
     "layer": "derived"
+  },
+  {
+    "path": "virtual/personal-projects/picklee",
+    "slug": "projects/personal/picklee",
+    "title": "Picklee",
+    "kind": "project",
+    "tags": [
+      "project",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "MDX"
+    ],
+    "text": "Picklee는 AI 트렌드를 큐레이션하고 MDX 콘텐츠로 발행하는 Next.js 기반 매거진 프로젝트입니다. Next.js App Router, TypeScript, Tailwind CSS, shadcn/ui 기반으로 홈, 아티클 목록, 상세, 태그, 아카이브, 검색 화면을 구성했습니다. Notion에서 콘텐츠를 동기화해 MDX로 저장하고, 빌드 시 로컬 검색 인덱스를 생성해 클라이언트에서 빠르게 탐색할 수 있게 했습니다. 콘텐츠 서비스에서 필요한 RSS, 사이트맵, robots.txt, 태그 허브, 연도별 아카이브까지 운영 흐름을 함께 설계한 프로젝트입니다. 공개 링크 - Web: https://picklee.vercel.app - GitHub: https://github.com/jsleemaster/picklee",
+    "layer": "derived"
   }
 ]

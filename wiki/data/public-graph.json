@@ -65,10 +65,42 @@
       "project_origin": ""
     },
     {
+      "id": "source_ref:raw/public-sources/profile/ai-workflow-source.md",
+      "kind": "source_ref",
+      "title": "raw/public-sources/profile/ai-workflow-source.md",
+      "path": "raw/public-sources/profile/ai-workflow-source.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
       "id": "source_ref:data/master/career/evar.md",
       "kind": "source_ref",
       "title": "data/master/career/evar.md",
       "path": "data/master/career/evar.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:data/master/projects/nova-backoffice.md",
+      "kind": "source_ref",
+      "title": "data/master/projects/nova-backoffice.md",
+      "path": "data/master/projects/nova-backoffice.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "document:wiki/faq/ai-workflow.md",
+      "kind": "faq",
+      "title": "AI 워크플로우와 문제 해결 경험",
+      "path": "wiki/faq/ai-workflow.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:data/master/resume.master.yaml",
+      "kind": "source_ref",
+      "title": "data/master/resume.master.yaml",
+      "path": "data/master/resume.master.yaml",
       "company_id": "",
       "project_origin": ""
     },
@@ -85,6 +117,14 @@
       "kind": "source_ref",
       "title": "wiki/profile/overview.md",
       "path": "wiki/profile/overview.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:wiki/faq/ai-workflow.md",
+      "kind": "source_ref",
+      "title": "wiki/faq/ai-workflow.md",
+      "path": "wiki/faq/ai-workflow.md",
       "company_id": "",
       "project_origin": ""
     },
@@ -133,14 +173,6 @@
       "kind": "principle",
       "title": "비즈니스 우선 판단 원칙",
       "path": "wiki/principles/business-first.md",
-      "company_id": "",
-      "project_origin": ""
-    },
-    {
-      "id": "source_ref:data/master/resume.master.yaml",
-      "kind": "source_ref",
-      "title": "data/master/resume.master.yaml",
-      "path": "data/master/resume.master.yaml",
       "company_id": "",
       "project_origin": ""
     },
@@ -245,13 +277,22 @@
       "project_origin": ""
     },
     {
+      "id": "document:wiki/projects/company/nova-backoffice.md",
+      "kind": "project",
+      "title": "Nova Backoffice",
+      "path": "wiki/projects/company/nova-backoffice.md",
+      "company_id": "evar",
+      "project_origin": "company",
+      "representative_rank": 2
+    },
+    {
       "id": "document:wiki/projects/company/jeondam-gate.md",
       "kind": "project",
       "title": "전담GATE 무인24",
       "path": "wiki/projects/company/jeondam-gate.md",
       "company_id": "developer-group",
       "project_origin": "company",
-      "representative_rank": 2
+      "representative_rank": 3
     },
     {
       "id": "source_ref:data/master/projects/jeondam-gate.md",
@@ -268,7 +309,7 @@
       "path": "wiki/projects/company/ifa-2023.md",
       "company_id": "developer-group",
       "project_origin": "company",
-      "representative_rank": 3
+      "representative_rank": 4
     },
     {
       "id": "source_ref:data/master/projects/ifa-2023.md",
@@ -285,7 +326,7 @@
       "path": "wiki/projects/company/yeonggwang-resort.md",
       "company_id": "developer-group",
       "project_origin": "company",
-      "representative_rank": 4
+      "representative_rank": 5
     },
     {
       "id": "source_ref:data/master/projects/yeonggwang-resort.md",
@@ -302,7 +343,7 @@
       "path": "wiki/projects/company/therapy.md",
       "company_id": "developer-group",
       "project_origin": "company",
-      "representative_rank": 5
+      "representative_rank": 6
     },
     {
       "id": "source_ref:data/master/projects/therapy.md",
@@ -319,7 +360,7 @@
       "path": "wiki/projects/company/momu-golf.md",
       "company_id": "developer-group",
       "project_origin": "company",
-      "representative_rank": 6
+      "representative_rank": 7
     },
     {
       "id": "source_ref:data/master/projects/momu-golf.md",
@@ -336,7 +377,7 @@
       "path": "wiki/projects/company/style-vending.md",
       "company_id": "developer-group",
       "project_origin": "company",
-      "representative_rank": 7
+      "representative_rank": 8
     },
     {
       "id": "source_ref:data/master/projects/style-vending.md",
@@ -488,7 +529,23 @@
     },
     {
       "from": "document:wiki/career/company/evar.md",
+      "to": "source_ref:raw/public-sources/profile/ai-workflow-source.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/evar.md",
       "to": "source_ref:data/master/career/evar.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/evar.md",
+      "to": "source_ref:data/master/projects/nova-backoffice.md",
       "type": "references_source",
       "strength": "hard",
       "confidence": "EXTRACTED",
@@ -503,8 +560,64 @@
       "source": "canonical"
     },
     {
+      "from": "document:wiki/career/company/evar.md",
+      "to": "document:wiki/projects/company/nova-backoffice.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/career/company/evar.md",
+      "to": "document:wiki/faq/ai-workflow.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/ai-workflow.md",
+      "to": "source_ref:raw/public-sources/profile/ai-workflow-source.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/ai-workflow.md",
+      "to": "source_ref:data/master/resume.master.yaml",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/ai-workflow.md",
+      "to": "document:wiki/career/company/evar.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/ai-workflow.md",
+      "to": "document:wiki/principles/business-first.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
       "from": "document:wiki/faq/hiring-overview.md",
       "to": "source_ref:wiki/profile/overview.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/hiring-overview.md",
+      "to": "source_ref:wiki/faq/ai-workflow.md",
       "type": "references_source",
       "strength": "hard",
       "confidence": "EXTRACTED",
@@ -599,6 +712,14 @@
       "source": "canonical"
     },
     {
+      "from": "document:wiki/principles/business-first.md",
+      "to": "document:wiki/faq/ai-workflow.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
       "from": "document:wiki/projects/personal/drink-up.md",
       "to": "source_ref:raw/public-sources/projects/drink-up-source.md",
       "type": "references_source",
@@ -681,6 +802,54 @@
     {
       "from": "document:wiki/projects/company/evpay.md",
       "to": "document:wiki/career/company/evar.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/evpay.md",
+      "to": "document:wiki/projects/company/nova-backoffice.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "career_company:evar",
+      "to": "document:wiki/projects/company/nova-backoffice.md",
+      "type": "belongs_to_company",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/nova-backoffice.md",
+      "to": "source_ref:data/master/projects/nova-backoffice.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/nova-backoffice.md",
+      "to": "source_ref:data/master/career/evar.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/nova-backoffice.md",
+      "to": "document:wiki/career/company/evar.md",
+      "type": "links_to_document",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/projects/company/nova-backoffice.md",
+      "to": "document:wiki/projects/company/evpay.md",
       "type": "links_to_document",
       "strength": "hard",
       "confidence": "EXTRACTED",

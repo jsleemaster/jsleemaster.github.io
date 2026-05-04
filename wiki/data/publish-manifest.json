@@ -1,9 +1,10 @@
 {
-  "published_at": "2026-05-02T05:20:50.670Z",
+  "published_at": "2026-05-04T11:08:51.557Z",
   "wiki_documents": [
     "wiki/career/company/developer-group.md",
     "wiki/career/company/evar.md",
     "wiki/decisions/source-of-truth.md",
+    "wiki/faq/ai-workflow.md",
     "wiki/faq/hiring-overview.md",
     "wiki/index.md",
     "wiki/log.md",
@@ -17,6 +18,7 @@
   "raw_documents": [
     "raw/public-sources/career/developer-group-source.md",
     "raw/public-sources/career/evar-source.md",
+    "raw/public-sources/profile/ai-workflow-source.md",
     "raw/public-sources/profile/resume-summary.md",
     "raw/public-sources/projects/drink-up-source.md",
     "raw/public-sources/projects/snackd-source.md",
@@ -29,16 +31,17 @@
     "raw/obsidian/repo-seed/profile/obsidian-writing-space.md",
     "raw/public-sources/career/developer-group-source.md",
     "raw/public-sources/career/evar-source.md",
+    "raw/public-sources/profile/ai-workflow-source.md",
     "raw/public-sources/profile/resume-summary.md",
     "raw/public-sources/projects/drink-up-source.md",
     "raw/public-sources/projects/snackd-source.md",
     "raw/public-sources/projects/today-review-source.md"
   ],
   "replaced_source_documents": [],
-  "document_count": 12,
-  "career_project_count": 7,
+  "document_count": 13,
+  "career_project_count": 8,
   "personal_project_count": 2,
-  "raw_source_count": 6,
+  "raw_source_count": 7,
   "obsidian_source_count": 1,
-  "effective_source_count": 7
+  "effective_source_count": 8
 }

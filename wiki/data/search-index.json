@@ -269,7 +269,7 @@
       "tokio",
       "crossterm"
     ],
-    "text": "Cltree는 Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 프로젝트입니다. 2026 ~ 현재 동안 운영한 개인 프로젝트입니다. 핵심 임팩트는 npm 배포와 다국어 문서 운영으로 CLI 개발자 도구 공개 배포입니다. 주요 스택은 Rust, ratatui, tokio, crossterm입니다. 공개 링크 GitHub: https://github.com/jsleemaster/cltree Web: https://github.com/jsleemaster/cltree",
+    "text": "Cltree는 Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 프로젝트입니다. 2026 ~ 현재 동안 운영한 개인 프로젝트입니다. 핵심 임팩트는 npm 배포와 다국어 문서 운영으로 CLI 개발자 도구 공개 배포입니다. 주요 스택은 Rust, ratatui, tokio, crossterm입니다. 공개 링크 GitHub: https://github.com/jsleemaster/cltree",
     "layer": "derived"
   }
 ]

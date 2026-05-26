@@ -1,8 +1,8 @@
 # 안녕하세요, 이순명입니다 👋
 
-> **비즈니스 가치를 최우선으로 하는 개발자**
+> **EV 충전 도메인에서 제품 운영 문제를 구조화하는 개발자**
 
-도전에 두려움이 없는 성향으로 Vue → React, GetX → Riverpod으로의 두 차례 성공적인 기술 스택 전환을 주도하며 회사의 성장을 이끌었습니다. 불확실한 문제 앞에서 여러 해결책을 찾아내고, 빠르게 실행하여 비즈니스 임팩트를 만들어내는 개발자입니다.
+React 백오피스, Flutter 모바일 앱, FastAPI 예측 API, FastMCP 내부 지식 그래프까지 EV 충전 서비스 운영 전반을 다뤘습니다. 단순 기능 구현보다 FE/BE 계약, native-web bridge, 데이터 정합성, 릴리즈 게이트, AI tool routing 검증처럼 반복되는 운영 문제를 구조화하고 재발 방지 체계로 남기는 일을 중요하게 생각합니다.
 
 
 <br/>
@@ -34,21 +34,23 @@
 
 ### Backend & Infra
 - Node.js
+- FastAPI
 - AWS
 - GitHub Actions
+- Docker
 
 <br/>
 
 ## 💼 Experience
 
 ### 에바(EVAR) `2024.07 ~ 현재`
-> 삼성전자 사내벤처 C-Lab 스핀오프 | 국내 전기차 충전기 시장 마켓쉐어 1위
+> 삼성전자 사내벤처 C-Lab 스핀오프 | 전기차 충전 솔루션 기업
 
-**Flutter Developer** | [경력기술서 상세보기](./career/evar.md)
+**Frontend / Mobile / AI Platform Engineer** | [경력기술서 상세보기](./career/evar.md)
 
-- 레거시 아키텍처(MVVM, GetX)를 Clean Architecture + Riverpod로 성공적 전환
-- Fastlane + GitHub Actions + Xcode Cloud 연동 자동 배포 파이프라인 구축
-- iOS Dynamic Island 도입으로 사용자 편의성 극대화
+- React/TypeScript 기반 NOVA Backoffice에서 매출·결제·로밍·충전소 운영 화면 개선
+- Flutter + React WebView 기반 EVPay+ 하이브리드 앱 구조와 bridge 개선
+- FastAPI 예측 API, KTR 평가 CLI, FastMCP/NetworkX 내부 context server 운영 자동화 경험
 
 ---
 
@@ -67,7 +69,7 @@
 
 | 프로젝트 | 설명 | 기술 스택 | 성과 |
 |---|---|---|---|
-| [EV PAY](./projects/evpay.md) | 전기차 충전기 연동 앱 | Flutter, Riverpod | 자동배포 구축, 아키텍처 전환 |
+| [EVAR Platform](./projects/evpay.md) | EV 충전 앱·백오피스·예측/API·MCP 운영 도구 | Flutter, React, FastAPI | 하이브리드 앱, 백오피스, 평가/자동화 |
 | [전담GATE 무인24](./projects/jeondam-gate.md) | 전자담배 키오스크 & 자판기 | Next.js, TypeScript | 성인인증 3종 연동 |
 | [IFA 2023](./projects/ifa-2023.md) | 삼성 독일 경품 이벤트 | Next.js, TypeScript | 16만명 방문자 |
 | [영광리조트](./projects/yeonggwang-resort.md) | 수영장 이용권 예약 키오스크 | Next.js, Koa | 모노레포 구조 설계 |
@@ -106,4 +108,3 @@
 - 정보처리기능사 (2011.10)
 - 워드프로세서 1급 (2011.05)
 - 컴퓨터활용능력 2급 (2010.10)
-

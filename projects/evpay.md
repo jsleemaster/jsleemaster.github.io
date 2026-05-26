@@ -8,64 +8,60 @@
 
 | | |
 |---|---|
-| **프로젝트 설명** | 전기차 전용 충전기 연동 앱 |
-| **기술 스택** | Flutter, Riverpod |
-| **참여도** | 프론트엔드 100% |
+| **프로젝트 설명** | 전기차 충전 앱 및 EVPay+ 하이브리드 앱 |
+| **기술 스택** | Flutter, Riverpod, React, TypeScript, WebView |
+| **참여도** | 모바일 / 프론트엔드 |
 | **기간** | 2024.07 ~ 현재 |
 
 <br/>
 
 ## ⭐ 주요 기능
 
-- 🗺️ **네이버 지도 기반 충전소 찾기**
-  - Flutter naver map 활용
-  - 뷰포트 기반 로딩으로 성능 최적화
-  - 마커 캐싱 적용
+- 📱 **Flutter native shell**
+  - 로그인, QR/카메라, 지도/위치, push notification, secure storage 등 native 기능 담당
+  - Riverpod 기반 provider와 route guard로 앱 상태 관리
 
-- 🔄 **아키텍처 전환**
-  - MVVM → Clean Architecture 적용
-  - GetX → Riverpod 마이그레이션
-  - API 캐싱을 통한 서버 통신 최적화
+- 🌐 **React WebView 업무 화면**
+  - React 19, TypeScript, Vite 기반 WebView 화면 구성
+  - Web bundle을 S3/CloudFront로 독립 배포해 앱 심사 없이 UI 변경 가능
 
-- 🚀 **자동 배포 파이프라인**
-  - Fastlane, Github Actions 활용
-  - Android, iOS 자동 배포 구축
-  - Xcode Cloud 연동
+- 🔗 **Flutter ↔ WebView bridge**
+  - Web에서 데이터 변경 후 Flutter Provider를 명시적으로 갱신
+  - bottom navigation 표시/숨김, native dialog, openUrl, 본인인증 요청 등 native action 연결
 
-- 📱 **iOS Dynamic Island**
-  - 충전 상태 실시간 표시
-  - 사용자 편의성 극대화
+- 🚀 **배포/운영 구조**
+  - app-version metadata 기반 STG/PROD runtime switching
+  - Fastlane, GitHub Actions, Xcode Cloud 등 앱 배포 경로 관리
 
 <br/>
 
 ## 🛠 기술적 구현
 
-### Clean Architecture 적용
+### Hybrid Architecture
 ```
-lib/
-├── data/           # 데이터 레이어
-│   ├── models/
-│   └── repositories/
-├── domain/         # 도메인 레이어
-│   ├── entities/
-│   └── usecases/
-└── presentation/   # 프레젠테이션 레이어
-    ├── providers/
-    └── screens/
+Flutter App
+├── Native Features
+│   ├── social login
+│   ├── camera / QR
+│   ├── map / location
+│   └── push notification
+└── WebView
+    └── React business screens
 ```
 
-### Riverpod 상태관리
-- GetX의 암묵적 의존성 문제 해결
-- 테스트 용이성 확보
-- 컴파일 타임 안전성 향상
+### Bridge 설계
+
+- React에서 발생한 mutation은 Flutter Provider가 자동으로 알 수 없으므로 bridge action으로 invalidation 처리
+- 브라우저 단독 테스트와 실제 Flutter WebView 테스트의 차이를 문서화
+- native/web 상태 불일치를 줄이기 위해 bridge action의 역할을 명확히 분리
 
 <br/>
 
 ## 💡 성과 및 배운점
 
-- **아키텍처 전환 주도**: 레거시 코드를 현대적인 구조로 성공적 전환
-- **배포 자동화**: 수동 배포 → 자동화로 배포 시간 대폭 단축
-- **운영 고려 설계**: 변경 주기와 중요도를 고려한 기술 선택의 중요성 학습
+- **하이브리드 앱 구조 정리**: native 기능과 web 업무 화면의 경계를 나누고 bridge 계약으로 연결
+- **배포 독립성 확보**: WebView bundle을 앱스토어 배포와 분리해 변경 주기와 운영 비용을 줄이는 방향으로 설계
+- **운영 고려 설계**: 변경 주기, 앱 심사 비용, rollback 가능성을 함께 고려하는 설계 기준 확립
 
 <br/>
 

@@ -194,14 +194,6 @@
       "project_origin": ""
     },
     {
-      "id": "source_ref:https://github.com/jsleemaster/drink_up",
-      "kind": "source_ref",
-      "title": "https://github.com/jsleemaster/drink_up",
-      "path": "https://github.com/jsleemaster/drink_up",
-      "company_id": "",
-      "project_origin": ""
-    },
-    {
       "id": "document:wiki/projects/personal/snackd.md",
       "kind": "project",
       "title": "SnackD 프로젝트",
@@ -215,14 +207,6 @@
       "kind": "source_ref",
       "title": "raw/public-sources/projects/snackd-source.md",
       "path": "raw/public-sources/projects/snackd-source.md",
-      "company_id": "",
-      "project_origin": ""
-    },
-    {
-      "id": "source_ref:https://github.com/jsleemaster/snackD",
-      "kind": "source_ref",
-      "title": "https://github.com/jsleemaster/snackD",
-      "path": "https://github.com/jsleemaster/snackD",
       "company_id": "",
       "project_origin": ""
     },
@@ -248,14 +232,6 @@
       "kind": "source_ref",
       "title": "raw/public-sources/projects/today-review-source.md",
       "path": "raw/public-sources/projects/today-review-source.md",
-      "company_id": "",
-      "project_origin": ""
-    },
-    {
-      "id": "source_ref:https://github.com/mylittlereviewduck/mobile",
-      "kind": "source_ref",
-      "title": "https://github.com/mylittlereviewduck/mobile",
-      "path": "https://github.com/mylittlereviewduck/mobile",
       "company_id": "",
       "project_origin": ""
     },
@@ -401,14 +377,6 @@
       "kind": "source_ref",
       "title": "data/master/personal_projects.yaml",
       "path": "data/master/personal_projects.yaml",
-      "company_id": "",
-      "project_origin": ""
-    },
-    {
-      "id": "source_ref:https://github.com/jsleemaster/quote_notifier",
-      "kind": "source_ref",
-      "title": "https://github.com/jsleemaster/quote_notifier",
-      "path": "https://github.com/jsleemaster/quote_notifier",
       "company_id": "",
       "project_origin": ""
     },
@@ -728,24 +696,8 @@
       "source": "canonical"
     },
     {
-      "from": "document:wiki/projects/personal/drink-up.md",
-      "to": "source_ref:https://github.com/jsleemaster/drink_up",
-      "type": "references_source",
-      "strength": "hard",
-      "confidence": "EXTRACTED",
-      "source": "canonical"
-    },
-    {
       "from": "document:wiki/projects/personal/snackd.md",
       "to": "source_ref:raw/public-sources/projects/snackd-source.md",
-      "type": "references_source",
-      "strength": "hard",
-      "confidence": "EXTRACTED",
-      "source": "canonical"
-    },
-    {
-      "from": "document:wiki/projects/personal/snackd.md",
-      "to": "source_ref:https://github.com/jsleemaster/snackD",
       "type": "references_source",
       "strength": "hard",
       "confidence": "EXTRACTED",
@@ -762,14 +714,6 @@
     {
       "from": "document:wiki/projects/personal/today-review.md",
       "to": "source_ref:raw/public-sources/projects/today-review-source.md",
-      "type": "references_source",
-      "strength": "hard",
-      "confidence": "EXTRACTED",
-      "source": "canonical"
-    },
-    {
-      "from": "document:wiki/projects/personal/today-review.md",
-      "to": "source_ref:https://github.com/mylittlereviewduck/mobile",
       "type": "references_source",
       "strength": "hard",
       "confidence": "EXTRACTED",
@@ -1290,14 +1234,6 @@
     {
       "from": "document:virtual/personal-projects/quote-notifier",
       "to": "source_ref:data/master/personal_projects.yaml",
-      "type": "references_source",
-      "strength": "hard",
-      "confidence": "EXTRACTED",
-      "source": "canonical"
-    },
-    {
-      "from": "document:virtual/personal-projects/quote-notifier",
-      "to": "source_ref:https://github.com/jsleemaster/quote_notifier",
       "type": "references_source",
       "strength": "hard",
       "confidence": "EXTRACTED",

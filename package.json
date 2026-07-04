@@ -4,7 +4,9 @@
   "description": "Generate PDF resume from HTML",
   "main": "scripts/generate-pdf.js",
   "scripts": {
-    "generate-pdf": "node scripts/generate-pdf.js"
+    "generate-pdf": "node scripts/generate-pdf.js",
+    "verify-pdf": "bash scripts/verify-pdf-output.sh",
+    "check-links": "node scripts/check-links.js"
   },
   "devDependencies": {
     "puppeteer": "^24.33.0"

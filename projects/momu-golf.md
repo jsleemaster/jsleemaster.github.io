@@ -46,7 +46,7 @@
 ```javascript
 // React Native에서 Vue3 웹앱을 WebView로 래핑
 <WebView
-  source={{ uri: 'https://momu-golf.com' }}
+  source={{ uri: 'SERVICE_WEB_URL' }}
   onMessage={handleMessage}
   injectedJavaScript={injectedJS}
 />

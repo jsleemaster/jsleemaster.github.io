@@ -11,18 +11,14 @@
       "encoding": "base64:utf8",
       "value": "TGVlIFNvb25teXVuZw=="
     },
-    "title": "Frontend Developer",
+    "title": "Cross-platform Product Engineer",
     "mindset": "비즈니스 가치를 최우선으로 하는 개발자",
-    "summary": "도전에 두려움이 없는 성향으로 Vue → React, GetX → Riverpod 전환을 주도했고, 에바에서는 사내 MCP/LLM Wiki, RAG 챗봇, AI 에이전트 워크플로우처럼 AI를 실제 업무 환경에 연결해 실행 속도를 높여왔습니다. 불확실한 문제 앞에서 여러 해결책을 찾아내고 빠르게 제품화하는 프론트엔드 개발자입니다."
+    "summary": "도전에 두려움이 없는 성향으로 Vue → React, GetX → Riverpod 전환을 주도했고, 에바에서는 사내 MCP/LLM Wiki, RAG 챗봇, AI 에이전트 워크플로우처럼 AI를 실제 업무 환경에 연결해 실행 속도를 높여왔습니다. 불확실한 문제 앞에서 여러 해결책을 찾아내고 빠르게 제품화하는 제품 개발자입니다."
   },
   "contacts": {
     "email": "jsleemaster@gmail.com",
-    "blog": "https://jsleemaster.velog.io",
-    "github": "https://github.com/jsleemaster",
-    "phonePrivate": {
-      "encoding": "base64:utf8",
-      "value": "MDEwLTI5MzQtNDU3OQ=="
-    }
+    "blog": "https://velog.io/%40jsleemaster/posts",
+    "github": "https://github.com/jsleemaster"
   },
   "skills": [
     {
@@ -140,8 +136,8 @@
       ],
       "impact": "실시간 채용 필터링 및 UX 실험",
       "demo_url": "https://snack-d.vercel.app",
-      "repo_url": "https://github.com/jsleemaster/snackD",
-      "icon_url": "https://opengraph.githubassets.com/1/jsleemaster/snackD",
+      "repo_url": "",
+      "icon_url": "",
       "ios_url": "",
       "android_url": "",
       "sort_order": 1
@@ -158,8 +154,8 @@
       ],
       "impact": "콘텐츠 자동 수집/알림 파이프라인 구성",
       "demo_url": "https://user-web-jade.vercel.app",
-      "repo_url": "https://github.com/jsleemaster/quote_notifier",
-      "icon_url": "https://opengraph.githubassets.com/1/jsleemaster/quote_notifier",
+      "repo_url": "",
+      "icon_url": "",
       "ios_url": "",
       "android_url": "",
       "sort_order": 2
@@ -177,7 +173,7 @@
       "impact": "npm 배포와 다국어 문서 운영으로 CLI 개발자 도구 공개 배포",
       "demo_url": "",
       "repo_url": "https://github.com/jsleemaster/cltree",
-      "icon_url": "https://opengraph.githubassets.com/1/jsleemaster/cltree",
+      "icon_url": "",
       "ios_url": "",
       "android_url": "",
       "sort_order": 3
@@ -194,25 +190,25 @@
         "Cloudflare KV"
       ],
       "impact": "친구 초대/챌린지/알림 기반 사용성 개선과 서버리스 API 분리",
-      "demo_url": "",
-      "repo_url": "https://github.com/jsleemaster/drink_up",
-      "icon_url": "https://opengraph.githubassets.com/1/jsleemaster/drink_up",
-      "ios_url": "https://minion.toss.im/nmqdGkN2",
-      "android_url": "https://minion.toss.im/nmqdGkN2",
+      "demo_url": "https://minion.toss.im/nmqdGkN2",
+      "repo_url": "",
+      "icon_url": "",
+      "ios_url": "",
+      "android_url": "",
       "sort_order": 5
     },
     {
       "id": "notion-project-51a204f6",
       "title": "오늘도 리뷰",
-      "summary": "세상의 모든 것을 리뷰하는 플랫폼",
+      "summary": "세상의 모든 것을 리뷰하는 플랫폼, Flutter 클라이언트 개선 기여",
       "stack": [
         "Flutter"
       ],
       "impact": "Firebase 기반 데이터/알림 연동 고도화와 구조 개선으로 운영 안정성 향상",
       "demo_url": "",
-      "repo_url": "https://github.com/mylittlereviewduck/mobile",
-      "icon_url": "https://opengraph.githubassets.com/1/mylittlereviewduck/mobile",
-      "ios_url": "https://apps.apple.com/kr/app/%EC%98%A4%EB%8A%98%EB%8F%84-%EB%A6%AC%EB%B7%B0/id6744454725",
+      "repo_url": "",
+      "icon_url": "",
+      "ios_url": "",
       "android_url": "https://play.google.com/store/apps/details?id=site.mylittlereviewduck&hl=ko",
       "sort_order": 8
     }
@@ -296,11 +292,10 @@
       "folderId": "profile",
       "kind": "profile",
       "title": "기본 정보",
-      "subtitle": "이메일: jsleemaster@gmail.com 블로그: https://jsleemaster.velog.io GitHub: https://github.com/jsleemaster",
-      "body": "이메일: jsleemaster@gmail.com\n블로그: https://jsleemaster.velog.io\nGitHub: https://github.com/jsleemaster",
+      "subtitle": "이메일: jsleemaster@gmail.com 블로그: velog.io/@jsleemaster GitHub: https://github.com/jsleemaster",
+      "body": "이메일: jsleemaster@gmail.com\n블로그: velog.io/@jsleemaster\nGitHub: https://github.com/jsleemaster",
       "tags": [
         "Email",
-        "Phone",
         "GitHub"
       ],
       "prompt": "연락처와 기본 정보를 정리해 주세요"
@@ -978,8 +973,7 @@
       "excerpt": "꿀꺽은 수분 섭취 기록을 친구 초대와 챌린지 흐름에 연결한 서비스다. 저는 단순 기록 기능보다 사람이 다시 돌아오게 만드는 참여 구조를 실험했고, 그 실험을 빠르게 반복할 수 있도록 서버리스 API와 알림 흐름을 분리해 정리했다. 개인 프로젝트에서도 기능 하나보다 참여 흐름과 실험 속도를 함께 설계하는 편이라는 점이 드…",
       "body": "# 꿀꺽\n\n꿀꺽은 수분 섭취 기록을 친구 초대와 챌린지 흐름에 연결한 서비스다.\n\n저는 단순 기록 기능보다 사람이 다시 돌아오게 만드는 참여 구조를 실험했고, 그 실험을 빠르게 반복할 수 있도록 서버리스 API와 알림 흐름을 분리해 정리했다. 개인 프로젝트에서도 기능 하나보다 참여 흐름과 실험 속도를 함께 설계하는 편이라는 점이 드러난다.\n\nReact, TypeScript, Vite, Cloudflare Workers, Cloudflare KV 기반으로 만들었고, 친구 초대, 챌린지, 알림과 서버리스 API 분리가 핵심이라 빠른 실험 주기를 가져가기 좋았다.",
       "source_refs": [
-        "raw/public-sources/projects/drink-up-source.md",
-        "https://github.com/jsleemaster/drink_up"
+        "raw/public-sources/projects/drink-up-source.md"
       ],
       "entity_id": "drink-up",
       "company_id": "",
@@ -1004,7 +998,6 @@
       "body": "# SnackD\n\nSnackD는 디자이너 중심 채용공고 탐색 경험을 실험하는 프로젝트다.\n\n저는 공고를 오래 읽게 하기보다 핵심 정보를 더 빨리 이해하게 만드는 화면 흐름과 필터링 경험을 직접 설계하고 구현했다. 개인 프로젝트에서도 기능 수보다 정보 구조와 첫 이해 속도를 먼저 보는 편이라는 점이 드러난다.\n\nNext.js, TypeScript, Prisma, NextAuth 기반으로 운영하며 실시간 채용 필터링과 UX 실험을 반복한다는 점에서, 제품 감각을 빠르게 검증하는 작업에 가깝다.",
       "source_refs": [
         "raw/public-sources/projects/snackd-source.md",
-        "https://github.com/jsleemaster/snackD",
         "https://snack-d.vercel.app"
       ],
       "entity_id": "snackd",
@@ -1029,8 +1022,7 @@
       "excerpt": "오늘도 리뷰는 세상의 다양한 대상을 기록하고 공유하는 모바일 리뷰 플랫폼이다. 저는 Flutter 기반 제품을 운영 가능한 상태로 다듬는 데 집중했고, 데이터와 알림 연결이 흔들리지 않도록 구조를 개선했다. 새 기능을 더 얹기보다 서비스가 계속 운영되게 만드는 쪽에 먼저 손이 가는 편이라는 점이 드러난 프로젝트다. Fi…",
       "body": "# 오늘도 리뷰\n\n오늘도 리뷰는 세상의 다양한 대상을 기록하고 공유하는 모바일 리뷰 플랫폼이다.\n\n저는 Flutter 기반 제품을 운영 가능한 상태로 다듬는 데 집중했고, 데이터와 알림 연결이 흔들리지 않도록 구조를 개선했다. 새 기능을 더 얹기보다 서비스가 계속 운영되게 만드는 쪽에 먼저 손이 가는 편이라는 점이 드러난 프로젝트다.\n\nFirebase 기반 데이터와 알림 연동을 고도화해 운영 안정성을 높였고, 운영 중 흔들리는 연결 지점을 먼저 바로잡는 경험에 가까웠다.",
       "source_refs": [
-        "raw/public-sources/projects/today-review-source.md",
-        "https://github.com/mylittlereviewduck/mobile"
+        "raw/public-sources/projects/today-review-source.md"
       ],
       "entity_id": "notion-project-51a204f6",
       "company_id": "",
@@ -1540,7 +1532,7 @@
       ],
       "updated_at": "2026-05-12",
       "excerpt": "모무 골프는 디벨로퍼그룹에서 진행한 실내골프 예약 앱입니다. 디벨로퍼그룹에서 Frontend Developer로 참여했습니다. 핵심 임팩트는 iOS/Android 배포입니다. 주요 스택은 Vue3, React Native입니다. - **geolocation**을 이용한 현재 위치 기반 매장 탐색 - 거리순 정렬 - 매장…",
-      "body": "모무 골프는 디벨로퍼그룹에서 진행한 실내골프 예약 앱입니다.\n\n디벨로퍼그룹에서 Frontend Developer로 참여했습니다. 핵심 임팩트는 iOS/Android 배포입니다. 주요 스택은 Vue3, React Native입니다.\n\n## 📋 프로젝트 개요\n\n## ⭐ 주요 기능\n\n### 🗺️ 매장 찾기\n- **geolocation**을 이용한 현재 위치 기반 매장 탐색\n- 거리순 정렬\n- 매장 상세 정보 제공\n\n### 🔐 소셜 로그인\n- **passport 라이브러리** 활용\n- 카카오 로그인\n- 네이버 로그인\n- Apple 로그인\n\n### 📅 예약 시스템\n- 실내골프장 예약 기능\n- 예약 현황 조회\n- 예약 취소/변경\n\n### 📱 모바일 앱 배포\n- **React Native CLI** 활용\n- WebView 기반 하이브리드 앱\n- Android, iOS 동시 배포\n\n## 🛠 기술적 구현\n\n### React Native WebView 구성\n```javascript\n// React Native에서 Vue3 웹앱을 WebView로 래핑\n<WebView\n  source={{ uri: 'https://momu-golf.com' }}\n  onMessage={handleMessage}\n  injectedJavaScript={injectedJS}\n/>\n```\n\n### 소셜 로그인 플로우\n```\n1. 앱에서 소셜 로그인 버튼 클릭\n2. passport 라이브러리로 OAuth 처리\n3. 콜백 URL로 토큰 수신\n4. 서버에서 JWT 발급\n5. 앱 상태 업데이트\n```\n\n### Geolocation API 활용\n```javascript\nnavigator.geolocation.getCurrentPosition(\n  (position) => {\n    const { latitude, longitude } = position.coords;\n    // 현재 위치 기반 매장 검색\n  },\n  (error) => {\n    // 위치 권한 거부 시 처리\n  }\n);\n```\n\n## 🔧 트러블슈팅\n\n### WebView ↔ Native 통신\n- **문제**: 웹과 네이티브 간 데이터 전달 이슈\n- **해결**: \n  - `postMessage` / `onMessage` 활용\n  - 메시지 타입별 핸들러 분리\n\n### iOS/Android UI 차이\n- **문제**: 플랫폼별 UI 렌더링 차이\n- **해결**:\n  - Platform.OS 분기 처리\n  - SafeAreaView 적용\n\n### 앱 심사 대응\n- **문제**: iOS 앱스토어 심사 리젝\n- **해결**:\n  - 리젝 사유 분석 및 수정\n  - 가이드라인 준수 확인\n\n## 💡 성과\n\n- **React Native 단독 앱 배포**: iOS, Android 스토어 등록\n- **소셜 로그인 3종 구현**: 카카오, 네이버, Apple\n- **하이브리드 앱 개발 경험**: WebView 기반 구조 설계",
+      "body": "모무 골프는 디벨로퍼그룹에서 진행한 실내골프 예약 앱입니다.\n\n디벨로퍼그룹에서 Frontend Developer로 참여했습니다. 핵심 임팩트는 iOS/Android 배포입니다. 주요 스택은 Vue3, React Native입니다.\n\n## 📋 프로젝트 개요\n\n## ⭐ 주요 기능\n\n### 🗺️ 매장 찾기\n- **geolocation**을 이용한 현재 위치 기반 매장 탐색\n- 거리순 정렬\n- 매장 상세 정보 제공\n\n### 🔐 소셜 로그인\n- **passport 라이브러리** 활용\n- 카카오 로그인\n- 네이버 로그인\n- Apple 로그인\n\n### 📅 예약 시스템\n- 실내골프장 예약 기능\n- 예약 현황 조회\n- 예약 취소/변경\n\n### 📱 모바일 앱 배포\n- **React Native CLI** 활용\n- WebView 기반 하이브리드 앱\n- Android, iOS 동시 배포\n\n## 🛠 기술적 구현\n\n### React Native WebView 구성\n```javascript\n// React Native에서 Vue3 웹앱을 WebView로 래핑\n<WebView\n  source={{ uri: 'SERVICE_WEB_URL' }}\n  onMessage={handleMessage}\n  injectedJavaScript={injectedJS}\n/>\n```\n\n### 소셜 로그인 플로우\n```\n1. 앱에서 소셜 로그인 버튼 클릭\n2. passport 라이브러리로 OAuth 처리\n3. 콜백 URL로 토큰 수신\n4. 서버에서 JWT 발급\n5. 앱 상태 업데이트\n```\n\n### Geolocation API 활용\n```javascript\nnavigator.geolocation.getCurrentPosition(\n  (position) => {\n    const { latitude, longitude } = position.coords;\n    // 현재 위치 기반 매장 검색\n  },\n  (error) => {\n    // 위치 권한 거부 시 처리\n  }\n);\n```\n\n## 🔧 트러블슈팅\n\n### WebView ↔ Native 통신\n- **문제**: 웹과 네이티브 간 데이터 전달 이슈\n- **해결**: \n  - `postMessage` / `onMessage` 활용\n  - 메시지 타입별 핸들러 분리\n\n### iOS/Android UI 차이\n- **문제**: 플랫폼별 UI 렌더링 차이\n- **해결**:\n  - Platform.OS 분기 처리\n  - SafeAreaView 적용\n\n### 앱 심사 대응\n- **문제**: iOS 앱스토어 심사 리젝\n- **해결**:\n  - 리젝 사유 분석 및 수정\n  - 가이드라인 준수 확인\n\n## 💡 성과\n\n- **React Native 단독 앱 배포**: iOS, Android 스토어 등록\n- **소셜 로그인 3종 구현**: 카카오, 네이버, Apple\n- **하이브리드 앱 개발 경험**: WebView 기반 구조 설계",
       "source_refs": [
         "data/master/projects/momu-golf.md",
         "data/master/career/developer-group.md"
@@ -1730,10 +1722,9 @@
       ],
       "updated_at": "2026-05-12",
       "excerpt": "오늘의 한 줄는 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱입니다. 2025 ~ 현재 동안 운영한 개인 프로젝트입니다. 핵심 임팩트는 콘텐츠 자동 수집/알림 파이프라인 구성입니다. 주요 스택은 Flutter, Dart, Supabase, Firebase Cloud Messaging입니다. 공개 링크 - Git…",
-      "body": "오늘의 한 줄는 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱입니다.\n\n2025 ~ 현재 동안 운영한 개인 프로젝트입니다. 핵심 임팩트는 콘텐츠 자동 수집/알림 파이프라인 구성입니다. 주요 스택은 Flutter, Dart, Supabase, Firebase Cloud Messaging입니다.\n\n공개 링크\n- GitHub: https://github.com/jsleemaster/quote_notifier\n- Web: https://user-web-jade.vercel.app",
+      "body": "오늘의 한 줄는 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱입니다.\n\n2025 ~ 현재 동안 운영한 개인 프로젝트입니다. 핵심 임팩트는 콘텐츠 자동 수집/알림 파이프라인 구성입니다. 주요 스택은 Flutter, Dart, Supabase, Firebase Cloud Messaging입니다.\n\n공개 링크\n- Web: https://user-web-jade.vercel.app",
       "source_refs": [
         "data/master/personal_projects.yaml",
-        "https://github.com/jsleemaster/quote_notifier",
         "https://user-web-jade.vercel.app"
       ],
       "entity_id": "quote-notifier",
@@ -1967,14 +1958,6 @@
         "project_origin": ""
       },
       {
-        "id": "source_ref:https://github.com/jsleemaster/drink_up",
-        "kind": "source_ref",
-        "title": "https://github.com/jsleemaster/drink_up",
-        "path": "https://github.com/jsleemaster/drink_up",
-        "company_id": "",
-        "project_origin": ""
-      },
-      {
         "id": "document:wiki/projects/personal/snackd.md",
         "kind": "project",
         "title": "SnackD 프로젝트",
@@ -1988,14 +1971,6 @@
         "kind": "source_ref",
         "title": "raw/public-sources/projects/snackd-source.md",
         "path": "raw/public-sources/projects/snackd-source.md",
-        "company_id": "",
-        "project_origin": ""
-      },
-      {
-        "id": "source_ref:https://github.com/jsleemaster/snackD",
-        "kind": "source_ref",
-        "title": "https://github.com/jsleemaster/snackD",
-        "path": "https://github.com/jsleemaster/snackD",
         "company_id": "",
         "project_origin": ""
       },
@@ -2021,14 +1996,6 @@
         "kind": "source_ref",
         "title": "raw/public-sources/projects/today-review-source.md",
         "path": "raw/public-sources/projects/today-review-source.md",
-        "company_id": "",
-        "project_origin": ""
-      },
-      {
-        "id": "source_ref:https://github.com/mylittlereviewduck/mobile",
-        "kind": "source_ref",
-        "title": "https://github.com/mylittlereviewduck/mobile",
-        "path": "https://github.com/mylittlereviewduck/mobile",
         "company_id": "",
         "project_origin": ""
       },
@@ -2174,14 +2141,6 @@
         "kind": "source_ref",
         "title": "data/master/personal_projects.yaml",
         "path": "data/master/personal_projects.yaml",
-        "company_id": "",
-        "project_origin": ""
-      },
-      {
-        "id": "source_ref:https://github.com/jsleemaster/quote_notifier",
-        "kind": "source_ref",
-        "title": "https://github.com/jsleemaster/quote_notifier",
-        "path": "https://github.com/jsleemaster/quote_notifier",
         "company_id": "",
         "project_origin": ""
       },
@@ -2501,24 +2460,8 @@
         "source": "canonical"
       },
       {
-        "from": "document:wiki/projects/personal/drink-up.md",
-        "to": "source_ref:https://github.com/jsleemaster/drink_up",
-        "type": "references_source",
-        "strength": "hard",
-        "confidence": "EXTRACTED",
-        "source": "canonical"
-      },
-      {
         "from": "document:wiki/projects/personal/snackd.md",
         "to": "source_ref:raw/public-sources/projects/snackd-source.md",
-        "type": "references_source",
-        "strength": "hard",
-        "confidence": "EXTRACTED",
-        "source": "canonical"
-      },
-      {
-        "from": "document:wiki/projects/personal/snackd.md",
-        "to": "source_ref:https://github.com/jsleemaster/snackD",
         "type": "references_source",
         "strength": "hard",
         "confidence": "EXTRACTED",
@@ -2535,14 +2478,6 @@
       {
         "from": "document:wiki/projects/personal/today-review.md",
         "to": "source_ref:raw/public-sources/projects/today-review-source.md",
-        "type": "references_source",
-        "strength": "hard",
-        "confidence": "EXTRACTED",
-        "source": "canonical"
-      },
-      {
-        "from": "document:wiki/projects/personal/today-review.md",
-        "to": "source_ref:https://github.com/mylittlereviewduck/mobile",
         "type": "references_source",
         "strength": "hard",
         "confidence": "EXTRACTED",
@@ -3070,14 +3005,6 @@
       },
       {
         "from": "document:virtual/personal-projects/quote-notifier",
-        "to": "source_ref:https://github.com/jsleemaster/quote_notifier",
-        "type": "references_source",
-        "strength": "hard",
-        "confidence": "EXTRACTED",
-        "source": "canonical"
-      },
-      {
-        "from": "document:virtual/personal-projects/quote-notifier",
         "to": "source_ref:https://user-web-jade.vercel.app",
         "type": "references_source",
         "strength": "hard",
@@ -3358,7 +3285,7 @@
         "Supabase",
         "Firebase Cloud Messaging"
       ],
-      "text": "오늘의 한 줄는 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱입니다. 2025 ~ 현재 동안 운영한 개인 프로젝트입니다. 핵심 임팩트는 콘텐츠 자동 수집/알림 파이프라인 구성입니다. 주요 스택은 Flutter, Dart, Supabase, Firebase Cloud Messaging입니다. 공개 링크 GitHub: https://github.com/jsleemaster/quote_notifier Web: https://user-web-jade.vercel.app",
+      "text": "오늘의 한 줄는 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱입니다. 2025 ~ 현재 동안 운영한 개인 프로젝트입니다. 핵심 임팩트는 콘텐츠 자동 수집/알림 파이프라인 구성입니다. 주요 스택은 Flutter, Dart, Supabase, Firebase Cloud Messaging입니다. 공개 링크 Web: https://user-web-jade.vercel.app",
       "layer": "derived"
     },
     {

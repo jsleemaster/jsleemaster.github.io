@@ -254,7 +254,7 @@
       "Supabase",
       "Firebase Cloud Messaging"
     ],
-    "text": "오늘의 한 줄는 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱입니다. 2025 ~ 현재 동안 운영한 개인 프로젝트입니다. 핵심 임팩트는 콘텐츠 자동 수집/알림 파이프라인 구성입니다. 주요 스택은 Flutter, Dart, Supabase, Firebase Cloud Messaging입니다. 공개 링크 GitHub: https://github.com/jsleemaster/quote_notifier Web: https://user-web-jade.vercel.app",
+    "text": "오늘의 한 줄는 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱입니다. 2025 ~ 현재 동안 운영한 개인 프로젝트입니다. 핵심 임팩트는 콘텐츠 자동 수집/알림 파이프라인 구성입니다. 주요 스택은 Flutter, Dart, Supabase, Firebase Cloud Messaging입니다. 공개 링크 Web: https://user-web-jade.vercel.app",
     "layer": "derived"
   },
   {

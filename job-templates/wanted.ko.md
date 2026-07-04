@@ -1,4 +1,4 @@
-# 이순명 | Frontend Developer
+# 이순명 | Cross-platform Product Engineer
 
 ## 핵심 요약
 도전에 두려움이 없는 성향으로 Vue → React, GetX → Riverpod으로의 두 차례 성공적인 기술 스택 전환을 주도하며 회사의 성장을 이끌었습니다. 불확실한 문제 앞에서 여러 해결책을 찾아내고, 빠르게 실행하여 비즈니스 임팩트를 만들어내는 개발자입니다.
@@ -26,13 +26,10 @@
 - 오늘의 한 줄: 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱 | Web: https://user-web-jade.vercel.app
 - Cltree: Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 프로젝트 | Web: https://github.com/jsleemaster/cltree
 - peep: AI 코딩 에이전트 작업을 터미널에서 실시간으로 관찰하는 대시보드 | Release: https://github.com/jsleemaster/peep/releases/latest / GitHub: https://github.com/jsleemaster/peep
-- Picklee: AI 트렌드를 큐레이션하고 MDX로 발행하는 Next.js 기반 매거진 | Web: https://picklee.vercel.app / GitHub: https://github.com/jsleemaster/picklee
-- 꿀꺽: 수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 (토스 앱인토스 프로젝트) | iOS: https://minion.toss.im/nmqdGkN2 / Android: https://minion.toss.im/nmqdGkN2
-- 오늘도 리뷰: 세상의 모든 것을 리뷰하는 플랫폼 | iOS: https://apps.apple.com/kr/app/%EC%98%A4%EB%8A%98%EB%8F%84-%EB%A6%AC%EB%B7%B0/id6744454725 / Android: https://play.google.com/store/apps/details?id=site.mylittlereviewduck&hl=ko
+- Picklee: AI 트렌드를 큐레이션하고 MDX로 발행하는 Next.js 기반 매거진 | Web: https://picklee.vercel.app
+- 꿀꺽: 수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 (토스 앱인토스 프로젝트) | App: https://minion.toss.im/nmqdGkN2
+- 오늘도 리뷰: 세상의 모든 것을 리뷰하는 플랫폼 | Android: https://play.google.com/store/apps/details?id=site.mylittlereviewduck&hl=ko
 
 ## 연락처
 - Email: jsleemaster@gmail.com
-- Phone: 010-2934-4579
 - GitHub: https://github.com/jsleemaster
-
-원티드 입력용 버전

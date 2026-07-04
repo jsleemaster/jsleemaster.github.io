@@ -1,10 +1,17 @@
 const puppeteer = require('puppeteer');
+const fs = require('fs');
 const path = require('path');
 
 (async () => {
+    let browser;
     try {
-        const browser = await puppeteer.launch({
-            headless: 'new',
+        const macChromePath = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+        const executablePath = process.env.PUPPETEER_EXECUTABLE_PATH
+            || (fs.existsSync(macChromePath) ? macChromePath : undefined);
+
+        browser = await puppeteer.launch({
+            headless: true,
+            ...(executablePath ? { executablePath } : {}),
             args: ['--no-sandbox', '--disable-setuid-sandbox']
         });
         const page = await browser.newPage();
@@ -15,8 +22,9 @@ const path = require('path');
 
         // Load the local HTML file
         await page.goto(`file://${resumePath}`, {
-            waitUntil: 'networkidle0'
+            waitUntil: 'networkidle2'
         });
+        await page.evaluateHandle('document.fonts.ready');
 
         // Generate PDF
         await page.pdf({
@@ -33,10 +41,12 @@ const path = require('path');
         });
 
         console.log(`PDF generated successfully at: ${pdfPath}`);
-
-        await browser.close();
     } catch (error) {
         console.error('Error generating PDF:', error);
-        process.exit(1);
+        process.exitCode = 1;
+    } finally {
+        if (browser) {
+            await browser.close();
+        }
     }
 })();

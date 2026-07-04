@@ -12,8 +12,7 @@
 | | |
 |---|---|
 | **Email** | jsleemaster@gmail.com |
-| **Phone** | 010-2934-4579 |
-| **Blog** | [jsleemaster.velog.io/](https://jsleemaster.velog.io) |
+| **Blog** | [velog.io/@jsleemaster](https://velog.io/%40jsleemaster/posts) |
 | **GitHub** | [github.com/jsleemaster](https://github.com/jsleemaster) |
 | **Public Wiki** | [jsleemaster.github.io/wiki](https://jsleemaster.github.io/wiki/) |
 
@@ -81,13 +80,13 @@
 
 | 프로젝트 | 설명 | 기술 스택 | 링크 |
 |---|---|---|---|
-| <img src="https://opengraph.githubassets.com/1/jsleemaster/snackD" alt="SnackD icon" width="18" height="18" /> SnackD | 디자이너 중심 채용공고 사이트 | Next.js, TypeScript, Prisma, NextAuth, Tailwind CSS | <a href="https://snack-d.vercel.app" target="_blank" rel="noopener noreferrer">🌐 Web</a> |
-| <img src="https://opengraph.githubassets.com/1/jsleemaster/quote_notifier" alt="오늘의 한 줄 icon" width="18" height="18" /> 오늘의 한 줄 | 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱 | Flutter, Dart, Supabase, Firebase Cloud Messaging | <a href="https://user-web-jade.vercel.app" target="_blank" rel="noopener noreferrer">🌐 Web</a> |
-| <img src="https://opengraph.githubassets.com/1/jsleemaster/cltree" alt="Cltree icon" width="18" height="18" /> Cltree | Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 프로젝트 | Rust, ratatui, tokio, crossterm | <a href="https://github.com/jsleemaster/cltree" target="_blank" rel="noopener noreferrer">🌐 Web</a> |
-| <img src="https://opengraph.githubassets.com/1/jsleemaster/peep" alt="peep icon" width="18" height="18" /> peep | AI 코딩 에이전트 작업을 터미널에서 실시간으로 관찰하는 대시보드 | Rust, ratatui, crossterm, tokio | <a href="https://github.com/jsleemaster/peep/releases/latest" target="_blank" rel="noopener noreferrer">🌐 Release</a> / <a href="https://github.com/jsleemaster/peep" target="_blank" rel="noopener noreferrer">GitHub</a> |
-| <img src="https://opengraph.githubassets.com/1/jsleemaster/picklee" alt="Picklee icon" width="18" height="18" /> Picklee | AI 트렌드를 큐레이션하고 MDX로 발행하는 Next.js 기반 매거진 | Next.js, TypeScript, Tailwind CSS, shadcn/ui, MDX | <a href="https://picklee.vercel.app" target="_blank" rel="noopener noreferrer">🌐 Web</a> / <a href="https://github.com/jsleemaster/picklee" target="_blank" rel="noopener noreferrer">GitHub</a> |
-| <img src="https://opengraph.githubassets.com/1/jsleemaster/drink_up" alt="꿀꺽 icon" width="18" height="18" /> 꿀꺽 | 수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 (토스 앱인토스 프로젝트) | React, TypeScript, Vite, Cloudflare Workers, Cloudflare KV | <a href="https://minion.toss.im/nmqdGkN2" target="_blank" rel="noopener noreferrer">🍎 iOS</a> / <a href="https://minion.toss.im/nmqdGkN2" target="_blank" rel="noopener noreferrer">🤖 Android</a> |
-| <img src="https://opengraph.githubassets.com/1/mylittlereviewduck/mobile" alt="오늘도 리뷰 icon" width="18" height="18" /> 오늘도 리뷰 | 세상의 모든 것을 리뷰하는 플랫폼 | Flutter | <a href="https://apps.apple.com/kr/app/%EC%98%A4%EB%8A%98%EB%8F%84-%EB%A6%AC%EB%B7%B0/id6744454725" target="_blank" rel="noopener noreferrer">🍎 iOS</a> / <a href="https://play.google.com/store/apps/details?id=site.mylittlereviewduck&hl=ko" target="_blank" rel="noopener noreferrer">🤖 Android</a> |
+| SnackD | 디자이너 중심 채용공고 사이트 | Next.js, TypeScript, Prisma, NextAuth, Tailwind CSS | <a href="https://snack-d.vercel.app" target="_blank" rel="noopener noreferrer">Web</a> |
+| 오늘의 한 줄 | 명언 알림과 다국어/즐겨찾기 기능을 제공하는 모바일 앱 | Flutter, Dart, Supabase, Firebase Cloud Messaging | <a href="https://user-web-jade.vercel.app" target="_blank" rel="noopener noreferrer">Web</a> |
+| Cltree | Claude Code CLI와 병행 사용을 위한 터미널 파일 탐색기(TUI) 오픈소스 프로젝트 | Rust, ratatui, tokio, crossterm | <a href="https://github.com/jsleemaster/cltree" target="_blank" rel="noopener noreferrer">GitHub</a> |
+| peep | AI 코딩 에이전트 작업을 터미널에서 실시간으로 관찰하는 대시보드 | Rust, ratatui, crossterm, tokio | <a href="https://github.com/jsleemaster/peep/releases/latest" target="_blank" rel="noopener noreferrer">Release</a> / <a href="https://github.com/jsleemaster/peep" target="_blank" rel="noopener noreferrer">GitHub</a> |
+| Picklee | AI 트렌드를 큐레이션하고 MDX로 발행하는 Next.js 기반 매거진 | Next.js, TypeScript, Tailwind CSS, shadcn/ui, MDX | <a href="https://picklee.vercel.app" target="_blank" rel="noopener noreferrer">Web</a> |
+| 꿀꺽 | 수분 섭취 트래킹 및 소셜 챌린지 기능을 제공하는 웹 서비스 (토스 앱인토스 프로젝트) | React, TypeScript, Vite, Cloudflare Workers, Cloudflare KV | <a href="https://minion.toss.im/nmqdGkN2" target="_blank" rel="noopener noreferrer">App</a> |
+| 오늘도 리뷰 | 세상의 모든 것을 리뷰하는 플랫폼, Flutter 클라이언트 개선 기여 | Flutter | <a href="https://play.google.com/store/apps/details?id=site.mylittlereviewduck&hl=ko" target="_blank" rel="noopener noreferrer">Android</a> |
 
 <br/>
 
@@ -106,4 +105,3 @@
 - 정보처리기능사 (2011.10)
 - 워드프로세서 1급 (2011.05)
 - 컴퓨터활용능력 2급 (2010.10)
-

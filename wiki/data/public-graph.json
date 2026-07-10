@@ -145,6 +145,22 @@
       "project_origin": ""
     },
     {
+      "id": "source_ref:wiki/projects/company/nova-backoffice.md",
+      "kind": "source_ref",
+      "title": "wiki/projects/company/nova-backoffice.md",
+      "path": "wiki/projects/company/nova-backoffice.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
+      "id": "source_ref:wiki/projects/company/evpay.md",
+      "kind": "source_ref",
+      "title": "wiki/projects/company/evpay.md",
+      "path": "wiki/projects/company/evpay.md",
+      "company_id": "",
+      "project_origin": ""
+    },
+    {
       "id": "source_ref:wiki/projects/personal/snackd.md",
       "kind": "source_ref",
       "title": "wiki/projects/personal/snackd.md",
@@ -157,14 +173,6 @@
       "kind": "source_ref",
       "title": "wiki/projects/personal/drink-up.md",
       "path": "wiki/projects/personal/drink-up.md",
-      "company_id": "",
-      "project_origin": ""
-    },
-    {
-      "id": "source_ref:wiki/projects/personal/today-review.md",
-      "kind": "source_ref",
-      "title": "wiki/projects/personal/today-review.md",
-      "path": "wiki/projects/personal/today-review.md",
       "company_id": "",
       "project_origin": ""
     },
@@ -609,6 +617,22 @@
     },
     {
       "from": "document:wiki/faq/hiring-overview.md",
+      "to": "source_ref:wiki/projects/company/nova-backoffice.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/hiring-overview.md",
+      "to": "source_ref:wiki/projects/company/evpay.md",
+      "type": "references_source",
+      "strength": "hard",
+      "confidence": "EXTRACTED",
+      "source": "canonical"
+    },
+    {
+      "from": "document:wiki/faq/hiring-overview.md",
       "to": "source_ref:wiki/projects/personal/snackd.md",
       "type": "references_source",
       "strength": "hard",
@@ -618,14 +642,6 @@
     {
       "from": "document:wiki/faq/hiring-overview.md",
       "to": "source_ref:wiki/projects/personal/drink-up.md",
-      "type": "references_source",
-      "strength": "hard",
-      "confidence": "EXTRACTED",
-      "source": "canonical"
-    },
-    {
-      "from": "document:wiki/faq/hiring-overview.md",
-      "to": "source_ref:wiki/projects/personal/today-review.md",
       "type": "references_source",
       "strength": "hard",
       "confidence": "EXTRACTED",

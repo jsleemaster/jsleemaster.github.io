@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-10T13:39:40.738Z",
+  "vaults": [
+    {
+      "name": "repo-seed",
+      "source": "path",
+      "vault_exists": true,
+      "exists": true,
+      "reason": "ready"
+    },
+    {
+      "name": "external",
+      "source": "auto_discovered",
+      "vault_exists": false,
+      "exists": false,
+      "reason": "no_auto_discovered_vault"
+    }
+  ]
+}
